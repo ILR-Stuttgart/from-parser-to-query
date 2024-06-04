@@ -38,7 +38,7 @@ wget https://zenodo.org/record/7703346/files/UD_French-Sequoia-flaubert.tar.xz
 tar -xf UD_French-Sequoia-flaubert.tar.xz
 ```
 
-To test the installation, copy the file [test.txt](../doc/from-parser-to-query/test.txt)
+To test the installation, copy the file [test.txt](../doc/from-parser-to-query/data/test.txt)
 to your home directory and run the following command:
 ```console
 hopsparser parse --raw UD_French-Sequoia-flaubert test.txt out.conll
