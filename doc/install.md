@@ -26,7 +26,7 @@ cd ~
 python3 -m venv hopsparser
 source hopsparser/bin/activate
 ```
-Next, install the [https://github.com/hopsparser/hopsparser](HOPS parser)
+Next, install the [HOPS parser](https://github.com/hopsparser/hopsparser)
 within the virtual environment using pip.
 ```console
 pip install hopsparser
@@ -38,7 +38,7 @@ wget https://zenodo.org/record/7703346/files/UD_French-Sequoia-flaubert.tar.xz
 tar -xf UD_French-Sequoia-flaubert.tar.xz
 ```
 
-To test the installation, copy the file [../doc/from-parser-to-query/test.txt](test.txt)
+To test the installation, copy the file [test.txt](../doc/from-parser-to-query/test.txt)
 to your home directory and run the following command:
 ```console
 hopsparser parse --raw UD_French-Sequoia-flaubert test.txt out.conll
@@ -46,7 +46,7 @@ hopsparser parse --raw UD_French-Sequoia-flaubert test.txt out.conll
 
 ### GREW
 
-To install GREW, follow the instructions on the [https://grew.fr/usage/install/](grew.fr)
+To install GREW, follow the instructions on the [grew.fr](https://grew.fr/usage/install)
 website. Here's a summary of the commands:
 ```console
 sudo apt install opam
