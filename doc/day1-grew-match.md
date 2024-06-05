@@ -13,7 +13,7 @@ Full documentation for the query language is found here:
 Full documentation of the UD tagset is found here: [https://universaldependencies.org/guidelines.html](https://universaldependencies.org/guidelines.html).
 The pages on POS tags and syntactic relations are particularly useful.
 
-## Sample query number one: looking for double objects in English
+## Sample query: Looking for double objects in English
 
 We're going to use the query finder to look for double object
 constructions in English. We're going to use the UD GUM corpus
@@ -80,7 +80,7 @@ pattern {
 	Z -> A % node Z dominates node A
 }
 ```
-If we look at hit 6 (`GUM_academic_census-29 \[1/4\]`, we can see that
+If we look at hit 6 (`GUM_academic_census-29 \[1/4\]`), we can see that
 this relation is tagged `obl`, and the relation to *to* is tagged as
 `case` So now we can refine our query to look for all verbs with an
 "obl" argument introduced by *to*:
@@ -90,9 +90,33 @@ pattern {
 	Z [upos=NOUN|PRON]; % some node Z is a nominal (noun or pronoun)
 	X -[obl]-> Z; % node X also dominates node Z with an "obl" relation
 	A [form = "to"]; % some node A is the form "to"
-	Z -[case]> A % node Z dominates node A with a "case" relation
+	Z -[case]-> A % node Z dominates node A with a "case" relation
 }
 ```
 Again, by clustering on the key, we can see that verbs like *give*
 allow both structures. By clicking on *give*, we can see the matching
 results.
+
+### Step 4. Word order
+
+Usually the prepositional object will follow the direct object in a 
+sentence. But is this the case here? Let's adapt our last query
+slightly to see if there are any cases where the prepositional object
+precedes the verb.
+```opam
+pattern { 
+	X -[obj]-> Y; % some node X has some object node Y
+	Z [upos=NOUN|PRON]; % some node Z is a nominal (noun or pronoun)
+	X -[obl]-> Z; % node X also dominates node Z with an "obl" relation
+	A [form = "to"]; % some node A is the form "to"
+	Z -[case]-> A; % node Z dominates node A with a "case" relation
+	A << Y % the node A, i.e. the preposition *to*, occurs earlier in the sentence than the direct object
+}
+```
+There are some cases! These are an interesting set of exceptions that
+we might want to filter further, but for now, we'll just save them to a
+table.
+
+Click the `TSV` button in GREW Match, select X as the pivot (i.e. the
+verb should be a keyword), and then "Download .tsv file". This gives you
+a text file with your results in tabular format.
