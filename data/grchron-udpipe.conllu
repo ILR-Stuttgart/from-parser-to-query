@@ -1,0 +1,601 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = old_french-srcmf-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = LES GRANDES CHRONIQUES DE FRANCE CHRONIQUE DES RÈGNES DE JEAN II ET DE CHARLES V
+1	LES	_	DET	DETdef	Definite=Def|PronType=Art	3	det	_	_
+2	GRANDES	_	ADJ	NOMpro	_	3	amod	_	_
+3	CHRONIQUES	_	PROPN	NOMpro	_	15	obj	_	_
+4	DE	_	ADP	PRE	_	5	case	_	_
+5	FRANCE	_	PROPN	NOMpro	_	3	nmod	_	_
+6	CHRONIQUE	_	PROPN	NOMpro	_	3	appos	_	_
+7	DES	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	8	case:det	_	_
+8	RÈGNES	_	NOUN	NOMcom	_	3	nmod	_	_
+9	DE	_	ADP	PRE	_	10	case	_	_
+10	JEAN	_	PROPN	NOMpro	_	8	nmod	_	_
+11	II	_	PROPN	NOMpro	_	10	flat	_	_
+12	ET	_	CCONJ	CONcoo	_	14	cc	_	_
+13	DE	_	ADP	PRE	_	14	case	_	_
+14	CHARLES	_	PROPN	NOMpro	_	3	conj	_	_
+15	V	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+
+# sent_id = 2
+# text = Comment Charles, ainsné filz du roy Jehan, qui trespassa en Angleterre, fu sacré et enoint à roy de France, en l'eglise de Reims, et aussi fu la Royne sa femme.
+1	Comment	_	ADV	ADVint	_	16	advmod	_	_
+2	Charles	_	PROPN	NOMpro	_	16	nsubj	_	SpaceAfter=No
+3	,	_	PUNCT	PONfbl	_	5	punct	_	_
+4	ainsné	_	VERB	VERppe	_	5	acl	_	_
+5	filz	_	NOUN	NOMcom	_	16	vocative	_	_
+6	du	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	7	case:det	_	_
+7	roy	_	NOUN	NOMcom	_	5	nmod	_	_
+8	Jehan	_	PROPN	NOMpro	_	7	flat	_	SpaceAfter=No
+9	,	_	PUNCT	PONfbl	_	11	punct	_	_
+10	qui	_	PRON	PROrel	PronType=Prs,Rel	11	nsubj	_	_
+11	trespassa	_	VERB	VERcjg	VerbForm=Fin	2	acl:relcl	_	_
+12	en	_	ADP	PRE	_	13	case	_	_
+13	Angleterre	_	PROPN	NOMpro	_	11	obl	_	SpaceAfter=No
+14	,	_	PUNCT	PONfbl	_	11	punct	_	_
+15	fu	_	AUX	VERcjg	VerbForm=Fin	16	aux:pass	_	_
+16	sacré	_	VERB	VERppe	Tense=Past|VerbForm=Part	0	root	_	_
+17	et	_	CCONJ	CONcoo	_	18	cc	_	_
+18	enoint	_	VERB	VERppe	Tense=Past|VerbForm=Part	16	conj	_	_
+19	à	_	ADP	PRE	_	20	case	_	_
+20	roy	_	NOUN	NOMcom	_	18	obl	_	_
+21	de	_	ADP	PRE	_	22	case	_	_
+22	France	_	PROPN	NOMpro	_	20	flat	_	SpaceAfter=No
+23	,	_	PUNCT	PONfbl	_	26	punct	_	_
+24	en	_	ADP	PRE	_	26	case	_	_
+25	l'	_	DET	DETdef	Definite=Def|PronType=Art	26	det	_	SpaceAfter=No
+26	eglise	_	NOUN	NOMcom	_	16	obl	_	_
+27	de	_	ADP	PRE	_	28	case	_	_
+28	Reims	_	PROPN	NOMpro	_	26	nmod	_	SpaceAfter=No
+29	,	_	PUNCT	PONfbl	_	26	punct	_	_
+30	et	_	CCONJ	CONcoo	_	34	cc	_	_
+31	aussi	_	ADV	ADVgen	_	34	advmod	_	_
+32	fu	_	AUX	VERcjg	VerbForm=Fin	16	aux:pass	_	_
+33	la	_	DET	DETdef	Definite=Def|PronType=Art	34	det	_	_
+34	Royne	_	PROPN	NOMpro	_	32	nsubj	_	_
+35	sa	_	DET	DETpos	Poss=Yes	36	det	_	_
+36	femme	_	NOUN	NOMcom	_	34	appos	_	SpaceAfter=No
+37	.	_	PUNCT	PONfrt	_	16	punct	_	_
+
+# sent_id = 3
+# text = L'an de grace mil CCC LX et quatre, le dymenche jour de la Trinité, qui fu le XIXe jour du mois de may, furent le dit roy Charles et madame Jehanne de Bourbon, sa femme, sacrez à Reims par monseigneur Jehan de Craon, lors arcevesque du dit lieu.
+1	L'	_	DET	DETdef	Definite=Def|PronType=Art	2	det	_	SpaceAfter=No
+2	an	_	NOUN	NOMcom	_	42	nsubj	_	_
+3	de	_	ADP	PRE	_	4	case	_	_
+4	grace	_	NOUN	NOMcom	_	2	nmod	_	_
+5	mil	_	NUM	PROcar	NumType=Card	2	nummod	_	_
+6	CCC	_	PRON	PROcar	_	7	conj	_	_
+7	LX	_	PROPN	NOMpro	_	42	nsubj	_	_
+8	et	_	CCONJ	CONcoo	_	9	cc	_	_
+9	quatre	@card@	PRON	PROcar	NumType=Card	7	conj	_	SpaceAfter=No
+10	,	_	PUNCT	PONfbl	_	13	punct	_	_
+11	le	_	DET	DETdef	Definite=Def|PronType=Art	13	det	_	_
+12	dymenche	_	ADJ	ADJqua	_	13	amod	_	_
+13	jour	_	NOUN	NOMcom	_	7	conj	_	_
+14	de	_	ADP	PRE	_	16	case	_	_
+15	la	_	DET	DETdef	Definite=Def|PronType=Art	16	det	_	_
+16	Trinité	_	PROPN	NOMpro	_	13	nmod	_	SpaceAfter=No
+17	,	_	PUNCT	PONfbl	_	13	punct	_	_
+18	qui	_	PRON	PROrel	PronType=Prs,Rel	19	nsubj	_	_
+19	fu	_	VERB	VERcjg	VerbForm=Fin	13	acl:relcl	_	_
+20	le	_	DET	DETdef	Definite=Def|PronType=Art	22	det	_	_
+21	XIXe	_	ADJ	ADJqua	_	22	amod	_	_
+22	jour	_	NOUN	NOMcom	_	19	obl	_	_
+23	du	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	24	case:det	_	_
+24	mois	_	NOUN	NOMcom	_	22	nmod	_	_
+25	de	_	ADP	PRE	_	26	case	_	_
+26	may	_	NOUN	NOMcom	_	24	nmod	_	SpaceAfter=No
+27	,	_	PUNCT	PONfbl	_	13	punct	_	_
+28	furent	_	AUX	VERcjg	VerbForm=Fin	42	aux	_	_
+29	le	_	DET	DETdef	Definite=Def|PronType=Art	31	det	_	_
+30	dit	_	VERB	VERppe	Tense=Past|VerbForm=Part	31	amod	_	_
+31	roy	_	NOUN	NOMcom	_	42	obj	_	_
+32	Charles	_	PROPN	NOMpro	_	31	flat	_	_
+33	et	_	CCONJ	CONcoo	_	34	cc	_	_
+34	madame	_	NOUN	NOMcom	_	22	conj	_	_
+35	Jehanne	_	PROPN	NOMpro	_	34	nmod	_	_
+36	de	_	ADP	PRE	_	35	flat	_	_
+37	Bourbon	_	PROPN	NOMpro	_	34	nmod	_	SpaceAfter=No
+38	,	_	PUNCT	PONfbl	_	40	punct	_	_
+39	sa	_	DET	DETpos	Poss=Yes	40	det	_	_
+40	femme	_	NOUN	NOMcom	_	35	appos	_	SpaceAfter=No
+41	,	_	PUNCT	PONfbl	_	40	punct	_	_
+42	sacrez	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+43	à	_	ADP	PRE	_	44	case	_	_
+44	Reims	_	PROPN	NOMpro	_	42	obl	_	_
+45	par	_	ADP	PRE	_	46	case	_	_
+46	monseigneur	_	NOUN	NOMcom	_	42	obl	_	_
+47	Jehan	_	PROPN	NOMpro	_	46	flat	_	_
+48	de	_	ADP	PRE	_	47	flat	_	_
+49	Craon	_	PROPN	NOMpro	_	46	flat	_	SpaceAfter=No
+50	,	_	PUNCT	PONfbl	_	42	punct	_	_
+51	lors	_	ADV	ADVgen	_	52	advmod	_	_
+52	arcevesque	_	NOUN	NOMcom	_	42	obl	_	_
+53	du	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	55	case:det	_	_
+54	dit	_	ADJ	ADJqua	_	55	amod	_	_
+55	lieu	_	NOUN	NOMcom	_	52	nmod	_	SpaceAfter=No
+56	.	_	PUNCT	PONfrt	_	42	punct	_	_
+
+# sent_id = 4
+# text = Et furent au dit sacre les evesques de Laon, de Beauvais, lors chancelier de France, de Langres et de Noyon, pers de France, et pluseurs autres prelas, qui n'estoient pas pers, et barons : Loys, duc d'Anjou, et Phelippe, duc de Touraine, et la contesse de Flandres, contesse d'Artois, pers de France, le roy de Chipre, le duc de Breban, frere de l'Empereur et oncle du dit roy de France ; le duc de Lorraine, le duc de Bar, et pluseurs autres barons qui n'estoient pas pers.
+1	Et	_	CCONJ	CONcoo	_	5	cc:nc	_	_
+2	furent	_	AUX	VERcjg	VerbForm=Fin	5	aux	_	_
+3	au	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	4	case:det	_	_
+4	dit	_	VERB	NOMcom	_	5	obl	_	_
+5	sacre	_	VERB	VERinf	VerbForm=Inf	0	root	_	_
+6	les	_	DET	DETdef	Definite=Def|PronType=Art	7	det	_	_
+7	evesques	_	NOUN	NOMcom	_	5	obj	_	_
+8	de	_	ADP	PRE	_	9	case	_	_
+9	Laon	_	PROPN	NOMpro	_	7	nmod	_	SpaceAfter=No
+10	,	_	PUNCT	PONfbl	_	12	punct	_	_
+11	de	_	ADP	PRE	_	12	case	_	_
+12	Beauvais	_	PROPN	NOMpro	_	7	nmod	_	SpaceAfter=No
+13	,	_	PUNCT	PONfbl	_	25	punct	_	_
+14	lors	_	ADV	ADVgen	_	15	advmod	_	_
+15	chancelier	_	VERB	VERinf	VerbForm=Inf	7	conj	_	_
+16	de	_	ADP	PRE	_	9	case	_	_
+17	France	_	PROPN	NOMpro	_	7	nmod	_	SpaceAfter=No
+18	,	_	PUNCT	PONfbl	_	20	punct	_	_
+19	de	_	ADP	PRE	_	20	case	_	_
+20	Langres	_	PROPN	NOMpro	_	7	conj	_	_
+21	et	_	CCONJ	CONcoo	_	32	cc	_	_
+22	de	_	ADP	PRE	_	23	case	_	_
+23	Noyon	_	PROPN	NOMpro	_	7	conj	_	SpaceAfter=No
+24	,	_	PUNCT	PONfbl	_	25	punct	_	_
+25	pers	_	NOUN	NOMcom	_	7	conj	_	_
+26	de	_	ADP	PRE	_	27	case	_	_
+27	France	_	PROPN	NOMpro	_	7	nmod	_	SpaceAfter=No
+28	,	_	PUNCT	PONfbl	_	32	punct	_	_
+29	et	_	CCONJ	CONcoo	_	32	cc	_	_
+30	pluseurs	_	DET	DETind	PronType=Ind	32	det	_	_
+31	autres	_	ADJ	ADJind	PronType=Ind	32	amod	_	_
+32	prelas	_	NOUN	NOMcom	_	7	conj	_	SpaceAfter=No
+33	,	_	PUNCT	PONfbl	_	32	punct	_	_
+34	qui	_	PRON	PROrel	PronType=Prs,Rel	38	nsubj	_	_
+35	n'	_	ADV	ADVneg	Polarity=Neg	38	advmod	_	SpaceAfter=No
+36	estoient	_	AUX	VERcjg	VerbForm=Fin	38	cop	_	_
+37	pas	_	ADV	ADVneg	Polarity=Neg	38	advmod	_	_
+38	pers	_	ADJ	ADJqua	_	7	acl:relcl	_	SpaceAfter=No
+39	,	_	PUNCT	PONfbl	_	41	punct	_	_
+40	et	_	CCONJ	CONcoo	_	41	cc	_	_
+41	barons	_	NOUN	NOMcom	_	7	conj	_	_
+42	:	_	PUNCT	PONfbl	_	43	punct	_	_
+43	Loys	_	PROPN	NOMpro	_	7	conj	_	SpaceAfter=No
+44	,	_	PUNCT	PONfbl	_	45	punct	_	_
+45	duc	_	NOUN	NOMcom	_	43	appos	_	_
+46	d'	_	ADP	PRE	_	47	case	_	SpaceAfter=No
+47	Anjou	_	PROPN	NOMpro	_	45	nmod	_	SpaceAfter=No
+48	,	_	PUNCT	PONfbl	_	50	punct	_	_
+49	et	_	CCONJ	CONcoo	_	50	cc	_	_
+50	Phelippe	_	PROPN	NOMpro	_	43	conj	_	SpaceAfter=No
+51	,	_	PUNCT	PONfbl	_	45	punct	_	_
+52	duc	_	NOUN	NOMcom	_	43	appos	_	_
+53	de	_	ADP	PRE	_	54	case	_	_
+54	Touraine	_	PROPN	NOMpro	_	45	nmod	_	SpaceAfter=No
+55	,	_	PUNCT	PONfbl	_	58	punct	_	_
+56	et	_	CCONJ	CONcoo	_	58	cc	_	_
+57	la	_	DET	DETdef	Definite=Def|PronType=Art	58	det	_	_
+58	contesse	_	NOUN	NOMcom	_	43	conj	_	_
+59	de	_	ADP	PRE	_	54	case	_	_
+60	Flandres	_	PROPN	NOMpro	_	58	nmod	_	SpaceAfter=No
+61	,	_	PUNCT	PONfbl	_	52	punct	_	_
+62	contesse	_	NOUN	NOMcom	_	43	appos	_	_
+63	d'	_	ADP	PRE	_	54	case	_	SpaceAfter=No
+64	Artois	_	PROPN	NOMpro	_	52	nmod	_	SpaceAfter=No
+65	,	_	PUNCT	PONfbl	_	66	punct	_	_
+66	pers	_	NOUN	NOMcom	_	43	conj	_	_
+67	de	_	ADP	PRE	_	68	case	_	_
+68	France	_	PROPN	NOMpro	_	58	nmod	_	SpaceAfter=No
+69	,	_	PUNCT	PONfbl	_	66	punct	_	_
+70	le	_	DET	DETdef	Definite=Def|PronType=Art	71	det	_	_
+71	roy	_	NOUN	NOMcom	_	50	appos	_	_
+72	de	_	ADP	PRE	_	54	case	_	_
+73	Chipre	_	PROPN	NOMpro	_	66	nmod	_	SpaceAfter=No
+74	,	_	PUNCT	PONfbl	_	66	punct	_	_
+75	le	_	DET	DETdef	Definite=Def|PronType=Art	71	det	_	_
+76	duc	_	NOUN	NOMcom	_	43	appos	_	_
+77	de	_	ADP	PRE	_	68	case	_	_
+78	Breban	_	PROPN	NOMpro	_	71	flat	_	SpaceAfter=No
+79	,	_	PUNCT	PONfbl	_	66	punct	_	_
+80	frere	_	NOUN	NOMcom	_	43	appos	_	_
+81	de	_	ADP	PRE	_	83	case	_	_
+82	l'	_	DET	DETdef	Definite=Def|PronType=Art	83	det	_	SpaceAfter=No
+83	Empereur	_	PROPN	NOMpro	_	66	nmod	_	_
+84	et	_	CCONJ	CONcoo	_	85	cc	_	_
+85	oncle	_	NOUN	NOMcom	_	43	conj	_	_
+86	du	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	88	case:det	_	_
+87	dit	_	ADJ	ADJqua	_	66	nmod	_	_
+88	roy	_	NOUN	NOMcom	_	58	nmod	_	_
+89	de	_	ADP	PRE	_	90	case	_	_
+90	France	_	PROPN	NOMpro	_	71	flat	_	_
+91	;	_	PUNCT	PONfbl	_	93	punct	_	_
+92	le	_	DET	DETdef	Definite=Def|PronType=Art	93	det	_	_
+93	duc	_	NOUN	NOMcom	_	68	appos	_	_
+94	de	_	ADP	PRE	_	90	case	_	_
+95	Lorraine	_	PROPN	NOMpro	_	93	nmod	_	SpaceAfter=No
+96	,	_	PUNCT	PONfbl	_	98	punct	_	_
+97	le	_	DET	DETdef	Definite=Def|PronType=Art	98	det	_	_
+98	duc	_	NOUN	NOMcom	_	93	appos	_	_
+99	de	_	ADP	PRE	_	100	case	_	_
+100	Bar	_	PROPN	NOMpro	_	98	nmod	_	SpaceAfter=No
+101	,	_	PUNCT	PONfbl	_	105	punct	_	_
+102	et	_	CCONJ	CONcoo	_	105	cc	_	_
+103	pluseurs	_	DET	DETind	PronType=Ind	105	det	_	_
+104	autres	_	ADJ	ADJind	PronType=Ind	105	amod	_	_
+105	barons	_	NOUN	NOMcom	_	7	conj	_	_
+106	qui	_	PRON	PROrel	PronType=Prs,Rel	110	nsubj	_	_
+107	n'	_	ADV	ADVneg	Polarity=Neg	110	advmod	_	SpaceAfter=No
+108	estoient	_	AUX	VERcjg	VerbForm=Fin	110	cop	_	_
+109	pas	_	ADV	ADVneg	Polarity=Neg	110	advmod	_	_
+110	pers	_	ADJ	ADJqua	_	105	acl:relcl	_	SpaceAfter=No
+111	.	_	PUNCT	PONfrt	_	5	punct	_	_
+
+# sent_id = 5
+# text = Item, le mardi XX et VIIIe jour du dit mois de may, les diz roy et royne de France, qui retournoient de leur sacre, entrerent à Paris,
+1	Item	_	ADV	ADVgen	_	29	advmod	_	SpaceAfter=No
+2	,	_	PUNCT	PONfbl	_	4	punct	_	_
+3	le	_	DET	DETdef	Definite=Def|PronType=Art	4	det	_	_
+4	mardi	_	NOUN	NOMcom	_	29	obl	_	_
+5	XX	_	ADJ	NOMcom	_	4	nmod	_	_
+6	et	_	CCONJ	CONcoo	_	8	cc	_	_
+7	VIIIe	_	ADJ	ADJqua	_	8	amod	_	_
+8	jour	_	NOUN	NOMcom	_	4	conj	_	_
+9	du	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	11	case:det	_	_
+10	dit	_	VERB	VERppe	Tense=Past|VerbForm=Part	11	acl	_	_
+11	mois	_	NOUN	NOMcom	_	8	nmod	_	_
+12	de	_	ADP	PRE	_	13	case	_	_
+13	may	_	NOUN	NOMcom	_	11	nmod	_	SpaceAfter=No
+14	,	_	PUNCT	PONfbl	_	11	punct	_	_
+15	les	_	DET	DETdef	Definite=Def|PronType=Art	16	det	_	_
+16	diz	_	NOUN	NOMcom	_	29	nsubj	_	_
+17	roy	_	NOUN	NOMcom	_	16	appos	_	_
+18	et	_	CCONJ	CONcoo	_	19	cc	_	_
+19	royne	_	NOUN	NOMcom	_	17	conj	_	_
+20	de	_	ADP	PRE	_	21	case	_	_
+21	France	_	PROPN	NOMpro	_	19	nmod	_	SpaceAfter=No
+22	,	_	PUNCT	PONfbl	_	24	punct	_	_
+23	qui	_	PRON	PROrel	PronType=Prs,Rel	24	nsubj	_	_
+24	retournoient	_	VERB	VERcjg	VerbForm=Fin	16	acl:relcl	_	_
+25	de	_	ADP	PRE	_	27	case	_	_
+26	leur	_	DET	DETpos	Poss=Yes	27	det	_	_
+27	sacre	_	NOUN	NOMcom	_	24	obl	_	SpaceAfter=No
+28	,	_	PUNCT	PONfbl	_	24	punct	_	_
+29	entrerent	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+30	à	_	ADP	PRE	_	31	case	_	_
+31	Paris	_	PROPN	NOMpro	_	29	obl	_	SpaceAfter=No
+32	,	_	PUNCT	PONfbl	_	29	punct	_	_
+
+# sent_id = 6
+# text = c'est assavoir le dit Roy environ heure de midy,
+1	c'	_	PRON	PROdem	PronType=Dem	3	nsubj	_	SpaceAfter=No
+2	est	_	AUX	VERcjg	VerbForm=Fin	3	aux	_	_
+3	assavoir	_	VERB	VERinf	VerbForm=Inf	0	root	_	_
+4	le	_	DET	DETdef	Definite=Def|PronType=Art	5	det	_	_
+5	dit	_	NOUN	NOMcom	_	3	obl	_	_
+6	Roy	_	PROPN	NOMpro	_	5	nmod	_	_
+7	environ	_	ADP	PRE	_	8	case	_	_
+8	heure	_	NOUN	NOMcom	_	3	obl	_	_
+9	de	_	ADP	PRE	_	10	case	_	_
+10	midy	_	NOUN	NOMcom	_	8	nmod	_	SpaceAfter=No
+11	,	_	PUNCT	PONfbl	_	3	punct	_	_
+
+# sent_id = 7
+# text = et ala droit à Nostre-Dame
+1	et	_	CCONJ	CONcoo	_	2	cc:nc	_	_
+2	ala	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+3	droit	_	NOUN	NOMcom	_	2	obj	_	_
+4	à	_	ADP	PRE	_	5	case	_	_
+5	Nostre-Dame	_	PROPN	NOMpro	_	2	obl	_	_
+
+# sent_id = 8
+# text = et de là retourna au Palais ;
+1	et	_	CCONJ	CONcoo	_	4	cc:nc	_	_
+2	de	_	ADP	PRE	_	3	case	_	_
+3	là	_	PRON	PROper	PronType=Prs	4	obj	_	_
+4	retourna	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+5	au	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	6	case:det	_	_
+6	Palais	_	PROPN	NOMpro	_	4	obl	_	_
+7	;	_	PUNCT	PONfbl	_	4	punct	_	_
+
+# sent_id = 9
+# text = et environ nonne, la Royne entra à Paris
+1	et	_	CCONJ	CONcoo	_	7	cc:nc	_	_
+2	environ	_	ADP	PRE	_	3	case	_	_
+3	nonne	_	NOUN	NOMcom	_	7	obl	_	SpaceAfter=No
+4	,	_	PUNCT	PONfbl	_	7	punct	_	_
+5	la	_	DET	DETdef	Definite=Def|PronType=Art	6	det	_	_
+6	Royne	_	PROPN	NOMpro	_	7	nsubj	_	_
+7	entra	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+8	à	_	ADP	PRE	_	9	case	_	_
+9	Paris	_	PROPN	NOMpro	_	7	obl	_	_
+
+# sent_id = 10
+# text = et ala droit au Palais.
+1	et	_	CCONJ	CONcoo	_	2	cc:nc	_	_
+2	ala	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+3	droit	_	ADV	NOMcom	_	2	obj	_	_
+4	au	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	5	case:det	_	_
+5	Palais	_	PROPN	NOMpro	_	2	obl	_	SpaceAfter=No
+6	.	_	PUNCT	PONfrt	_	2	punct	_	_
+
+# sent_id = 11
+# text = Et avecques la Royne estoient à cheval la duchesse d'Orliens, femme de Phelippe, duc d'Orliens, oncle du dit Roy, la duchesse d'Anjou, femme du dit Loys, duc d'Anjou, et madame Marie, suer d'icelui Roy, laquelle n'avoit onques esté mariée,
+1	Et	_	CCONJ	CONcoo	_	5	cc:nc	_	_
+2	avecques	_	ADP	PRE	_	4	case	_	_
+3	la	_	DET	DETdef	Definite=Def|PronType=Art	4	det	_	_
+4	Royne	_	PROPN	NOMpro	_	5	obl	_	_
+5	estoient	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+6	à	_	ADP	PRE	_	7	case	_	_
+7	cheval	_	NOUN	NOMcom	_	5	obl	_	_
+8	la	_	DET	DETdef	Definite=Def|PronType=Art	9	det	_	_
+9	duchesse	_	NOUN	NOMcom	_	5	nsubj	_	_
+10	d'	_	ADP	PRE	_	11	case	_	SpaceAfter=No
+11	Orliens	_	PROPN	NOMpro	_	9	nmod	_	SpaceAfter=No
+12	,	_	PUNCT	PONfbl	_	13	punct	_	_
+13	femme	_	NOUN	NOMcom	_	9	appos	_	_
+14	de	_	ADP	PRE	_	15	case	_	_
+15	Phelippe	_	PROPN	NOMpro	_	9	nmod	_	SpaceAfter=No
+16	,	_	PUNCT	PONfbl	_	17	punct	_	_
+17	duc	_	NOUN	NOMcom	_	9	appos	_	_
+18	d'	_	ADP	PRE	_	19	case	_	SpaceAfter=No
+19	Orliens	_	PROPN	NOMpro	_	17	flat	_	SpaceAfter=No
+20	,	_	PUNCT	PONfbl	_	21	punct	_	_
+21	oncle	_	NOUN	NOMcom	_	9	conj	_	_
+22	du	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	23	case:det	_	_
+23	dit	_	NOUN	NOMcom	_	21	nmod	_	_
+24	Roy	_	PROPN	NOMpro	_	23	nmod	_	SpaceAfter=No
+25	,	_	PUNCT	PONfbl	_	27	punct	_	_
+26	la	_	DET	DETdef	Definite=Def|PronType=Art	27	det	_	_
+27	duchesse	_	NOUN	NOMcom	_	9	conj	_	_
+28	d'	_	ADP	PRE	_	29	case	_	SpaceAfter=No
+29	Anjou	_	PROPN	NOMpro	_	27	nmod	_	SpaceAfter=No
+30	,	_	PUNCT	PONfbl	_	31	punct	_	_
+31	femme	_	NOUN	NOMcom	_	9	conj	_	_
+32	du	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	33	case:det	_	_
+33	dit	_	NOUN	NOMcom	_	31	nmod	_	_
+34	Loys	_	PROPN	NOMpro	_	33	nmod	_	SpaceAfter=No
+35	,	_	PUNCT	PONfbl	_	36	punct	_	_
+36	duc	_	NOUN	NOMcom	_	31	appos	_	_
+37	d'	_	ADP	PRE	_	38	case	_	SpaceAfter=No
+38	Anjou	_	PROPN	NOMpro	_	36	nmod	_	SpaceAfter=No
+39	,	_	PUNCT	PONfbl	_	41	punct	_	_
+40	et	_	CCONJ	CONcoo	_	41	cc	_	_
+41	madame	_	NOUN	NOMcom	_	9	conj	_	_
+42	Marie	_	PROPN	NOMpro	_	41	nmod	_	SpaceAfter=No
+43	,	_	PUNCT	PONfbl	_	44	punct	_	_
+44	suer	_	NOUN	NOMcom	_	41	appos	_	_
+45	d'	_	ADP	PRE	_	47	case	_	SpaceAfter=No
+46	icelui	_	DET	DETdem	PronType=Dem	47	det	_	_
+47	Roy	_	PROPN	NOMpro	_	44	nmod	_	SpaceAfter=No
+48	,	_	PUNCT	PONfbl	_	44	punct	_	_
+49	laquelle	_	PRON	PROrel	PronType=Prs,Rel	54	nsubj	_	_
+50	n'	_	ADV	ADVneg	Polarity=Neg	54	advmod	_	SpaceAfter=No
+51	avoit	_	AUX	VERcjg	VerbForm=Fin	54	aux	_	_
+52	onques	_	ADV	ADVgen	_	54	advmod	_	_
+53	esté	_	AUX	VERppe	Tense=Past|VerbForm=Part	54	aux:pass	_	_
+54	mariée	_	VERB	VERppe	Tense=Past|VerbForm=Part	41	acl:relcl	_	SpaceAfter=No
+55	,	_	PUNCT	PONfbl	_	5	punct	_	_
+
+# sent_id = 12
+# text = et de puis fu femme du duc de Bar.
+1	et	_	CCONJ	CONcoo	_	5	cc:nc	_	_
+2	de	_	ADP	PRE	_	3	case	_	_
+3	puis	_	ADV	ADVgen	_	5	advmod	_	_
+4	fu	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+5	femme	_	NOUN	NOMcom	_	4	nsubj	_	_
+6	du	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	7	case:det	_	_
+7	duc	_	NOUN	NOMcom	_	5	nmod	_	_
+8	de	_	ADP	PRE	_	9	case	_	_
+9	Bar	_	PROPN	NOMpro	_	7	flat	_	SpaceAfter=No
+10	.	_	PUNCT	PONfrt	_	5	punct	_	_
+
+# sent_id = 13
+# text = Et menoit la dite Royne, par le frain du cheval, monseigneur de Touraine, qui aloit de pié, lequel monseigneur de Touraine estoit frere du dit Roy.
+1	Et	_	CCONJ	CONcoo	_	2	cc:nc	_	_
+2	menoit	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+3	la	_	DET	DETdef	Definite=Def|PronType=Art	4	det	_	_
+4	dite	_	NOUN	NOMcom	_	2	obj	_	_
+5	Royne	_	PROPN	NOMpro	_	4	nmod	_	SpaceAfter=No
+6	,	_	PUNCT	PONfbl	_	9	punct	_	_
+7	par	_	ADP	PRE	_	9	case	_	_
+8	le	_	DET	DETdef	Definite=Def|PronType=Art	9	det	_	_
+9	frain	_	NOUN	NOMcom	_	2	obl	_	_
+10	du	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	11	case:det	_	_
+11	cheval	_	NOUN	NOMcom	_	9	nmod	_	SpaceAfter=No
+12	,	_	PUNCT	PONfbl	_	9	punct	_	_
+13	monseigneur	_	NOUN	NOMcom	_	4	appos	_	_
+14	de	_	ADP	PRE	_	15	case	_	_
+15	Touraine	_	PROPN	NOMpro	_	13	nmod	_	SpaceAfter=No
+16	,	_	PUNCT	PONfbl	_	18	punct	_	_
+17	qui	_	PRON	PROrel	PronType=Prs,Rel	18	nsubj	_	_
+18	aloit	_	VERB	VERcjg	VerbForm=Fin	13	acl:relcl	_	_
+19	de	_	ADP	PRE	_	20	case	_	_
+20	pié	_	NOUN	NOMcom	_	18	obl	_	SpaceAfter=No
+21	,	_	PUNCT	PONfbl	_	18	punct	_	_
+22	lequel	_	SCONJ	CONsub	PronType=Rel	27	mark	_	_
+23	monseigneur	_	NOUN	NOMcom	_	27	nsubj	_	_
+24	de	_	ADP	PRE	_	25	case	_	_
+25	Touraine	_	PROPN	NOMpro	_	23	nmod	_	_
+26	estoit	_	AUX	VERcjg	VerbForm=Fin	27	cop	_	_
+27	frere	_	NOUN	NOMcom	_	4	acl:relcl	_	_
+28	du	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	29	case:det	_	_
+29	dit	_	NOUN	NOMcom	_	27	nmod	_	_
+30	Roy	_	PROPN	NOMpro	_	29	flat	_	SpaceAfter=No
+31	.	_	PUNCT	PONfrt	_	2	punct	_	_
+
+# sent_id = 14
+# text = Et monseigneur le conte de Eu semblablement menoit madame d'Orliens ;
+1	Et	_	CCONJ	CONcoo	_	8	cc:nc	_	_
+2	monseigneur	_	NOUN	NOMcom	_	8	nsubj	_	_
+3	le	_	DET	DETdef	Definite=Def|PronType=Art	4	det	_	_
+4	conte	_	NOUN	NOMcom	_	2	appos	_	_
+5	de	_	ADP	PRE	_	6	case	_	_
+6	Eu	_	PROPN	NOMpro	_	4	nmod	_	_
+7	semblablement	_	ADV	ADVgen	_	8	advmod	_	_
+8	menoit	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+9	madame	_	NOUN	NOMcom	_	8	obj	_	_
+10	d'	_	ADP	PRE	_	11	case	_	SpaceAfter=No
+11	Orliens	_	PROPN	NOMpro	_	9	nmod	_	_
+12	;	_	PUNCT	PONfbl	_	8	punct	_	_
+
+# sent_id = 15
+# text = monseigneur d'Estampes menoit madame d'Anjou,
+1	monseigneur	_	NOUN	NOMcom	_	4	obj	_	_
+2	d'	_	ADP	PRE	_	3	case	_	SpaceAfter=No
+3	Estampes	_	PROPN	NOMpro	_	1	nmod	_	_
+4	menoit	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+5	madame	_	NOUN	NOMcom	_	4	obj	_	_
+6	d'	_	ADP	PRE	_	7	case	_	SpaceAfter=No
+7	Anjou	_	PROPN	NOMpro	_	5	nmod	_	SpaceAfter=No
+8	,	_	PUNCT	PONfbl	_	4	punct	_	_
+
+# sent_id = 16
+# text = et monseigneur Loys de Chalon et le seigneur de Beaugieu menerent la dite madame Marie.
+1	et	_	CCONJ	CONcoo	_	11	cc:nc	_	_
+2	monseigneur	_	NOUN	NOMcom	_	11	nsubj	_	_
+3	Loys	_	PROPN	NOMpro	_	2	flat	_	_
+4	de	_	ADP	PRE	_	3	flat	_	_
+5	Chalon	_	PROPN	NOMpro	_	2	flat	_	_
+6	et	_	CCONJ	CONcoo	_	8	cc	_	_
+7	le	_	DET	DETdef	Definite=Def|PronType=Art	8	det	_	_
+8	seigneur	_	NOUN	NOMcom	_	2	conj	_	_
+9	de	_	ADP	PRE	_	10	case	_	_
+10	Beaugieu	_	PROPN	NOMpro	_	8	flat	_	_
+11	menerent	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+12	la	_	DET	DETdef	Definite=Def|PronType=Art	14	det	_	_
+13	dite	_	ADJ	VERppe	Tense=Past|VerbForm=Part	14	amod	_	_
+14	madame	_	NOUN	NOMcom	_	11	obj	_	_
+15	Marie	_	PROPN	NOMpro	_	14	nmod	_	SpaceAfter=No
+16	.	_	PUNCT	PONfrt	_	11	punct	_	_
+
+# sent_id = 17
+# text = Et fist l'en celui jour grant disner au Palais, là où furent tous les prelas qui estoient à Paris.
+1	Et	_	CCONJ	CONcoo	_	2	cc:nc	_	_
+2	fist	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+3	l'	_	DET	PROper	PronType=Prs	2	obj	_	SpaceAfter=No
+4	en	_	ADP	PRE	_	6	case	_	_
+5	celui	_	DET	DETdem	PronType=Dem	6	det	_	_
+6	jour	_	NOUN	NOMcom	_	2	obl	_	_
+7	grant	_	ADJ	ADJqua	_	8	amod	_	_
+8	disner	_	VERB	VERinf	VerbForm=Inf	2	obj	_	_
+9	au	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	10	case:det	_	_
+10	Palais	_	PROPN	NOMpro	_	8	nmod	_	SpaceAfter=No
+11	,	_	PUNCT	PONfbl	_	2	punct	_	_
+12	là	_	ADV	ADVgen	_	14	advmod	_	_
+13	où	_	PRON	PROrel	PronType=Prs,Rel	14	obl	_	_
+14	furent	_	VERB	VERcjg	VerbForm=Fin	2	advcl	_	_
+15	tous	_	DET	DETind	PronType=Ind	17	det	_	_
+16	les	_	DET	DETdef	Definite=Def|PronType=Art	17	det	_	_
+17	prelas	_	NOUN	NOMcom	_	14	nsubj	_	_
+18	qui	_	PRON	PROrel	PronType=Prs,Rel	19	nsubj	_	_
+19	estoient	_	VERB	VERcjg	VerbForm=Fin	17	acl:relcl	_	_
+20	à	_	ADP	PRE	_	21	case	_	_
+21	Paris	_	PROPN	NOMpro	_	19	obl	_	SpaceAfter=No
+22	.	_	PUNCT	PONfrt	_	2	punct	_	_
+
+# sent_id = 18
+# text = Et après disner, qui fu environ nonne, ot grans joustes en la court du Palais, et l'endemain aussi,
+1	Et	_	CCONJ	CONcoo	_	10	cc:nc	_	_
+2	après	_	ADV	ADVgen	_	3	advmod	_	_
+3	disner	_	VERB	VERinf	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+4	,	_	PUNCT	PONfbl	_	8	punct	_	_
+5	qui	_	PRON	PROrel	PronType=Prs,Rel	8	nsubj	_	_
+6	fu	_	AUX	VERcjg	VerbForm=Fin	8	cop	_	_
+7	environ	_	ADV	ADVgen	_	8	case	_	_
+8	nonne	_	NOUN	NOMcom	_	3	obl	_	SpaceAfter=No
+9	,	_	PUNCT	PONfbl	_	8	punct	_	_
+10	ot	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+11	grans	_	ADJ	ADJqua	_	12	amod	_	_
+12	joustes	_	NOUN	NOMcom	_	10	obj	_	_
+13	en	_	ADP	PRE	_	15	case	_	_
+14	la	_	DET	DETdef	Definite=Def|PronType=Art	15	det	_	_
+15	court	_	NOUN	NOMcom	_	10	obl	_	_
+16	du	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	17	case:det	_	_
+17	Palais	_	PROPN	NOMpro	_	15	nmod	_	SpaceAfter=No
+18	,	_	PUNCT	PONfbl	_	21	punct	_	_
+19	et	_	CCONJ	CONcoo	_	21	cc	_	_
+20	l'	_	DET	DETdef	Definite=Def|PronType=Art	21	det	_	SpaceAfter=No
+21	endemain	_	NOUN	NOMcom	_	12	conj	_	_
+22	aussi	_	ADV	ADVgen	_	10	advmod	_	SpaceAfter=No
+23	,	_	PUNCT	PONfbl	_	10	punct	_	_
+
+# sent_id = 19
+# text = et à tous les deux jours jousta le roy de Chipre, et pluseurs autres dux, contes et barons.
+1	et	_	CCONJ	CONcoo	_	7	cc:nc	_	_
+2	à	_	ADP	PRE	_	6	case	_	_
+3	tous	_	DET	DETind	PronType=Ind	6	det	_	_
+4	les	_	DET	DETdef	Definite=Def|PronType=Art	6	det	_	_
+5	deux	@card@	NUM	ADJcar	NumType=Card	6	nummod	_	_
+6	jours	_	NOUN	NOMcom	_	7	obl	_	_
+7	jousta	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+8	le	_	DET	DETdef	Definite=Def|PronType=Art	9	det	_	_
+9	roy	_	NOUN	NOMcom	_	7	obj	_	_
+10	de	_	ADP	PRE	_	11	case	_	_
+11	Chipre	_	PROPN	NOMpro	_	9	nmod	_	SpaceAfter=No
+12	,	_	PUNCT	PONfbl	_	16	punct	_	_
+13	et	_	CCONJ	CONcoo	_	16	cc	_	_
+14	pluseurs	_	DET	DETind	PronType=Ind	16	det	_	_
+15	autres	_	ADJ	ADJind	PronType=Ind	16	amod	_	_
+16	dux	_	NOUN	NOMcom	_	9	conj	_	SpaceAfter=No
+17	,	_	PUNCT	PONfbl	_	18	punct	_	_
+18	contes	_	NOUN	NOMcom	_	9	conj	_	_
+19	et	_	CCONJ	CONcoo	_	20	cc	_	_
+20	barons	_	NOUN	NOMcom	_	9	conj	_	SpaceAfter=No
+21	.	_	PUNCT	PONfrt	_	7	punct	_	_
+
+# sent_id = 20
+# text = Item, le vendredy, derrenier jour du dit mois de may l'an mil CCC LXIIII dessus dit, le dit roy Charles octroia à Monseigneur Phelippe, son plus jeune frere, la duchié de Bourgoigne, laquelle avoit esté requise par avant au roy Jehan,
+1	Item	_	ADV	NOMcom	_	43	nsubj	_	SpaceAfter=No
+2	,	_	PUNCT	PONfbl	_	4	punct	_	_
+3	le	_	DET	DETdef	Definite=Def|PronType=Art	4	det	_	_
+4	vendredy	_	NOUN	NOMcom	_	25	obl	_	SpaceAfter=No
+5	,	_	PUNCT	PONfbl	_	4	punct	_	_
+6	derrenier	_	VERB	VERinf	VerbForm=Inf	43	xcomp	_	_
+7	jour	_	NOUN	NOMcom	_	6	obj	_	_
+8	du	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	10	case:det	_	_
+9	dit	_	ADJ	ADJqua	_	10	amod	_	_
+10	mois	_	NOUN	NOMcom	_	7	nmod	_	_
+11	de	_	ADP	PRE	_	12	case	_	_
+12	may	_	NOUN	NOMcom	_	10	nmod	_	_
+13	l'	_	DET	DETdef	Definite=Def|PronType=Art	15	det	_	SpaceAfter=No
+14	an	_	ADP	PRE	_	15	case	_	_
+15	mil	_	PRON	PROcar	NumType=Card	7	nmod	_	_
+16	CCC	_	PRON	PROrel	NumType=Card	19	obl	_	_
+17	LXIIII	_	NUM	DETcar	NumType=Card	18	nummod	_	_
+18	dessus	_	ADV	ADVgen	_	19	nsubj	_	_
+19	dit	_	VERB	VERcjg	VerbForm=Fin	25	advcl	_	SpaceAfter=No
+20	,	_	PUNCT	PONfbl	_	25	punct	_	_
+21	le	_	DET	DETdef	Definite=Def|PronType=Art	23	det	_	_
+22	dit	_	VERB	VERppe	Tense=Past|VerbForm=Part	25	nsubj	_	_
+23	roy	_	NOUN	NOMcom	_	25	obj	_	_
+24	Charles	_	PROPN	NOMpro	_	23	flat	_	_
+25	octroia	_	VERB	VERcjg	VerbForm=Fin	0	root	_	_
+26	à	_	ADP	PRE	_	27	case	_	_
+27	Monseigneur	_	NOUN	NOMcom	_	25	obl	_	_
+28	Phelippe	_	PROPN	NOMpro	_	27	flat	_	SpaceAfter=No
+29	,	_	PUNCT	PONfbl	_	33	punct	_	_
+30	son	_	DET	DETpos	Poss=Yes	33	det	_	_
+31	plus	_	ADV	ADVgen	_	32	advmod	_	_
+32	jeune	_	ADJ	ADJqua	_	33	amod	_	_
+33	frere	_	NOUN	NOMcom	_	28	appos	_	SpaceAfter=No
+34	,	_	PUNCT	PONfbl	_	33	punct	_	_
+35	la	_	DET	DETdef	Definite=Def|PronType=Art	36	det	_	_
+36	duchié	_	NOUN	NOMcom	_	25	obj	_	_
+37	de	_	ADP	PRE	_	38	case	_	_
+38	Bourgoigne	_	PROPN	NOMpro	_	36	nmod	_	SpaceAfter=No
+39	,	_	PUNCT	PONfbl	_	43	punct	_	_
+40	laquelle	_	PRON	PROrel	PronType=Prs,Rel	43	nsubj	_	_
+41	avoit	_	AUX	VERcjg	VerbForm=Fin	43	aux	_	_
+42	esté	_	AUX	VERppe	Tense=Past|VerbForm=Part	43	aux:pass	_	_
+43	requise	_	VERB	VERppe	Tense=Past|VerbForm=Part	27	acl:relcl	_	_
+44	par	_	ADP	PRE	_	45	case	_	_
+45	avant	_	ADV	ADVgen	_	43	advmod	_	_
+46	au	_	ADP	PRE.DETdef	Definite=Def|PronType=Art	47	case:det	_	_
+47	roy	_	NOUN	NOMcom	_	43	obl	_	_
+48	Jehan	_	PROPN	NOMpro	_	47	flat	_	SpaceAfter=No
+49	,	_	PUNCT	PONfbl	_	43	punct	_	SpaceAfter=No
+
