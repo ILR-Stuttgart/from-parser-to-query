@@ -1,15 +1,32 @@
-# Converting Penn-constituency to dependency format
+# Converting Penn to dependency format
 
 ## Introduction
 
 This is a very brief tutorial to help you install and run a state-of-the-art
 constituency to dependency convertor on an open-access corpus of
-historical English.
+historical English. *It does not create a usable corpus, it is simply a
+proof of concept.* However, it illustrates that the approach we advocate,
+conversion to dependency and then training a dependency parser, is a
+feasible method for obtaining a parser for languages like English where
+the majority of gold corpus data is in Penn constituency format.
 
 The convertor was developed and customized for the Icelandic IcePaHC
-corpus (Árnarsdóttir et al. 2020, 2023), but can with a little knowledge
-of Python be adapted to produce good results for other Penn corpora
-(e.g. Stein 2024 for the French MCVF/PPCHF corpus).
+corpus, but can with a little knowledge of Python be adapted to produce
+good results for other Penn corpora.
+
+## Background
+
+The *Icelandic Parsed Historical Corpus* (IcePaHC, Wallenberg et al., 2011)
+is a diachronic corpus of the Icelandic language and was annotated using
+the Penn constituency format. You can read more about it [on the wiki](https://linguist.is/wiki/index.php?title=Icelandic_Parsed_Historical_Corpus_(IcePaHC)).
+
+It was automatically converted to Universal Dependencies by 
+Þórunn Arnardóttir and colleagues (Arnardóttir et al., 2020, 2023) and
+this new version is included in the current UD corpora distributed at
+[https://universaldependencies.org/](https://universaldependencies.org/).
+
+Arnardóttir et al. (2020) document the conversion process, and the
+conversion tool is available under an Apache 2.0 license [on GitHub](https://github.com/thorunna/UDConverter).
 
 ## Installation
 
@@ -61,3 +78,11 @@ a lot of fine-tuning required - most obviously the `METADATA` and `CODE`
 nodes in the PCEEC2 are not handled - but the core of the conversion
 is there and can form the basis of parser training data for English
 historical texts.
+
+## References
+
++ Arnardóttir, Þórunn, Hinrik Hafsteinsson, Einar Freyr Sigurðsson, Kristín Bjarnadóttir, Anton Karl Ingason, Hildur Jónsdóttir, and Steinþór Steingrímsson. 2020. ‘A Universal Dependencies Conversion Pipeline for a Penn-Format Constituency Treebank’. In *Proceedings of the Fourth Workshop on Universal Dependencies (UDW 2020)*, edited by Marie-Catherine de Marneffe, Miryam de Lhoneux, Joakim Nivre, and Sebastian Schuster, 16–25. Barcelona, Spain (Online): Association for Computational Linguistics. [https://aclanthology.org/2020.udw-1.3](https://aclanthology.org/2020.udw-1.3).
++ Arnardóttir, Þórunn, Hinrik Hafsteinsson, Atli Jasonarson, Anton Ingason, and Steinþór Steingrímsson. 2023. ‘Evaluating a Universal Dependencies Conversion Pipeline for Icelandic’. In *Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa)*, edited by Tanel Alumäe and Mark Fishel, 698–704. Tórshavn, Faroe Islands: University of Tartu Library. [https://aclanthology.org/2023.nodalida-1.69](https://aclanthology.org/2023.nodalida-1.69).
++ Wallenberg, Joel C., Anton Karl Ingason, Einar Freyr Sigurðsson, and Eiríkur Rögnvaldsson. 2011. *Icelandic Parsed Historical Corpus (IcePaHC)*. Version 0.9. [http://www.linguist.is/icelandic_treebank](http://www.linguist.is/icelandic_treebank).
+
+

@@ -23,7 +23,7 @@ So we select the corpus `UD_English-GUM@2.13`.
 ### Step 1. Let's see how they're annotated
 
 Let's begin for looking for sentences containing a typical double-object
-verb, "give". We define a node, X, with the lemma *give*:
+verb, "give". We define a node, X, with the lemma	 *give*:
 ```opam
 pattern { X [lemma="give"] }
 ```
@@ -120,3 +120,14 @@ table.
 Click the `TSV` button in GREW Match, select X as the pivot (i.e. the
 verb should be a keyword), and then "Download .tsv file". This gives you
 a text file with your results in tabular format.
+
+## Over to you!
+
+What phenomena do you need to search for? Can you develop a GREW query to
+extract the relevant data?
+
+Here are some possible ideas if you're stuck...
++ Can you formulate a query to identify null subject clauses (any language)?
++ In the Old French (corpus `UD_Old_French-PROFITEROLE@2.13`), can you find
+cases in which a bare nominal depends on another noun without a preposition?
+(e.g. constructions like *li niés Marsilie* 'Marsilie's nephew')
