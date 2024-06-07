@@ -1,0 +1,2787 @@
+# sent_id = CECIL,.1
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.2
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.3
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.4
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.5
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.6
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.7
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.8
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.9
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.10
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.11
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.12
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.13
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.14
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.15
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.16
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER Sir, I hartely thank yow for your comfortable lettre so effectvally expressyng hir Majesties kyndnes in allowyng of my servyce, being not answerable to my dvty but in good will, and in favoryng me from labor with my evill foote, which notwithstandyng is and shall be with the rest of my body withovt any respect of payn at all commandmentes for her service . CECIL,42.16
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Sir	_	NOUN	N	Definite=0|Number=0	8	vocative	_	_
+5	,	_	ADP	PUNC	_	8	dep	_	_
+6	I	_	PRON	PRO	_	8	nsubj	_	_
+7	hartely	_	ADV	ADV	Degree=0	8	advmod	_	_
+8	thank	_	VERB	VBP	VerbForm=0	1	conj	_	_
+9	yow	_	PRON	PRO	_	8	iobj	_	_
+10	for	_	ADP	P	_	13	case	_	_
+11	your	_	ADP	PRO$	_	13	dep	_	_
+12	comfortable	_	ADJ	ADJ	Degree=0	13	amod	_	_
+13	lettre	_	NOUN	N	Definite=0|Number=0	8	obl	_	_
+14	so	_	ADV	ADVR	Degree=0	16	advmod	_	_
+15	effectvally	_	ADV	ADV	Degree=0	14	advmod	_	_
+16	expressyng	_	VERB	VAG	Tense=0|VerbForm=0	13	acl:relcl	_	_
+17	hir	_	ADP	PRO$	_	16	obj	_	_
+18	Majesties	_	NOUN	N$	Definite=0|Number=0	17	dep	_	_
+19	kyndnes	_	NOUN	N	Definite=0|Number=0	17	conj	_	_
+20	in	_	ADP	P	_	21	case	_	_
+21	allowyng	_	NOUN	N	Definite=0|Number=0	17	obl	_	_
+22	of	_	ADP	P	_	24	case	_	_
+23	my	_	ADP	PRO$	_	24	dep	_	_
+24	servyce	_	NOUN	N	Definite=0|Number=0	21	obl	_	_
+25	,	_	ADP	PUNC	_	24	dep	_	_
+26	being	_	AUX	BAG	Tense=0|VerbForm=0	28	dep	_	_
+27	not	_	ADV	NEG	_	28	advmod	_	_
+28	answerable	_	ADJ	ADJ	Degree=0	24	acl:relcl	_	_
+29	to	_	ADP	P	_	31	case	_	_
+30	my	_	ADP	PRO$	_	31	dep	_	_
+31	dvty	_	NOUN	N	Definite=0|Number=0	28	amod	_	_
+32	but	_	CCONJ	CONJ	_	35	cc	_	_
+33	in	_	ADP	P	_	35	case	_	_
+34	good	_	ADJ	ADJ	Degree=0	35	amod	_	_
+35	will	_	NOUN	N	Definite=0|Number=0	28	amod	_	_
+36	,	_	ADP	PUNC	_	21	dep	_	_
+37	and	_	CCONJ	CONJ	_	39	cc	_	_
+38	in	_	ADP	P	_	39	case	_	_
+39	favoryng	_	VERB	VAG	Tense=0|VerbForm=0	21	conj	_	_
+40	me	_	PRON	PRO	_	39	obj	_	_
+41	from	_	ADP	P	_	42	case	_	_
+42	labor	_	NOUN	N	Definite=0|Number=0	39	obl	_	_
+43	with	_	ADP	P	_	46	case	_	_
+44	my	_	ADP	PRO$	_	46	dep	_	_
+45	evill	_	ADJ	ADJ	Degree=0	46	amod	_	_
+46	foote	_	NOUN	N	Definite=0|Number=0	39	obl	_	_
+47	,	_	ADP	PUNC	_	46	dep	_	_
+48	which	_	PRON	WPRO	_	0	obj	_	_
+49	notwithstandyng	_	ADV	ADV	Degree=0	0	advmod	_	_
+50	is	_	AUX	BEP	VerbForm=0	0	cop	_	_
+51	and	_	CCONJ	CONJ	_	0	cc	_	_
+52	shall	_	AUX	MD	VerbForm=0	0	aux	_	_
+53	be	_	AUX	BE	VerbForm=0	0	cop	_	_
+54	with	_	ADP	P	_	56	case	_	_
+55	the	_	DET	D	Number=0	56	det	_	_
+56	rest	_	NOUN	N	Definite=0|Number=0	0	obl	_	_
+57	of	_	ADP	P	_	59	case	_	_
+58	my	_	ADP	PRO$	_	59	dep	_	_
+59	body	_	NOUN	N	Definite=0|Number=0	56	obl	_	_
+60	withovt	_	ADP	P	_	62	case	_	_
+61	any	_	DET	Q	Degree=0	62	amod	_	_
+62	respect	_	NOUN	N	Definite=0|Number=0	0	obl	_	_
+63	of	_	ADP	P	_	64	case	_	_
+64	payn	_	NOUN	N	Definite=0|Number=0	62	obl	_	_
+65	at	_	ADP	P	_	67	case	_	_
+66	all	_	DET	Q	Degree=0	67	amod	_	_
+67	commandmentes	_	NOUN	NS	Definite=0|Number=0	0	obl	_	_
+68	for	_	ADP	P	_	70	case	_	_
+69	her	_	ADP	PRO$	_	70	dep	_	_
+70	service	_	NOUN	N	Definite=0|Number=0	67	obl	_	_
+71	.	_	ADP	PUNC	_	8	dep	_	_
+72	CECIL,42.16	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.17
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER I will expect your commyng at my Lord Chancellors at 2 on Mondaye . CECIL,42.17
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	I	_	PRON	PRO	_	6	nsubj	_	_
+5	will	_	AUX	MD	VerbForm=0	6	aux	_	_
+6	expect	_	VERB	VB	VerbForm=0	1	conj	_	_
+7	your	_	ADP	PRO$	_	6	obj	_	_
+8	commyng	_	VERB	VAG	Tense=0|VerbForm=0	7	acl	_	_
+9	at	_	ADP	P	_	10	case	_	_
+10	my	_	ADP	PRO$	_	8	obl	_	_
+11	Lord	_	NOUN	N	Definite=0|Number=0	10	conj	_	_
+12	Chancellors	_	NOUN	N$	Definite=0|Number=0	10	dep	_	_
+13	at	_	ADP	P	_	14	case	_	_
+14	2	_	NUM	NUM	_	6	obl	_	_
+15	on	_	ADP	P	_	16	case	_	_
+16	Mondaye	_	PROPN	NPR	_	6	obl	_	_
+17	.	_	ADP	PUNC	_	6	dep	_	_
+18	CECIL,42.17	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.18
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER Sence your departvr Dvn, that lay so long in the myre withovt styrryng, keppyng silence obstinatly, hath withovt any torment offred, liberally confessed as much as we conceaved hym gilty of . CECIL,43.18
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Sence	_	ADP	P	_	6	case	_	_
+5	your	_	ADP	PRO$	_	6	dep	_	_
+6	departvr	_	NOUN	N	Definite=0|Number=0	30	obl	_	_
+7	Dvn	_	PROPN	NPR	_	30	nsubj	_	_
+8	,	_	ADP	PUNC	_	7	dep	_	_
+9	that	_	SCONJ	C	_	10	mark	_	_
+10	lay	_	VERB	VBP	VerbForm=0	7	acl:relcl	_	_
+11	so	_	ADV	ADVR	Degree=0	10	obl	_	_
+12	long	_	ADJ	ADJ	Degree=0	11	amod	_	_
+13	in	_	ADP	P	_	15	case	_	_
+14	the	_	DET	D	Number=0	15	det	_	_
+15	myre	_	NOUN	N	Definite=0|Number=0	10	obl	_	_
+16	withovt	_	ADP	P	_	17	case	_	_
+17	styrryng	_	VERB	VAG	Tense=0|VerbForm=0	10	obl	_	_
+18	,	_	ADP	PUNC	_	10	dep	_	_
+19	keppyng	_	VERB	VAG	Tense=0|VerbForm=0	10	advcl	_	_
+20	silence	_	NOUN	N	Definite=0|Number=0	19	obj	_	_
+21	obstinatly	_	ADV	ADV	Degree=0	19	advmod	_	_
+22	,	_	ADP	PUNC	_	30	dep	_	_
+23	hath	_	AUX	HVP	VerbForm=0	30	aux	_	_
+24	withovt	_	ADP	P	_	26	case	_	_
+25	any	_	DET	Q	Degree=0	26	amod	_	_
+26	torment	_	NOUN	N	Definite=0|Number=0	30	obl	_	_
+27	offred	_	VERB	VAN	Tense=0|VerbForm=0	26	acl:relcl	_	_
+28	,	_	ADP	PUNC	_	30	dep	_	_
+29	liberally	_	ADV	ADV	Degree=0	30	advmod	_	_
+30	confessed	_	VERB	VBN	Tense=0|VerbForm=0	1	conj	_	_
+31	as	_	ADV	ADVR	Degree=0	30	obj	_	_
+32	much	_	DET	Q	Degree=0	31	amod	_	_
+33	as	_	ADP	P	_	35	case	_	_
+34	we	_	PRON	PRO	_	35	nsubj	_	_
+35	conceaved	_	VERB	VBD	VerbForm=0	31	obl	_	_
+36	hym	_	PRON	PRO	_	37	nsubj	_	_
+37	gilty	_	ADJ	ADJ	Degree=0	35	ccomp	_	_
+38	of	_	ADP	P	_	37	amod	_	_
+39	.	_	ADP	PUNC	_	30	dep	_	_
+40	CECIL,43.18	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.19
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER He maketh larg reportes of all the practises, shvnning in phrases as much as he can to accuse hym self of his own maliciovss purpooss, othar than of his knowledg of the whole and that largly . CECIL,43.19
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	He	_	PRON	PRO	_	5	nsubj	_	_
+5	maketh	_	VERB	VBP	VerbForm=0	1	ccomp	_	_
+6	larg	_	ADJ	ADJ	Degree=0	5	obj	_	_
+7	reportes	_	NOUN	NS	Definite=0|Number=0	6	conj	_	_
+8	of	_	ADP	P	_	11	case	_	_
+9	all	_	DET	Q	Degree=0	11	amod	_	_
+10	the	_	DET	D	Number=0	11	det	_	_
+11	practises	_	NOUN	NS	Definite=0|Number=0	6	obl	_	_
+12	,	_	ADP	PUNC	_	5	dep	_	_
+13	shvnning	_	VERB	VAG	Tense=0|VerbForm=0	5	advcl	_	_
+14	in	_	ADP	P	_	15	case	_	_
+15	phrases	_	NOUN	NS	Definite=0|Number=0	13	obl	_	_
+16	as	_	ADV	ADVR	Degree=0	13	obl	_	_
+17	much	_	DET	Q	Degree=0	16	amod	_	_
+18	as	_	ADP	P	_	20	case	_	_
+19	he	_	PRON	PRO	_	20	nsubj	_	_
+20	can	_	AUX	MD	VerbForm=0	16	obl	_	_
+21	to	_	PART	TO	_	22	mark	_	_
+22	accuse	_	VERB	VB	VerbForm=0	13	xcomp	_	_
+23	hym	_	PRON	PRO	_	22	obj	_	_
+24	self	_	NOUN	N	Definite=0|Number=0	23	conj	_	_
+25	of	_	ADP	P	_	29	case	_	_
+26	his	_	ADP	PRO$	_	29	dep	_	_
+27	own	_	ADJ	ADJ	Degree=0	29	amod	_	_
+28	maliciovss	_	ADJ	ADJ	Degree=0	29	amod	_	_
+29	purpooss	_	NOUN	N	Definite=0|Number=0	22	obl	_	_
+30	,	_	ADP	PUNC	_	22	dep	_	_
+31	othar	_	PRON	OTHER	_	22	obl	_	_
+32	than	_	ADP	P	_	35	case	_	_
+33	of	_	ADP	P	_	35	case	_	_
+34	his	_	ADP	PRO$	_	35	dep	_	_
+35	knowledg	_	NOUN	N	Definite=0|Number=0	31	obl	_	_
+36	of	_	ADP	P	_	38	case	_	_
+37	the	_	DET	D	Number=0	38	det	_	_
+38	whole	_	ADJ	ADJ	Degree=0	35	obl	_	_
+39	and	_	CCONJ	CONJ	_	22	cc	_	_
+40	that	_	DET	D	Number=0	22	obl	_	_
+41	largly	_	ADV	ADV	Degree=0	22	advmod	_	_
+42	.	_	ADP	PUNC	_	5	dep	_	_
+43	CECIL,43.19	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.20
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER The 2 Abyngtons ar taken in a shepehoues in Herefordshyr neare Seaborns houss . CECIL,43.20
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	The	_	DET	D	Number=0	6	det	_	_
+5	2	_	NUM	NUM	_	6	nummod	_	_
+6	Abyngtons	_	PROPN	NPRS	_	8	nsubj	_	_
+7	ar	_	AUX	BEP	VerbForm=0	8	cop	_	_
+8	taken	_	VERB	VAN	Tense=0|VerbForm=0	1	conj	_	_
+9	in	_	ADP	P	_	11	case	_	_
+10	a	_	DET	D	Number=0	11	det	_	_
+11	shepehoues	_	NOUN	N	Definite=0|Number=0	8	obl	_	_
+12	in	_	ADP	P	_	13	case	_	_
+13	Herefordshyr	_	PROPN	NPR	_	11	obl	_	_
+14	neare	_	ADJ	ADJ	Degree=0	13	amod	_	_
+15	Seaborns	_	NOUN	NPR$	_	14	obl	_	_
+16	houss	_	NOUN	N	Definite=0|Number=0	15	conj	_	_
+17	.	_	ADP	PUNC	_	8	dep	_	_
+18	CECIL,43.20	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.21
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER I thynk Naw and Curle will yeld in ther wrytyng soomwhat to confirm ther Mastriss crymes, CECIL,43.21
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	I	_	PRON	PRO	_	5	nsubj	_	_
+5	thynk	_	VERB	VBP	VerbForm=0	1	conj	_	_
+6	Naw	_	PROPN	NPR	_	10	nsubj	_	_
+7	and	_	CCONJ	CONJ	_	8	cc	_	_
+8	Curle	_	PROPN	NPR	_	6	conj	_	_
+9	will	_	AUX	MD	VerbForm=0	10	aux	_	_
+10	yeld	_	VERB	VB	VerbForm=0	5	ccomp	_	_
+11	in	_	ADP	P	_	13	case	_	_
+12	ther	_	ADP	PRO$	_	13	dep	_	_
+13	wrytyng	_	NOUN	N	Definite=0|Number=0	10	obl	_	_
+14	soomwhat	_	DET	Q	Degree=0	16	obl	_	_
+15	to	_	PART	TO	_	16	advcl	_	_
+16	confirm	_	VERB	VB	VerbForm=0	10	advcl	_	_
+17	ther	_	ADP	PRO$	_	16	obj	_	_
+18	Mastriss	_	NOUN	N$	Definite=0|Number=0	17	dep	_	_
+19	crymes	_	NOUN	NS	Definite=0|Number=0	17	conj	_	_
+20	,	_	ADP	PUNC	_	5	dep	_	_
+21	CECIL,43.21	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.22
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER but if they war perswaded that them selves myght scape, and the blow fall uppon ther Mistriss, betwixt hir head and hir shulders, suerly we shold have the whole from hir . CECIL,43.22
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	but	_	CCONJ	CONJ	_	32	cc	_	_
+5	if	_	ADP	P	_	8	case	_	_
+6	they	_	PRON	PRO	_	8	nsubj	_	_
+7	war	_	AUX	BED	VerbForm=0	8	cop	_	_
+8	perswaded	_	ADJ	ADJ	Degree=0	32	obl	_	_
+9	that	_	SCONJ	C	_	13	mark	_	_
+10	them	_	PRON	PRO	_	13	nsubj	_	_
+11	selves	_	NOUN	N	Definite=0|Number=0	10	conj	_	_
+12	myght	_	AUX	MD	VerbForm=0	13	aux	_	_
+13	scape	_	VERB	VB	VerbForm=0	8	amod	_	_
+14	,	_	ADP	PUNC	_	13	dep	_	_
+15	and	_	CCONJ	CONJ	_	13	cc	_	_
+16	the	_	DET	D	Number=0	13	obl	_	_
+17	blow	_	NOUN	N	Definite=0|Number=0	16	conj	_	_
+18	fall	_	VERB	VB	VerbForm=0	13	dep	_	_
+19	uppon	_	ADP	P	_	21	case	_	_
+20	ther	_	ADP	PRO$	_	21	dep	_	_
+21	Mistriss	_	NOUN	N	Definite=0|Number=0	13	obl	_	_
+22	,	_	ADP	PUNC	_	13	dep	_	_
+23	betwixt	_	ADP	P	_	25	case	_	_
+24	hir	_	ADP	PRO$	_	25	dep	_	_
+25	head	_	NOUN	N	Definite=0|Number=0	13	obl	_	_
+26	and	_	CCONJ	CONJ	_	28	cc	_	_
+27	hir	_	ADP	PRO$	_	28	dep	_	_
+28	shulders	_	NOUN	NS	Definite=0|Number=0	25	conj	_	_
+29	,	_	ADP	PUNC	_	32	dep	_	_
+30	suerly	_	ADV	ADV	Degree=0	32	advmod	_	_
+31	we	_	PRON	PRO	_	32	nsubj	_	_
+32	shold	_	AUX	MD	VerbForm=0	1	conj	_	_
+33	have	_	AUX	HV	VerbForm=0	32	aux	_	_
+34	the	_	DET	D	Number=0	32	obl	_	_
+35	whole	_	ADJ	ADJ	Degree=0	34	amod	_	_
+36	from	_	ADP	P	_	37	case	_	_
+37	hir	_	PRON	PRO	_	32	obl	_	_
+38	.	_	ADP	PUNC	_	32	dep	_	_
+39	CECIL,43.22	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.23
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER If yow shall bryng any more wrytyng with yow from thence to towch both Naw, Curle and Pasquyre, it shall serve vs the better, and spare our threatninges to them . CECIL,43.23
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	If	_	ADP	P	_	7	case	_	_
+5	yow	_	PRON	PRO	_	7	nsubj	_	_
+6	shall	_	AUX	MD	VerbForm=0	7	aux	_	_
+7	bryng	_	VERB	VB	VerbForm=0	26	obl	_	_
+8	any	_	DET	Q	Degree=0	7	obj	_	_
+9	more	_	DET	QR	Degree=0	8	amod	_	_
+10	wrytyng	_	NOUN	N	Definite=0|Number=0	8	conj	_	_
+11	with	_	ADP	P	_	12	case	_	_
+12	yow	_	PRON	PRO	_	7	obl	_	_
+13	from	_	ADP	P	_	14	case	_	_
+14	thence	_	ADV	ADV	Degree=0	7	obl	_	_
+15	to	_	PART	TO	_	16	mark	_	_
+16	towch	_	VERB	VB	VerbForm=0	7	xcomp	_	_
+17	both	_	DET	Q	Degree=0	18	amod	_	_
+18	Naw	_	PROPN	NPR	_	16	obj	_	_
+19	,	_	ADP	PUNC	_	18	dep	_	_
+20	Curle	_	PROPN	NPR	_	18	dep	_	_
+21	and	_	CCONJ	CONJ	_	18	cc	_	_
+22	Pasquyre	_	PROPN	NPR	_	18	dep	_	_
+23	,	_	ADP	PUNC	_	26	dep	_	_
+24	it	_	PRON	PRO	_	26	nsubj	_	_
+25	shall	_	AUX	MD	VerbForm=0	26	aux	_	_
+26	serve	_	VERB	VB	VerbForm=0	1	conj	_	_
+27	vs	_	PRON	PRO	_	26	obj	_	_
+28	the	_	DET	D	Number=0	29	det	_	_
+29	better	_	ADV	ADVR	Degree=0	26	advmod	_	_
+30	,	_	ADP	PUNC	_	26	dep	_	_
+31	and	_	CCONJ	CONJ	_	32	cc	_	_
+32	spare	_	VERB	VB	VerbForm=0	26	conj	_	_
+33	our	_	ADP	PRO$	_	32	obj	_	_
+34	threatninges	_	NOUN	NS	Definite=0|Number=0	33	conj	_	_
+35	to	_	ADP	P	_	36	case	_	_
+36	them	_	PRON	PRO	_	33	obl	_	_
+37	.	_	ADP	PUNC	_	26	dep	_	_
+38	CECIL,43.23	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.24
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.25
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER I thank you most hartely for the comfort of your lettre, knowyng you to be the instrumentall cause of hir Majesties kyndnes expressed in your lettre, whom God preserve long to vse Davides verse ; PUNC Lavdans invocabo Dominum et ab inimicis salva ero . CECIL,44.25
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	I	_	PRON	PRO	_	5	nsubj	_	_
+5	thank	_	VERB	VBP	VerbForm=0	1	conj	_	_
+6	you	_	PRON	PRO	_	5	iobj	_	_
+7	most	_	DET	QS	Degree=0	8	amod	_	_
+8	hartely	_	ADV	ADV	Degree=0	5	advmod	_	_
+9	for	_	ADP	P	_	11	case	_	_
+10	the	_	DET	D	Number=0	11	det	_	_
+11	comfort	_	NOUN	N	Definite=0|Number=0	5	obl	_	_
+12	of	_	ADP	P	_	14	case	_	_
+13	your	_	ADP	PRO$	_	14	dep	_	_
+14	lettre	_	NOUN	N	Definite=0|Number=0	11	obl	_	_
+15	,	_	ADP	PUNC	_	5	dep	_	_
+16	knowyng	_	VERB	VAG	Tense=0|VerbForm=0	5	advcl	_	_
+17	you	_	PRON	PRO	_	21	nsubj	_	_
+18	to	_	PART	TO	_	21	mark	_	_
+19	be	_	AUX	BE	VerbForm=0	21	cop	_	_
+20	the	_	DET	D	Number=0	21	det	_	_
+21	instrumentall	_	ADJ	ADJ	Degree=0	16	xcomp	_	_
+22	cause	_	NOUN	N	Definite=0|Number=0	21	conj	_	_
+23	of	_	ADP	P	_	24	case	_	_
+24	hir	_	ADP	PRO$	_	21	obl	_	_
+25	Majesties	_	NOUN	N$	Definite=0|Number=0	24	dep	_	_
+26	kyndnes	_	NOUN	N	Definite=0|Number=0	24	conj	_	_
+27	expressed	_	VERB	VAN	Tense=0|VerbForm=0	24	acl:relcl	_	_
+28	in	_	ADP	P	_	30	case	_	_
+29	your	_	ADP	PRO$	_	30	dep	_	_
+30	lettre	_	NOUN	N	Definite=0|Number=0	27	obl	_	_
+31	,	_	ADP	PUNC	_	24	dep	_	_
+32	whom	_	PRON	WPRO	_	34	obj	_	_
+33	God	_	PROPN	NPR	_	34	nsubj	_	_
+34	preserve	_	VERB	VBP	VerbForm=0	24	acl:relcl	_	_
+35	long	_	ADJ	ADJ	Degree=0	34	obl	_	_
+36	to	_	PART	TO	_	37	mark	_	_
+37	vse	_	VERB	VB	VerbForm=0	34	advcl	_	_
+38	Davides	_	NOUN	NPR$	_	37	obj	_	_
+39	verse	_	NOUN	N	Definite=0|Number=0	38	conj	_	_
+40	;	_	ADP	PUNC	_	38	dep	_	_
+41	PUNC	PUNC	ADP	PUNC	_	38	dep	_	_
+42	Lavdans	_	X	FW	Foreign=Yes	38	dep	_	_
+43	invocabo	_	X	FW	Foreign=Yes	42	flat:foreign	_	_
+44	Dominum	_	X	FW	Foreign=Yes	42	flat:foreign	_	_
+45	et	_	X	FW	Foreign=Yes	42	flat:foreign	_	_
+46	ab	_	X	FW	Foreign=Yes	42	flat:foreign	_	_
+47	inimicis	_	X	FW	Foreign=Yes	42	flat:foreign	_	_
+48	salva	_	X	FW	Foreign=Yes	42	flat:foreign	_	_
+49	ero	_	X	FW	Foreign=Yes	42	flat:foreign	_	_
+50	.	_	ADP	PUNC	_	5	dep	_	_
+51	CECIL,44.25	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.26
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER From my houss at Westminster, CECIL,44.26
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	From	_	ADP	P	_	6	case	_	_
+5	my	_	ADP	PRO$	_	6	dep	_	_
+6	houss	_	NOUN	N	Definite=0|Number=0	1	obl	_	_
+7	at	_	ADP	P	_	8	case	_	_
+8	Westminster	_	PROPN	NPR	_	6	obl	_	_
+9	,	_	ADP	PUNC	_	6	dep	_	_
+10	CECIL,44.26	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.27
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER wrytt in my bed, but with intent to ryse and to be occupyed . CECIL,44.27
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	wrytt	_	VERB	VAN	Tense=0|VerbForm=0	1	acl	_	_
+5	in	_	ADP	P	_	7	case	_	_
+6	my	_	ADP	PRO$	_	7	dep	_	_
+7	bed	_	NOUN	N	Definite=0|Number=0	4	obl	_	_
+8	,	_	ADP	PUNC	_	7	dep	_	_
+9	but	_	CCONJ	CONJ	_	11	cc	_	_
+10	with	_	ADP	P	_	11	case	_	_
+11	intent	_	NOUN	N	Definite=0|Number=0	7	conj	_	_
+12	to	_	PART	TO	_	13	mark	_	_
+13	ryse	_	VERB	VB	VerbForm=0	11	xcomp	_	_
+14	and	_	CCONJ	CONJ	_	17	cc	_	_
+15	to	_	PART	TO	_	17	mark	_	_
+16	be	_	AUX	BE	VerbForm=0	17	cop	_	_
+17	occupyed	_	ADJ	ADJ	Degree=0	13	xcomp	_	_
+18	.	_	ADP	PUNC	_	4	dep	_	_
+19	CECIL,44.27	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.28
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER 4 Sept . 1586 . CECIL,44.28
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	4	_	NUM	NUM	_	1	obl	_	_
+5	Sept	_	PROPN	NPR	_	4	dep	_	_
+6	.	_	ADP	PUNC	_	4	dep	_	_
+7	1586	_	NUM	NUM	_	4	nummod	_	_
+8	.	_	ADP	PUNC	_	4	dep	_	_
+9	CECIL,44.28	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.29
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER Yours so bovnd, W. Burghley . CECIL,44.29
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Yours	_	ADP	PRO$	_	8	dep	_	_
+5	so	_	ADV	ADVR	Degree=0	8	amod	_	_
+6	bovnd	_	ADJ	ADJ	Degree=0	5	amod	_	_
+7	,	_	ADP	PUNC	_	8	dep	_	_
+8	W.	_	PROPN	NPR	_	1	obl	_	_
+9	Burghley	_	PROPN	NPR	_	8	flat:name	_	_
+10	.	_	ADP	PUNC	_	8	dep	_	_
+11	CECIL,44.29	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.30
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_001:E2:1586:AUTOGRAPH:OTHER PUNC To the Ryght Honvrable Sir Christofer Hatton, Vichamberlain, Captain of the Gard and of the Prive Counsell to hir Majesty . CECIL,44.30
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_001:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	PUNC	PUNC	ADP	PUNC	_	9	dep	_	_
+5	To	_	ADP	P	_	9	case	_	_
+6	the	_	DET	D	Number=0	9	det	_	_
+7	Ryght	_	ADV	ADV	Degree=0	9	amod	_	_
+8	Honvrable	_	ADJ	ADJ	Degree=0	7	amod	_	_
+9	Sir	_	PROPN	NPR	_	1	obl	_	_
+10	Christofer	_	PROPN	NPR	_	9	flat:name	_	_
+11	Hatton	_	PROPN	NPR	_	9	dep	_	_
+12	,	_	ADP	PUNC	_	9	dep	_	_
+13	Vichamberlain	_	NOUN	N	Definite=0|Number=0	9	appos	_	_
+14	,	_	ADP	PUNC	_	9	dep	_	_
+15	Captain	_	NOUN	N	Definite=0|Number=0	9	appos	_	_
+16	of	_	ADP	P	_	18	case	_	_
+17	the	_	DET	D	Number=0	18	det	_	_
+18	Gard	_	NOUN	N	Definite=0|Number=0	15	obl	_	_
+19	and	_	CCONJ	CONJ	_	23	cc	_	_
+20	of	_	ADP	P	_	23	case	_	_
+21	the	_	DET	D	Number=0	23	det	_	_
+22	Prive	_	ADJ	ADJ	Degree=0	23	amod	_	_
+23	Counsell	_	NOUN	N	Definite=0|Number=0	18	conj	_	_
+24	to	_	ADP	P	_	26	case	_	_
+25	hir	_	ADP	PRO$	_	26	dep	_	_
+26	Majesty	_	NOUN	N	Definite=0|Number=0	23	obl	_	_
+27	.	_	ADP	PUNC	_	9	dep	_	_
+28	CECIL,44.30	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.31
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.32
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.33
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.34
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.35
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.36
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.37
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.38
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.39
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.40
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.41
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.42
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.43
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.44
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.45
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER Sir, Hir Majesty soddenly here falleth into an opinion, that if any thyng shuld be to_morrow gyven in evidence ageynst the Scottish Quene wherby it might be thought that she shuld be criminally tovched for hir liff, it might be perillouse to her Majesties person now presently befor any thyng shold be executed vppon that Queen . CECIL,45.45
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Sir	_	NOUN	N	Definite=0|Number=0	10	vocative	_	_
+5	,	_	ADP	PUNC	_	10	dep	_	_
+6	Hir	_	ADP	PRO$	_	10	nsubj	_	_
+7	Majesty	_	NOUN	N	Definite=0|Number=0	6	conj	_	_
+8	soddenly	_	ADV	ADV	Degree=0	10	advmod	_	_
+9	here	_	ADV	ADV	Degree=0	10	advmod	_	_
+10	falleth	_	VERB	VBP	VerbForm=0	1	conj	_	_
+11	into	_	ADP	P	_	13	case	_	_
+12	an	_	DET	D	Number=0	13	det	_	_
+13	opinion	_	NOUN	N	Definite=0|Number=0	10	obl	_	_
+14	,	_	ADP	PUNC	_	13	dep	_	_
+15	that	_	SCONJ	C	_	45	mark	_	_
+16	if	_	ADP	P	_	22	case	_	_
+17	any	_	DET	Q	Degree=0	22	nsubj	_	_
+18	thyng	_	NOUN	N	Definite=0|Number=0	17	conj	_	_
+19	shuld	_	AUX	MD	VerbForm=0	22	aux	_	_
+20	be	_	AUX	BE	VerbForm=0	22	cop	_	_
+21	to_morrow	_	NOUN	N	Definite=0|Number=0	22	obl	_	_
+22	gyven	_	VERB	VAN	Tense=0|VerbForm=0	45	obl	_	_
+23	in	_	ADP	P	_	24	case	_	_
+24	evidence	_	NOUN	N	Definite=0|Number=0	22	obl	_	_
+25	ageynst	_	ADP	P	_	28	case	_	_
+26	the	_	DET	D	Number=0	28	det	_	_
+27	Scottish	_	ADJ	ADJ	Degree=0	28	amod	_	_
+28	Quene	_	NOUN	N	Definite=0|Number=0	24	obl	_	_
+29	wherby	_	ADP	P	_	33	obl	_	_
+30	it	_	PRON	PRO	_	33	nsubj	_	_
+31	might	_	AUX	MD	VerbForm=0	33	aux	_	_
+32	be	_	AUX	BE	VerbForm=0	33	cop	_	_
+33	thought	_	VERB	VAN	Tense=0|VerbForm=0	24	acl:relcl	_	_
+34	that	_	SCONJ	C	_	39	mark	_	_
+35	she	_	PRON	PRO	_	39	nsubj	_	_
+36	shuld	_	AUX	MD	VerbForm=0	39	aux	_	_
+37	be	_	AUX	BE	VerbForm=0	39	cop	_	_
+38	criminally	_	ADV	ADV	Degree=0	39	advmod	_	_
+39	tovched	_	VERB	VAN	Tense=0|VerbForm=0	33	ccomp	_	_
+40	for	_	ADP	P	_	42	case	_	_
+41	hir	_	ADP	PRO$	_	42	dep	_	_
+42	liff	_	NOUN	N	Definite=0|Number=0	39	obl	_	_
+43	,	_	ADP	PUNC	_	45	dep	_	_
+44	it	_	PRON	PRO	_	45	nsubj	_	_
+45	might	_	AUX	MD	VerbForm=0	13	ccomp	_	_
+46	be	_	AUX	BE	VerbForm=0	45	cop	_	_
+47	perillouse	_	ADJ	ADJ	Degree=0	45	amod	_	_
+48	to	_	ADP	P	_	49	case	_	_
+49	her	_	ADP	PRO$	_	47	amod	_	_
+50	Majesties	_	NOUN	N$	Definite=0|Number=0	49	dep	_	_
+51	person	_	NOUN	N	Definite=0|Number=0	49	conj	_	_
+52	now	_	ADV	ADV	Degree=0	45	advmod	_	_
+53	presently	_	ADV	ADV	Degree=0	45	advmod	_	_
+54	befor	_	ADP	P	_	59	case	_	_
+55	any	_	DET	Q	Degree=0	59	nsubj	_	_
+56	thyng	_	NOUN	N	Definite=0|Number=0	55	conj	_	_
+57	shold	_	AUX	MD	VerbForm=0	59	aux	_	_
+58	be	_	AUX	BE	VerbForm=0	59	cop	_	_
+59	executed	_	VERB	VAN	Tense=0|VerbForm=0	45	obl	_	_
+60	vppon	_	ADP	P	_	62	case	_	_
+61	that	_	DET	D	Number=0	62	det	_	_
+62	Queen	_	NOUN	N	Definite=0|Number=0	59	obl	_	_
+63	.	_	ADP	PUNC	_	10	dep	_	_
+64	CECIL,45.45	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.46
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER Myn answer was that I took it for a resolution allweise that vpon the araynment hir wrytyng to Babyngton and allowance of the attempt shuld orderly fall ovt vppon chargyng of hym, CECIL,45.46
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Myn	_	ADP	PRO$	_	1	conj	_	_
+5	answer	_	NOUN	N	Definite=0|Number=0	4	conj	_	_
+6	was	_	AUX	BED	VerbForm=0	4	cop	_	_
+7	that	_	SCONJ	C	_	9	mark	_	_
+8	I	_	PRON	PRO	_	9	nsubj	_	_
+9	took	_	VERB	VBD	VerbForm=0	4	ccomp	_	_
+10	it	_	PRON	PRO	_	9	obj	_	_
+11	for	_	ADP	P	_	13	case	_	_
+12	a	_	DET	D	Number=0	13	det	_	_
+13	resolution	_	NOUN	N	Definite=0|Number=0	9	obl	_	_
+14	allweise	_	ADV	ADV	Degree=0	9	advmod	_	_
+15	that	_	SCONJ	C	_	30	mark	_	_
+16	vpon	_	ADP	P	_	18	case	_	_
+17	the	_	DET	D	Number=0	18	det	_	_
+18	araynment	_	NOUN	N	Definite=0|Number=0	30	obl	_	_
+19	hir	_	ADP	PRO$	_	30	nsubj	_	_
+20	wrytyng	_	VERB	VAG	Tense=0|VerbForm=0	19	acl	_	_
+21	to	_	ADP	P	_	22	case	_	_
+22	Babyngton	_	PROPN	NPR	_	20	obl	_	_
+23	and	_	CCONJ	CONJ	_	24	cc	_	_
+24	allowance	_	NOUN	N	Definite=0|Number=0	19	conj	_	_
+25	of	_	ADP	P	_	27	case	_	_
+26	the	_	DET	D	Number=0	27	det	_	_
+27	attempt	_	NOUN	N	Definite=0|Number=0	24	obl	_	_
+28	shuld	_	AUX	MD	VerbForm=0	30	aux	_	_
+29	orderly	_	ADV	ADV	Degree=0	30	advmod	_	_
+30	fall	_	VERB	VB	VerbForm=0	9	ccomp	_	_
+31	ovt	_	ADP	RP	_	30	compound:prt	_	_
+32	vppon	_	ADP	P	_	33	case	_	_
+33	chargyng	_	NOUN	N	Definite=0|Number=0	30	obl	_	_
+34	of	_	ADP	P	_	35	case	_	_
+35	hym	_	PRON	PRO	_	33	obl	_	_
+36	,	_	ADP	PUNC	_	4	dep	_	_
+37	CECIL,45.46	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.47
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER and I saw no cause why at the arraynment it shuld not appeare, seying, to the comen sort of all men, it is a thyng notefyed by manny meanes that she had consented, CECIL,45.47
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	and	_	CCONJ	CONJ	_	6	cc	_	_
+5	I	_	PRON	PRO	_	6	nsubj	_	_
+6	saw	_	VERB	VBD	VerbForm=0	1	conj	_	_
+7	no	_	DET	Q	Degree=0	6	obj	_	_
+8	cause	_	NOUN	N	Definite=0|Number=0	7	conj	_	_
+9	why	_	ADV	WADV	Degree=0	7	dep	_	_
+10	at	_	ADP	P	_	12	case	_	_
+11	the	_	DET	D	Number=0	12	det	_	_
+12	arraynment	_	NOUN	N	Definite=0|Number=0	16	obl	_	_
+13	it	_	PRON	PRO	_	16	nsubj	_	_
+14	shuld	_	AUX	MD	VerbForm=0	16	aux	_	_
+15	not	_	ADV	NEG	_	16	advmod	_	_
+16	appeare	_	VERB	VB	VerbForm=0	9	conj	_	_
+17	,	_	ADP	PUNC	_	16	dep	_	_
+18	seying	_	VERB	VAG	Tense=0|VerbForm=0	16	advcl	_	_
+19	,	_	ADP	PUNC	_	18	dep	_	_
+20	to	_	ADP	P	_	23	case	_	_
+21	the	_	DET	D	Number=0	23	det	_	_
+22	comen	_	ADJ	ADJ	Degree=0	23	amod	_	_
+23	sort	_	NOUN	N	Definite=0|Number=0	30	obl	_	_
+24	of	_	ADP	P	_	26	case	_	_
+25	all	_	DET	Q	Degree=0	26	amod	_	_
+26	men	_	NOUN	NS	Definite=0|Number=0	23	obl	_	_
+27	,	_	ADP	PUNC	_	30	dep	_	_
+28	it	_	PRON	PRO	_	30	nsubj	_	_
+29	is	_	AUX	BEP	VerbForm=0	30	cop	_	_
+30	a	_	DET	D	Number=0	18	ccomp	_	_
+31	thyng	_	NOUN	N	Definite=0|Number=0	30	conj	_	_
+32	notefyed	_	VERB	VAN	Tense=0|VerbForm=0	30	acl:relcl	_	_
+33	by	_	ADP	P	_	35	case	_	_
+34	manny	_	DET	Q	Degree=0	35	amod	_	_
+35	meanes	_	NOUN	NS	Definite=0|Number=0	32	obl	_	_
+36	that	_	SCONJ	C	_	39	mark	_	_
+37	she	_	PRON	PRO	_	39	nsubj	_	_
+38	had	_	AUX	HVD	VerbForm=0	39	aux	_	_
+39	consented	_	VERB	VBN	Tense=0|VerbForm=0	30	ccomp	_	_
+40	,	_	ADP	PUNC	_	6	dep	_	_
+41	CECIL,45.47	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.48
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER and it was also knowen that she was restrayned, and hir secretaryes detayned . CECIL,45.48
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	and	_	CCONJ	CONJ	_	8	cc	_	_
+5	it	_	PRON	PRO	_	8	nsubj	_	_
+6	was	_	AUX	BED	VerbForm=0	8	cop	_	_
+7	also	_	ADV	ALSO	_	8	advmod	_	_
+8	knowen	_	VERB	VAN	Tense=0|VerbForm=0	1	conj	_	_
+9	that	_	SCONJ	C	_	12	mark	_	_
+10	she	_	PRON	PRO	_	12	nsubj	_	_
+11	was	_	AUX	BED	VerbForm=0	12	cop	_	_
+12	restrayned	_	VERB	VAN	Tense=0|VerbForm=0	8	ccomp	_	_
+13	,	_	ADP	PUNC	_	12	dep	_	_
+14	and	_	CCONJ	CONJ	_	12	cc	_	_
+15	hir	_	ADP	PRO$	_	12	obl	_	_
+16	secretaryes	_	NOUN	NS	Definite=0|Number=0	15	conj	_	_
+17	detayned	_	VERB	VAN	Tense=0|VerbForm=0	12	ccomp	_	_
+18	.	_	ADP	PUNC	_	8	dep	_	_
+19	CECIL,45.48	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.49
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER Beside this, I thought the inditement that must be red oppenly concerning Babyngtons offence conteyned this poynt . CECIL,45.49
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Beside	_	ADP	P	_	5	case	_	_
+5	this	_	DET	D	Number=0	8	obl	_	_
+6	,	_	ADP	PUNC	_	8	dep	_	_
+7	I	_	PRON	PRO	_	8	nsubj	_	_
+8	thought	_	VERB	VBD	VerbForm=0	1	conj	_	_
+9	the	_	DET	D	Number=0	19	nsubj	_	_
+10	inditement	_	NOUN	N	Definite=0|Number=0	9	conj	_	_
+11	that	_	SCONJ	C	_	14	mark	_	_
+12	must	_	AUX	MD	VerbForm=0	14	aux	_	_
+13	be	_	AUX	BE	VerbForm=0	14	cop	_	_
+14	red	_	VERB	VAN	Tense=0|VerbForm=0	9	acl:relcl	_	_
+15	oppenly	_	ADV	ADV	Degree=0	14	advmod	_	_
+16	concerning	_	VERB	VAG	Tense=0|VerbForm=0	9	acl:relcl	_	_
+17	Babyngtons	_	NOUN	NPR$	_	16	obj	_	_
+18	offence	_	NOUN	N	Definite=0|Number=0	17	conj	_	_
+19	conteyned	_	VERB	VBD	VerbForm=0	8	ccomp	_	_
+20	this	_	DET	D	Number=0	19	obj	_	_
+21	poynt	_	NOUN	N	Definite=0|Number=0	20	conj	_	_
+22	.	_	ADP	PUNC	_	8	dep	_	_
+23	CECIL,45.49	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.50
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER To that she answered, that she thovght it was not in the enditement, CECIL,45.50
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	To	_	ADP	P	_	5	case	_	_
+5	that	_	DET	D	Number=0	7	obl	_	_
+6	she	_	PRON	PRO	_	7	nsubj	_	_
+7	answered	_	VERB	VBD	VerbForm=0	1	conj	_	_
+8	,	_	ADP	PUNC	_	7	dep	_	_
+9	that	_	SCONJ	C	_	11	mark	_	_
+10	she	_	PRON	PRO	_	11	nsubj	_	_
+11	thovght	_	VERB	VBD	VerbForm=0	7	ccomp	_	_
+12	it	_	PRON	PRO	_	17	nsubj	_	_
+13	was	_	AUX	BED	VerbForm=0	17	cop	_	_
+14	not	_	ADV	NEG	_	17	advmod	_	_
+15	in	_	ADP	P	_	17	case	_	_
+16	the	_	DET	D	Number=0	17	det	_	_
+17	enditement	_	NOUN	N	Definite=0|Number=0	11	ccomp	_	_
+18	,	_	ADP	PUNC	_	7	dep	_	_
+19	CECIL,45.50	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.51
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER and willed me to send to know with all spede, so as if it war not ther in conteyned, she had a mind to have no speche therof, a thyng to me very strang . Wherfor I pray yow, Sir, with all spede send to the attornay for the endytment, and to send word hereof with that spede that yow may . CECIL,45.51
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	and	_	CCONJ	CONJ	_	5	cc	_	_
+5	willed	_	VERB	VBD	VerbForm=0	1	conj	_	_
+6	me	_	PRON	PRO	_	5	obj	_	_
+7	to	_	PART	TO	_	8	mark	_	_
+8	send	_	VERB	VB	VerbForm=0	5	xcomp	_	_
+9	to	_	PART	TO	_	10	advcl	_	_
+10	know	_	VERB	VB	VerbForm=0	8	advcl	_	_
+11	with	_	ADP	P	_	13	case	_	_
+12	all	_	DET	Q	Degree=0	13	amod	_	_
+13	spede	_	NOUN	N	Definite=0|Number=0	10	obl	_	_
+14	,	_	ADP	PUNC	_	5	dep	_	_
+15	so	_	ADP	P	_	26	case	_	_
+16	as	_	ADP	P	_	26	case	_	_
+17	if	_	ADP	P	_	23	case	_	_
+18	it	_	PRON	PRO	_	23	nsubj	_	_
+19	war	_	AUX	BED	VerbForm=0	23	cop	_	_
+20	not	_	ADV	NEG	_	23	advmod	_	_
+21	ther	_	ADV	ADV	Degree=0	23	obl	_	_
+22	in	_	ADP	P	_	21	case	_	_
+23	conteyned	_	VERB	VAN	Tense=0|VerbForm=0	26	obl	_	_
+24	,	_	ADP	PUNC	_	26	dep	_	_
+25	she	_	PRON	PRO	_	26	nsubj	_	_
+26	had	_	AUX	HVD	VerbForm=0	5	obl	_	_
+27	a	_	DET	D	Number=0	26	obj	_	_
+28	mind	_	NOUN	N	Definite=0|Number=0	27	conj	_	_
+29	to	_	PART	TO	_	31	mark	_	_
+30	have	_	AUX	HV	VerbForm=0	31	aux	_	_
+31	no	_	DET	Q	Degree=0	27	xcomp	_	_
+32	speche	_	NOUN	N	Definite=0|Number=0	31	conj	_	_
+33	therof	_	ADP	P	_	31	obl	_	_
+34	,	_	ADP	PUNC	_	26	dep	_	_
+35	a	_	DET	D	Number=0	26	acl	_	_
+36	thyng	_	NOUN	N	Definite=0|Number=0	35	conj	_	_
+37	to	_	ADP	P	_	38	case	_	_
+38	me	_	PRON	PRO	_	35	obl	_	_
+39	very	_	ADV	ADV	Degree=0	35	amod	_	_
+40	strang	_	ADJ	ADJ	Degree=0	39	amod	_	_
+41	.	_	ADP	PUNC	_	5	dep	_	_
+42	Wherfor	_	ADP	P	_	5	acl:relcl	_	_
+43	I	_	PRON	PRO	_	44	nsubj	_	_
+44	pray	_	VERB	VBP	VerbForm=0	52	parataxis	_	_
+45	yow	_	PRON	PRO	_	44	iobj	_	_
+46	,	_	ADP	PUNC	_	52	dep	_	_
+47	Sir	_	NOUN	N	Definite=0|Number=0	52	vocative	_	_
+48	,	_	ADP	PUNC	_	52	dep	_	_
+49	with	_	ADP	P	_	51	case	_	_
+50	all	_	DET	Q	Degree=0	51	amod	_	_
+51	spede	_	NOUN	N	Definite=0|Number=0	52	obl	_	_
+52	send	_	VERB	VBI	Mood=0|VerbForm=0	42	ccomp	_	_
+53	to	_	ADP	P	_	55	case	_	_
+54	the	_	DET	D	Number=0	55	det	_	_
+55	attornay	_	NOUN	N	Definite=0|Number=0	52	obl	_	_
+56	for	_	ADP	P	_	58	case	_	_
+57	the	_	DET	D	Number=0	58	det	_	_
+58	endytment	_	NOUN	N	Definite=0|Number=0	52	obl	_	_
+59	,	_	ADP	PUNC	_	52	dep	_	_
+60	and	_	CCONJ	CONJ	_	62	cc	_	_
+61	to	_	PART	TO	_	62	mark	_	_
+62	send	_	VERB	VB	VerbForm=0	52	ccomp	_	_
+63	word	_	NOUN	N	Definite=0|Number=0	62	obj	_	_
+64	hereof	_	ADP	P	_	63	obl	_	_
+65	with	_	ADP	P	_	67	case	_	_
+66	that	_	DET	D	Number=0	67	det	_	_
+67	spede	_	NOUN	N	Definite=0|Number=0	62	obl	_	_
+68	that	_	SCONJ	C	_	70	mark	_	_
+69	yow	_	PRON	PRO	_	70	nsubj	_	_
+70	may	_	AUX	MD	VerbForm=0	67	acl:relcl	_	_
+71	.	_	ADP	PUNC	_	5	dep	_	_
+72	CECIL,45.51	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.52
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER Beside this, she commanded me to wryte, that when the judg shall gyve the judgment for the mannor of the deth, which she sayth must be doone accordyng to the vsuall form, yet in the end of the sentence, he may saye that such is the form, vsuall, but yet consideryng this manner of horrible treason ageynst hir Majesties own person hath not bene hard of in this kyngdom, CECIL,45.52
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Beside	_	ADP	P	_	5	case	_	_
+5	this	_	DET	D	Number=0	8	obl	_	_
+6	,	_	ADP	PUNC	_	8	dep	_	_
+7	she	_	PRON	PRO	_	8	nsubj	_	_
+8	commanded	_	VERB	VBD	VerbForm=0	1	conj	_	_
+9	me	_	PRON	PRO	_	8	iobj	_	_
+10	to	_	PART	TO	_	11	mark	_	_
+11	wryte	_	VERB	VB	VerbForm=0	8	xcomp	_	_
+12	,	_	ADP	PUNC	_	11	dep	_	_
+13	that	_	SCONJ	C	_	50	mark	_	_
+14	when	_	ADP	P	_	18	case	_	_
+15	the	_	DET	D	Number=0	18	nsubj	_	_
+16	judg	_	NOUN	N	Definite=0|Number=0	15	conj	_	_
+17	shall	_	AUX	MD	VerbForm=0	18	aux	_	_
+18	gyve	_	VERB	VB	VerbForm=0	50	obl	_	_
+19	the	_	DET	D	Number=0	18	obj	_	_
+20	judgment	_	NOUN	N	Definite=0|Number=0	19	conj	_	_
+21	for	_	ADP	P	_	23	case	_	_
+22	the	_	DET	D	Number=0	23	det	_	_
+23	mannor	_	NOUN	N	Definite=0|Number=0	19	obl	_	_
+24	of	_	ADP	P	_	26	case	_	_
+25	the	_	DET	D	Number=0	26	det	_	_
+26	deth	_	NOUN	N	Definite=0|Number=0	23	obl	_	_
+27	,	_	ADP	PUNC	_	18	dep	_	_
+28	which	_	PRON	WPRO	_	30	obj	_	_
+29	she	_	PRON	PRO	_	30	nsubj	_	_
+30	sayth	_	VERB	VBP	VerbForm=0	18	acl:relcl	_	_
+31	must	_	AUX	MD	VerbForm=0	33	aux	_	_
+32	be	_	AUX	BE	VerbForm=0	33	cop	_	_
+33	doone	_	VERB	DAN	Tense=0|VerbForm=0	30	ccomp	_	_
+34	accordyng	_	VERB	VAG	Tense=0|VerbForm=0	33	advcl	_	_
+35	to	_	ADP	P	_	38	case	_	_
+36	the	_	DET	D	Number=0	38	det	_	_
+37	vsuall	_	ADJ	ADJ	Degree=0	38	amod	_	_
+38	form	_	NOUN	N	Definite=0|Number=0	34	obl	_	_
+39	,	_	ADP	PUNC	_	50	dep	_	_
+40	yet	_	ADV	ADV	Degree=0	50	advmod	_	_
+41	in	_	ADP	P	_	43	case	_	_
+42	the	_	DET	D	Number=0	43	det	_	_
+43	end	_	NOUN	N	Definite=0|Number=0	50	obl	_	_
+44	of	_	ADP	P	_	46	case	_	_
+45	the	_	DET	D	Number=0	46	det	_	_
+46	sentence	_	NOUN	N	Definite=0|Number=0	43	obl	_	_
+47	,	_	ADP	PUNC	_	50	dep	_	_
+48	he	_	PRON	PRO	_	50	nsubj	_	_
+49	may	_	AUX	MD	VerbForm=0	50	aux	_	_
+50	saye	_	VERB	VB	VerbForm=0	11	ccomp	_	_
+51	that	_	SCONJ	C	_	52	mark	_	_
+52	such	_	PRON	SUCH	_	50	ccomp	_	_
+53	is	_	AUX	BEP	VerbForm=0	52	cop	_	_
+54	the	_	DET	D	Number=0	52	nsubj	_	_
+55	form	_	NOUN	N	Definite=0|Number=0	54	conj	_	_
+56	,	_	ADP	PUNC	_	54	dep	_	_
+57	vsuall	_	ADJ	ADJ	Degree=0	54	amod	_	_
+58	,	_	ADP	PUNC	_	52	dep	_	_
+59	but	_	CCONJ	CONJ	_	75	cc	_	_
+60	yet	_	ADV	ADV	Degree=0	75	advmod	_	_
+61	consideryng	_	VERB	VAG	Tense=0|VerbForm=0	75	advcl	_	_
+62	this	_	DET	D	Number=0	61	obj	_	_
+63	manner	_	NOUN	N	Definite=0|Number=0	62	conj	_	_
+64	of	_	ADP	P	_	66	case	_	_
+65	horrible	_	ADJ	ADJ	Degree=0	66	amod	_	_
+66	treason	_	NOUN	N	Definite=0|Number=0	62	obl	_	_
+67	ageynst	_	ADP	P	_	68	case	_	_
+68	hir	_	ADP	PRO$	_	66	obl	_	_
+69	Majesties	_	NOUN	N$	Definite=0|Number=0	68	dep	_	_
+70	own	_	ADJ	ADJ	Degree=0	68	amod	_	_
+71	person	_	NOUN	N	Definite=0|Number=0	68	conj	_	_
+72	hath	_	AUX	HVP	VerbForm=0	75	aux	_	_
+73	not	_	ADV	NEG	_	75	advmod	_	_
+74	bene	_	AUX	BEN	Tense=0|VerbForm=0	75	cop	_	_
+75	hard	_	VERB	VAN	Tense=0|VerbForm=0	52	conj	_	_
+76	of	_	ADP	P	_	75	obl	_	_
+77	in	_	ADP	P	_	79	case	_	_
+78	this	_	DET	D	Number=0	79	det	_	_
+79	kyngdom	_	NOUN	N	Definite=0|Number=0	75	obl	_	_
+80	,	_	ADP	PUNC	_	8	dep	_	_
+81	CECIL,45.52	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.53
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER it is reason that the manner of ther deth for more terror be referred to hir Majesty and hir Counsell . CECIL,45.53
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	it	_	PRON	PRO	_	6	nsubj	_	_
+5	is	_	AUX	BEP	VerbForm=0	6	cop	_	_
+6	reason	_	NOUN	N	Definite=0|Number=0	1	conj	_	_
+7	that	_	SCONJ	C	_	17	mark	_	_
+8	the	_	DET	D	Number=0	17	nsubj	_	_
+9	manner	_	NOUN	N	Definite=0|Number=0	8	conj	_	_
+10	of	_	ADP	P	_	12	case	_	_
+11	ther	_	ADP	PRO$	_	12	dep	_	_
+12	deth	_	NOUN	N	Definite=0|Number=0	8	obl	_	_
+13	for	_	ADP	P	_	15	case	_	_
+14	more	_	DET	QR	Degree=0	15	amod	_	_
+15	terror	_	NOUN	N	Definite=0|Number=0	17	obl	_	_
+16	be	_	AUX	BEP	VerbForm=0	17	cop	_	_
+17	referred	_	VERB	VAN	Tense=0|VerbForm=0	6	ccomp	_	_
+18	to	_	ADP	P	_	20	case	_	_
+19	hir	_	ADP	PRO$	_	20	dep	_	_
+20	Majesty	_	NOUN	N	Definite=0|Number=0	17	obl	_	_
+21	and	_	CCONJ	CONJ	_	23	cc	_	_
+22	hir	_	ADP	PRO$	_	23	dep	_	_
+23	Counsell	_	NOUN	N	Definite=0|Number=0	20	conj	_	_
+24	.	_	ADP	PUNC	_	6	dep	_	_
+25	CECIL,45.53	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.54
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER I told hir Majesty that if the fashion of the execution shall be duly and orderly executed, by protractyng of the same both to the extremite of the paynes in the action, and to the sight of the people to behold it, the manner of the deth wold be as terrible as any other new devise cold be, CECIL,45.54
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	I	_	PRON	PRO	_	5	nsubj	_	_
+5	told	_	VERB	VBD	VerbForm=0	1	conj	_	_
+6	hir	_	PRON	PRO	_	7	nmod	_	_
+7	Majesty	_	NOUN	N	Definite=0|Number=0	5	iobj	_	_
+8	that	_	SCONJ	C	_	54	mark	_	_
+9	if	_	ADP	P	_	20	case	_	_
+10	the	_	DET	D	Number=0	20	nsubj	_	_
+11	fashion	_	NOUN	N	Definite=0|Number=0	10	conj	_	_
+12	of	_	ADP	P	_	14	case	_	_
+13	the	_	DET	D	Number=0	14	det	_	_
+14	execution	_	NOUN	N	Definite=0|Number=0	10	obl	_	_
+15	shall	_	AUX	MD	VerbForm=0	20	aux	_	_
+16	be	_	AUX	BE	VerbForm=0	20	cop	_	_
+17	duly	_	ADV	ADV	Degree=0	20	advmod	_	_
+18	and	_	CCONJ	CONJ	_	19	cc	_	_
+19	orderly	_	ADV	ADV	Degree=0	17	conj	_	_
+20	executed	_	VERB	VAN	Tense=0|VerbForm=0	54	obl	_	_
+21	,	_	ADP	PUNC	_	54	dep	_	_
+22	by	_	ADP	P	_	23	case	_	_
+23	protractyng	_	NOUN	N	Definite=0|Number=0	54	obl	_	_
+24	of	_	ADP	P	_	26	case	_	_
+25	the	_	DET	D	Number=0	26	det	_	_
+26	same	_	ADJ	ADJ	Degree=0	23	obl	_	_
+27	both	_	CCONJ	CONJ	_	30	cc	_	_
+28	to	_	ADP	P	_	30	case	_	_
+29	the	_	DET	D	Number=0	30	det	_	_
+30	extremite	_	NOUN	N	Definite=0|Number=0	23	obl	_	_
+31	of	_	ADP	P	_	33	case	_	_
+32	the	_	DET	D	Number=0	33	det	_	_
+33	paynes	_	NOUN	NS	Definite=0|Number=0	30	obl	_	_
+34	in	_	ADP	P	_	36	case	_	_
+35	the	_	DET	D	Number=0	36	det	_	_
+36	action	_	NOUN	N	Definite=0|Number=0	33	obl	_	_
+37	,	_	ADP	PUNC	_	30	dep	_	_
+38	and	_	CCONJ	CONJ	_	41	cc	_	_
+39	to	_	ADP	P	_	41	case	_	_
+40	the	_	DET	D	Number=0	41	det	_	_
+41	sight	_	NOUN	N	Definite=0|Number=0	30	conj	_	_
+42	of	_	ADP	P	_	44	case	_	_
+43	the	_	DET	D	Number=0	44	det	_	_
+44	people	_	NOUN	N	Definite=0|Number=0	41	obl	_	_
+45	to	_	PART	TO	_	46	mark	_	_
+46	behold	_	VERB	VB	VerbForm=0	44	xcomp	_	_
+47	it	_	PRON	PRO	_	46	obj	_	_
+48	,	_	ADP	PUNC	_	54	dep	_	_
+49	the	_	DET	D	Number=0	54	nsubj	_	_
+50	manner	_	NOUN	N	Definite=0|Number=0	49	conj	_	_
+51	of	_	ADP	P	_	53	case	_	_
+52	the	_	DET	D	Number=0	53	det	_	_
+53	deth	_	NOUN	N	Definite=0|Number=0	49	obl	_	_
+54	wold	_	AUX	MD	VerbForm=0	5	ccomp	_	_
+55	be	_	AUX	BE	VerbForm=0	54	cop	_	_
+56	as	_	ADV	ADVR	Degree=0	54	amod	_	_
+57	terrible	_	ADJ	ADJ	Degree=0	56	amod	_	_
+58	as	_	ADP	P	_	63	case	_	_
+59	any	_	DET	Q	Degree=0	63	nsubj	_	_
+60	other	_	PRON	OTHER	_	59	det	_	_
+61	new	_	ADJ	ADJ	Degree=0	59	amod	_	_
+62	devise	_	NOUN	N	Definite=0|Number=0	59	conj	_	_
+63	cold	_	AUX	MD	VerbForm=0	56	amod	_	_
+64	be	_	AUX	BE	VerbForm=0	63	cop	_	_
+65	,	_	ADP	PUNC	_	5	dep	_	_
+66	CECIL,45.54	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.55
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER but therwith hir Majesty was not satisfyed, CECIL,45.55
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	but	_	CCONJ	CONJ	_	1	ccomp	_	_
+5	therwith	_	ADP	P	_	4	obl	_	_
+6	hir	_	ADP	PRO$	_	4	nsubj	_	_
+7	Majesty	_	NOUN	N	Definite=0|Number=0	6	conj	_	_
+8	was	_	AUX	BED	VerbForm=0	4	cop	_	_
+9	not	_	ADV	NEG	_	4	advmod	_	_
+10	satisfyed	_	VERB	VAN	Tense=0|VerbForm=0	4	ccomp	_	_
+11	,	_	ADP	PUNC	_	4	dep	_	_
+12	CECIL,45.55	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.56
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER but commanded me thus to wryte to yow, to declare it to the judg, and others of the Counsell ther . CECIL,45.56
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	but	_	CCONJ	CONJ	_	5	cc	_	_
+5	commanded	_	VERB	VBD	VerbForm=0	1	conj	_	_
+6	me	_	PRON	PRO	_	5	iobj	_	_
+7	thus	_	ADV	ADV	Degree=0	9	advmod	_	_
+8	to	_	PART	TO	_	9	mark	_	_
+9	wryte	_	VERB	VB	VerbForm=0	5	xcomp	_	_
+10	to	_	ADP	P	_	11	case	_	_
+11	yow	_	PRON	PRO	_	9	obl	_	_
+12	,	_	ADP	PUNC	_	9	dep	_	_
+13	to	_	PART	TO	_	14	mark	_	_
+14	declare	_	VERB	VB	VerbForm=0	9	xcomp	_	_
+15	it	_	PRON	PRO	_	14	obj	_	_
+16	to	_	ADP	P	_	18	case	_	_
+17	the	_	DET	D	Number=0	18	det	_	_
+18	judg	_	NOUN	N	Definite=0|Number=0	14	obl	_	_
+19	,	_	ADP	PUNC	_	18	dep	_	_
+20	and	_	CCONJ	CONJ	_	21	cc	_	_
+21	others	_	PRON	OTHERS	_	18	conj	_	_
+22	of	_	ADP	P	_	24	case	_	_
+23	the	_	DET	D	Number=0	24	det	_	_
+24	Counsell	_	NOUN	N	Definite=0|Number=0	21	obl	_	_
+25	ther	_	ADV	ADV	Degree=0	21	advmod	_	_
+26	.	_	ADP	PUNC	_	5	dep	_	_
+27	CECIL,45.56	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.57
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.58
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER And so, making hast because hir Majesty may have answer this daye and hir plesvr also knowe in tyme, I end . CECIL,46.58
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	And	_	CCONJ	CONJ	_	26	cc	_	_
+5	so	_	ADV	ADV	Degree=0	26	advmod	_	_
+6	,	_	ADP	PUNC	_	26	dep	_	_
+7	making	_	VERB	VAG	Tense=0|VerbForm=0	26	advcl	_	_
+8	hast	_	NOUN	N	Definite=0|Number=0	7	obj	_	_
+9	because	_	ADP	P	_	13	case	_	_
+10	hir	_	ADP	PRO$	_	13	nsubj	_	_
+11	Majesty	_	NOUN	N	Definite=0|Number=0	10	conj	_	_
+12	may	_	AUX	MD	VerbForm=0	13	aux	_	_
+13	have	_	AUX	HV	VerbForm=0	7	obl	_	_
+14	answer	_	NOUN	N	Definite=0|Number=0	13	obj	_	_
+15	this	_	DET	D	Number=0	13	obl	_	_
+16	daye	_	NOUN	N	Definite=0|Number=0	15	conj	_	_
+17	and	_	CCONJ	CONJ	_	13	cc	_	_
+18	hir	_	ADP	PRO$	_	13	obj	_	_
+19	plesvr	_	NOUN	N	Definite=0|Number=0	18	conj	_	_
+20	also	_	ADV	ALSO	_	13	advmod	_	_
+21	knowe	_	VERB	VB	VerbForm=0	13	dep	_	_
+22	in	_	ADP	P	_	23	case	_	_
+23	tyme	_	NOUN	N	Definite=0|Number=0	13	obl	_	_
+24	,	_	ADP	PUNC	_	26	dep	_	_
+25	I	_	PRON	PRO	_	26	nsubj	_	_
+26	end	_	VERB	VBP	VerbForm=0	1	ccomp	_	_
+27	.	_	ADP	PUNC	_	26	dep	_	_
+28	CECIL,46.58	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.59
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER From Wyndsor Castel, 12 of September, 1586, past tenn of clock . CECIL,46.59
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	From	_	ADP	P	_	5	case	_	_
+5	Wyndsor	_	PROPN	NPR	_	8	obl	_	_
+6	Castel	_	PROPN	NPR	_	5	flat:name	_	_
+7	,	_	ADP	PUNC	_	8	dep	_	_
+8	12	_	NUM	NUM	_	1	xcomp	_	_
+9	of	_	ADP	P	_	10	case	_	_
+10	September	_	PROPN	NPR	_	8	obl	_	_
+11	,	_	ADP	PUNC	_	8	dep	_	_
+12	1586	_	NUM	NUM	_	8	nummod	_	_
+13	,	_	ADP	PUNC	_	8	dep	_	_
+14	past	_	ADP	P	_	15	case	_	_
+15	tenn	_	NUM	NUM	_	8	obl	_	_
+16	of	_	ADP	P	_	17	case	_	_
+17	clock	_	NOUN	N	Definite=0|Number=0	15	obl	_	_
+18	.	_	ADP	PUNC	_	8	dep	_	_
+19	CECIL,46.59	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.60
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER Yours assuredly, W. Burghley . CECIL,46.60
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Yours	_	ADP	PRO$	_	1	xcomp	_	_
+5	assuredly	_	ADV	ADV	Degree=0	4	advmod	_	_
+6	,	_	ADP	PUNC	_	4	dep	_	_
+7	W.	_	PROPN	NPR	_	4	obl	_	_
+8	Burghley	_	PROPN	NPR	_	7	flat:name	_	_
+9	.	_	ADP	PUNC	_	4	dep	_	_
+10	CECIL,46.60	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.61
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_002:E2:1586:AUTOGRAPH:OTHER PUNC To the Right Honorable Sir Christofer Hatton, knight, Vichamberlain to hir Majesty . CECIL,46.61
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_002:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	PUNC	PUNC	ADP	PUNC	_	9	dep	_	_
+5	To	_	ADP	P	_	9	case	_	_
+6	the	_	DET	D	Number=0	9	det	_	_
+7	Right	_	ADV	ADV	Degree=0	9	amod	_	_
+8	Honorable	_	ADJ	ADJ	Degree=0	7	amod	_	_
+9	Sir	_	PROPN	NPR	_	1	obl	_	_
+10	Christofer	_	PROPN	NPR	_	9	flat:name	_	_
+11	Hatton	_	PROPN	NPR	_	9	dep	_	_
+12	,	_	ADP	PUNC	_	9	dep	_	_
+13	knight	_	NOUN	N	Definite=0|Number=0	9	appos	_	_
+14	,	_	ADP	PUNC	_	9	dep	_	_
+15	Vichamberlain	_	NOUN	N	Definite=0|Number=0	9	appos	_	_
+16	to	_	ADP	P	_	18	case	_	_
+17	hir	_	ADP	PRO$	_	18	dep	_	_
+18	Majesty	_	NOUN	N	Definite=0|Number=0	15	obl	_	_
+19	.	_	ADP	PUNC	_	9	dep	_	_
+20	CECIL,46.61	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.62
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.63
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.64
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.65
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.66
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.67
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.68
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.69
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.70
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.71
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.72
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.73
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.74
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.75
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER After my very harty Commendations . I have receaved and shewed the lettre signed by yow and others of her Majesties Prive and Lerned Counsell, CECIL,46.75
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	After	_	ADP	P	_	8	case	_	_
+5	my	_	ADP	PRO$	_	8	dep	_	_
+6	very	_	ADV	ADV	Degree=0	8	amod	_	_
+7	harty	_	ADJ	ADJ	Degree=0	6	amod	_	_
+8	Commendations	_	NOUN	NS	Definite=0|Number=0	12	obl	_	_
+9	.	_	ADP	PUNC	_	12	dep	_	_
+10	I	_	PRON	PRO	_	12	nsubj	_	_
+11	have	_	AUX	HVP	VerbForm=0	12	aux	_	_
+12	receaved	_	VERB	VBN	Tense=0|VerbForm=0	1	conj	_	_
+13	and	_	CCONJ	CONJ	_	14	cc	_	_
+14	shewed	_	VERB	VBN	Tense=0|VerbForm=0	12	conj	_	_
+15	the	_	DET	D	Number=0	12	obj	_	_
+16	lettre	_	NOUN	N	Definite=0|Number=0	15	conj	_	_
+17	signed	_	VERB	VAN	Tense=0|VerbForm=0	15	acl:relcl	_	_
+18	by	_	ADP	P	_	19	case	_	_
+19	yow	_	PRON	PRO	_	17	obl	_	_
+20	and	_	CCONJ	CONJ	_	21	cc	_	_
+21	others	_	PRON	OTHERS	_	19	conj	_	_
+22	of	_	ADP	P	_	23	case	_	_
+23	her	_	ADP	PRO$	_	21	obl	_	_
+24	Majesties	_	NOUN	N$	Definite=0|Number=0	23	dep	_	_
+25	Prive	_	ADJ	ADJ	Degree=0	23	amod	_	_
+26	and	_	CCONJ	CONJ	_	25	amod	_	_
+27	Lerned	_	ADJ	ADJ	Degree=0	25	amod	_	_
+28	Counsell	_	NOUN	N	Definite=0|Number=0	23	obl	_	_
+29	,	_	ADP	PUNC	_	12	dep	_	_
+30	CECIL,46.75	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.76
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER and, settyng asyde myn opinion concurryng with the tenor of your lettre, I must delyver her Majesties answer resolvt . CECIL,46.76
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	and	_	CCONJ	CONJ	_	20	cc	_	_
+5	,	_	ADP	PUNC	_	20	dep	_	_
+6	settyng	_	VERB	VAG	Tense=0|VerbForm=0	20	advcl	_	_
+7	asyde	_	ADV	ADV	Degree=0	6	advmod	_	_
+8	myn	_	ADP	PRO$	_	6	obj	_	_
+9	opinion	_	NOUN	N	Definite=0|Number=0	8	conj	_	_
+10	concurryng	_	VERB	VAG	Tense=0|VerbForm=0	8	acl:relcl	_	_
+11	with	_	ADP	P	_	13	case	_	_
+12	the	_	DET	D	Number=0	13	det	_	_
+13	tenor	_	NOUN	N	Definite=0|Number=0	10	obl	_	_
+14	of	_	ADP	P	_	16	case	_	_
+15	your	_	ADP	PRO$	_	16	dep	_	_
+16	lettre	_	NOUN	N	Definite=0|Number=0	13	obl	_	_
+17	,	_	ADP	PUNC	_	20	dep	_	_
+18	I	_	PRON	PRO	_	20	nsubj	_	_
+19	must	_	AUX	MD	VerbForm=0	20	aux	_	_
+20	delyver	_	VERB	VB	VerbForm=0	1	conj	_	_
+21	her	_	ADP	PRO$	_	20	obj	_	_
+22	Majesties	_	NOUN	N$	Definite=0|Number=0	21	dep	_	_
+23	answer	_	NOUN	N	Definite=0|Number=0	21	conj	_	_
+24	resolvt	_	VERB	VAN	Tense=0|VerbForm=0	21	acl:relcl	_	_
+25	.	_	ADP	PUNC	_	20	dep	_	_
+26	CECIL,46.76	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.77
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER She semeth to mislyke that the particularetyis of the Scotish Quene lettres war conteaned in the indytment, CECIL,46.77
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	She	_	PRON	PRO	_	5	nsubj	_	_
+5	semeth	_	VERB	VBP	VerbForm=0	1	conj	_	_
+6	to	_	PART	TO	_	7	mark	_	_
+7	mislyke	_	VERB	VB	VerbForm=0	5	xcomp	_	_
+8	that	_	SCONJ	C	_	17	mark	_	_
+9	the	_	DET	D	Number=0	17	nsubj	_	_
+10	particularetyis	_	NOUN	NS	Definite=0|Number=0	9	conj	_	_
+11	of	_	ADP	P	_	12	case	_	_
+12	the	_	DET	D	Number=0	9	obl	_	_
+13	Scotish	_	ADJ	ADJ	Degree=0	12	amod	_	_
+14	Quene	_	NOUN	N$	Definite=0|Number=0	12	dep	_	_
+15	lettres	_	NOUN	NS	Definite=0|Number=0	12	conj	_	_
+16	war	_	AUX	BED	VerbForm=0	17	cop	_	_
+17	conteaned	_	VERB	VAN	Tense=0|VerbForm=0	7	ccomp	_	_
+18	in	_	ADP	P	_	20	case	_	_
+19	the	_	DET	D	Number=0	20	det	_	_
+20	indytment	_	NOUN	N	Definite=0|Number=0	17	obl	_	_
+21	,	_	ADP	PUNC	_	5	dep	_	_
+22	CECIL,46.77	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.78
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER but how soever I allowed therof, and hir Majesty mislykyng, yet now I concluded with hir Majesty ther was no remedy left to change that, CECIL,46.78
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	but	_	CCONJ	CONJ	_	19	cc	_	_
+5	how	_	ADV	WADV	Degree=0	8	advmod	_	_
+6	soever	_	ADV	ADV	Degree=0	5	advmod	_	_
+7	I	_	PRON	PRO	_	8	nsubj	_	_
+8	allowed	_	ADV	VBD	VerbForm=0	19	advmod	_	_
+9	therof	_	ADP	P	_	8	obl	_	_
+10	,	_	ADP	PUNC	_	9	dep	_	_
+11	and	_	CCONJ	CONJ	_	12	cc	_	_
+12	hir	_	ADP	PRO$	_	9	conj	_	_
+13	Majesty	_	NOUN	N$	Definite=0|Number=0	12	dep	_	_
+14	mislykyng	_	NOUN	N	Definite=0|Number=0	12	conj	_	_
+15	,	_	ADP	PUNC	_	19	dep	_	_
+16	yet	_	ADV	ADV	Degree=0	19	advmod	_	_
+17	now	_	ADV	ADV	Degree=0	19	advmod	_	_
+18	I	_	PRON	PRO	_	19	nsubj	_	_
+19	concluded	_	VERB	VBD	VerbForm=0	1	conj	_	_
+20	with	_	ADP	P	_	22	case	_	_
+21	hir	_	PRON	PRO	_	22	nmod	_	_
+22	Majesty	_	NOUN	N	Definite=0|Number=0	19	obl	_	_
+23	ther	_	X	EX	_	27	dep	_	_
+24	was	_	AUX	BED	VerbForm=0	27	cop	_	_
+25	no	_	DET	Q	Degree=0	26	amod	_	_
+26	remedy	_	NOUN	N	Definite=0|Number=0	27	obl	_	_
+27	left	_	ADJ	ADJ	Degree=0	19	ccomp	_	_
+28	to	_	PART	TO	_	29	mark	_	_
+29	change	_	VERB	VB	VerbForm=0	27	xcomp	_	_
+30	that	_	DET	D	Number=0	29	obj	_	_
+31	,	_	ADP	PUNC	_	19	dep	_	_
+32	CECIL,46.78	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.79
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER and for the prosequutyng therof in delyveryng of the evidence, hir pleasvr is that ther be no enlargment of hir cryme, but breffly declared for mayntenance of the endytment, that she allowed of Babyntons wrytyng or lettre . CECIL,46.79
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	and	_	CCONJ	CONJ	_	7	cc	_	_
+5	for	_	ADP	P	_	7	case	_	_
+6	the	_	DET	D	Number=0	7	det	_	_
+7	prosequutyng	_	NOUN	N	Definite=0|Number=0	1	conj	_	_
+8	therof	_	ADP	P	_	7	obl	_	_
+9	in	_	ADP	P	_	10	case	_	_
+10	delyveryng	_	NOUN	N	Definite=0|Number=0	7	obl	_	_
+11	of	_	ADP	P	_	13	case	_	_
+12	the	_	DET	D	Number=0	13	det	_	_
+13	evidence	_	NOUN	N	Definite=0|Number=0	10	obl	_	_
+14	,	_	ADP	PUNC	_	7	dep	_	_
+15	hir	_	ADP	PRO$	_	7	nsubj	_	_
+16	pleasvr	_	NOUN	N	Definite=0|Number=0	15	conj	_	_
+17	is	_	AUX	BEP	VerbForm=0	7	cop	_	_
+18	that	_	SCONJ	C	_	22	mark	_	_
+19	ther	_	X	EX	_	22	dep	_	_
+20	be	_	AUX	BEP	VerbForm=0	22	cop	_	_
+21	no	_	DET	Q	Degree=0	22	amod	_	_
+22	enlargment	_	NOUN	N	Definite=0|Number=0	7	ccomp	_	_
+23	of	_	ADP	P	_	25	case	_	_
+24	hir	_	ADP	PRO$	_	25	dep	_	_
+25	cryme	_	NOUN	N	Definite=0|Number=0	22	obl	_	_
+26	,	_	ADP	PUNC	_	22	dep	_	_
+27	but	_	CCONJ	CONJ	_	22	cc	_	_
+28	breffly	_	ADV	ADV	Degree=0	22	advmod	_	_
+29	declared	_	VERB	VAN	Tense=0|VerbForm=0	22	ccomp	_	_
+30	for	_	ADP	P	_	31	case	_	_
+31	mayntenance	_	NOUN	N	Definite=0|Number=0	22	obl	_	_
+32	of	_	ADP	P	_	34	case	_	_
+33	the	_	DET	D	Number=0	34	det	_	_
+34	endytment	_	NOUN	N	Definite=0|Number=0	31	obl	_	_
+35	,	_	ADP	PUNC	_	22	dep	_	_
+36	that	_	SCONJ	C	_	38	mark	_	_
+37	she	_	PRON	PRO	_	38	nsubj	_	_
+38	allowed	_	VERB	VBD	VerbForm=0	22	ccomp	_	_
+39	of	_	ADP	P	_	40	case	_	_
+40	Babyntons	_	NOUN	NPR$	_	38	obl	_	_
+41	wrytyng	_	NOUN	N	Definite=0|Number=0	40	conj	_	_
+42	or	_	CCONJ	CONJ	_	43	cc	_	_
+43	lettre	_	NOUN	N	Definite=0|Number=0	40	conj	_	_
+44	.	_	ADP	PUNC	_	7	dep	_	_
+45	CECIL,46.79	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.80
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER Nether wold she that ether by my Lord Cobham, your self, or by any other, any sharp speches be vsed in condemnation or reproof of the Scottis Quene cryme . CECIL,47.80
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Nether	_	CCONJ	CONJ	_	5	cc	_	_
+5	wold	_	VERB	VBD	VerbForm=0	1	ccomp	_	_
+6	she	_	PRON	PRO	_	5	nsubj	_	_
+7	that	_	SCONJ	C	_	26	mark	_	_
+8	ether	_	CCONJ	CONJ	_	11	cc	_	_
+9	by	_	ADP	P	_	11	case	_	_
+10	my	_	ADP	PRO$	_	11	dep	_	_
+11	Lord	_	NOUN	N	Definite=0|Number=0	26	obl	_	_
+12	Cobham	_	PROPN	NPR	_	11	appos	_	_
+13	,	_	ADP	PUNC	_	11	dep	_	_
+14	your	_	ADP	PRO$	_	15	dep	_	_
+15	self	_	NOUN	N	Definite=0|Number=0	11	conj	_	_
+16	,	_	ADP	PUNC	_	11	dep	_	_
+17	or	_	CCONJ	CONJ	_	20	cc	_	_
+18	by	_	ADP	P	_	20	case	_	_
+19	any	_	DET	Q	Degree=0	20	amod	_	_
+20	other	_	PRON	OTHER	_	11	conj	_	_
+21	,	_	ADP	PUNC	_	26	dep	_	_
+22	any	_	DET	Q	Degree=0	26	nsubj	_	_
+23	sharp	_	ADJ	ADJ	Degree=0	22	amod	_	_
+24	speches	_	NOUN	NS	Definite=0|Number=0	22	conj	_	_
+25	be	_	AUX	BEP	VerbForm=0	26	cop	_	_
+26	vsed	_	VERB	VAN	Tense=0|VerbForm=0	5	ccomp	_	_
+27	in	_	ADP	P	_	28	case	_	_
+28	condemnation	_	NOUN	N	Definite=0|Number=0	26	obl	_	_
+29	or	_	CCONJ	CONJ	_	30	cc	_	_
+30	reproof	_	NOUN	N	Definite=0|Number=0	28	conj	_	_
+31	of	_	ADP	P	_	32	case	_	_
+32	the	_	DET	D	Number=0	28	obl	_	_
+33	Scottis	_	ADJ	ADJ	Degree=0	32	amod	_	_
+34	Quene	_	NOUN	N$	Definite=0|Number=0	32	dep	_	_
+35	cryme	_	NOUN	N	Definite=0|Number=0	32	conj	_	_
+36	.	_	ADP	PUNC	_	5	dep	_	_
+37	CECIL,47.80	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.81
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER The only reason that hir Majesty alledgeth is, that when any of hir frendes or partisans shall, by this oppen procedyng, fynd hir in davnger, some what may be attempted to hir Majesties davnger of hir person in the meane tyme . CECIL,47.81
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	The	_	DET	D	Number=0	1	conj	_	_
+5	only	_	ADJ	ADJ	Degree=0	4	amod	_	_
+6	reason	_	NOUN	N	Definite=0|Number=0	4	conj	_	_
+7	that	_	SCONJ	C	_	10	mark	_	_
+8	hir	_	ADP	PRO$	_	10	nsubj	_	_
+9	Majesty	_	NOUN	N	Definite=0|Number=0	8	conj	_	_
+10	alledgeth	_	VERB	VBP	VerbForm=0	4	acl:relcl	_	_
+11	is	_	AUX	BEP	VerbForm=0	4	cop	_	_
+12	,	_	ADP	PUNC	_	4	dep	_	_
+13	that	_	SCONJ	C	_	37	mark	_	_
+14	when	_	ADP	P	_	28	case	_	_
+15	any	_	DET	Q	Degree=0	28	nsubj	_	_
+16	of	_	ADP	P	_	18	case	_	_
+17	hir	_	ADP	PRO$	_	18	dep	_	_
+18	frendes	_	NOUN	NS	Definite=0|Number=0	15	obl	_	_
+19	or	_	CCONJ	CONJ	_	20	cc	_	_
+20	partisans	_	NOUN	NS	Definite=0|Number=0	18	conj	_	_
+21	shall	_	AUX	MD	VerbForm=0	28	aux	_	_
+22	,	_	ADP	PUNC	_	28	dep	_	_
+23	by	_	ADP	P	_	26	case	_	_
+24	this	_	DET	D	Number=0	26	det	_	_
+25	oppen	_	ADJ	ADJ	Degree=0	26	amod	_	_
+26	procedyng	_	NOUN	N	Definite=0|Number=0	28	obl	_	_
+27	,	_	ADP	PUNC	_	28	dep	_	_
+28	fynd	_	VERB	VB	VerbForm=0	37	obl	_	_
+29	hir	_	PRON	PRO	_	28	obj	_	_
+30	in	_	ADP	P	_	31	case	_	_
+31	davnger	_	NOUN	N	Definite=0|Number=0	28	obl	_	_
+32	,	_	ADP	PUNC	_	37	dep	_	_
+33	some	_	DET	Q	Degree=0	37	nsubj	_	_
+34	what	_	PRON	WPRO	_	33	nmod	_	_
+35	may	_	AUX	MD	VerbForm=0	37	aux	_	_
+36	be	_	AUX	BE	VerbForm=0	37	cop	_	_
+37	attempted	_	VERB	VAN	Tense=0|VerbForm=0	4	ccomp	_	_
+38	to	_	ADP	P	_	39	case	_	_
+39	hir	_	ADP	PRO$	_	37	obl	_	_
+40	Majesties	_	NOUN	N$	Definite=0|Number=0	39	dep	_	_
+41	davnger	_	NOUN	N	Definite=0|Number=0	39	conj	_	_
+42	of	_	ADP	P	_	44	case	_	_
+43	hir	_	ADP	PRO$	_	44	dep	_	_
+44	person	_	NOUN	N	Definite=0|Number=0	39	obl	_	_
+45	in	_	ADP	P	_	48	case	_	_
+46	the	_	DET	D	Number=0	48	det	_	_
+47	meane	_	ADJ	ADJ	Degree=0	48	amod	_	_
+48	tyme	_	NOUN	N	Definite=0|Number=0	37	obl	_	_
+49	.	_	ADP	PUNC	_	4	dep	_	_
+50	CECIL,47.81	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.82
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER For the form in the jvdgment, hir Majesty is content it be kept, CECIL,47.82
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	For	_	ADP	P	_	6	case	_	_
+5	the	_	DET	D	Number=0	6	det	_	_
+6	form	_	NOUN	N	Definite=0|Number=0	14	obl	_	_
+7	in	_	ADP	P	_	9	case	_	_
+8	the	_	DET	D	Number=0	9	det	_	_
+9	jvdgment	_	NOUN	N	Definite=0|Number=0	6	obl	_	_
+10	,	_	ADP	PUNC	_	14	dep	_	_
+11	hir	_	ADP	PRO$	_	14	nsubj	_	_
+12	Majesty	_	NOUN	N	Definite=0|Number=0	11	conj	_	_
+13	is	_	AUX	BEP	VerbForm=0	14	cop	_	_
+14	content	_	ADJ	ADJ	Degree=0	1	conj	_	_
+15	it	_	PRON	PRO	_	17	nsubj	_	_
+16	be	_	AUX	BEP	VerbForm=0	17	cop	_	_
+17	kept	_	VERB	VAN	Tense=0|VerbForm=0	14	amod	_	_
+18	,	_	ADP	PUNC	_	14	dep	_	_
+19	CECIL,47.82	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.83
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER and so I wrot to_daye, CECIL,47.83
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	and	_	CCONJ	CONJ	_	7	cc	_	_
+5	so	_	ADV	ADV	Degree=0	7	advmod	_	_
+6	I	_	PRON	PRO	_	7	nsubj	_	_
+7	wrot	_	VERB	VBD	VerbForm=0	1	conj	_	_
+8	to_daye	_	NOUN	N	Definite=0|Number=0	7	obl	_	_
+9	,	_	ADP	PUNC	_	7	dep	_	_
+10	CECIL,47.83	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.84
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER but she will that it be added in the end, that nevertheless such an extraordinary cryme deserveth a furder extraordinary payne, which is to be left to hir Majesty and hir Covnsell to consider of . CECIL,47.84
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	but	_	CCONJ	CONJ	_	6	cc	_	_
+5	she	_	PRON	PRO	_	6	nsubj	_	_
+6	will	_	VERB	VBP	VerbForm=0	1	conj	_	_
+7	that	_	SCONJ	C	_	10	mark	_	_
+8	it	_	PRON	PRO	_	10	nsubj	_	_
+9	be	_	AUX	BEP	VerbForm=0	10	cop	_	_
+10	added	_	VERB	VAN	Tense=0|VerbForm=0	6	ccomp	_	_
+11	in	_	ADP	P	_	13	case	_	_
+12	the	_	DET	D	Number=0	13	det	_	_
+13	end	_	NOUN	N	Definite=0|Number=0	10	obl	_	_
+14	,	_	ADP	PUNC	_	10	dep	_	_
+15	that	_	SCONJ	C	_	21	mark	_	_
+16	nevertheless	_	ADV	ADV	Degree=0	21	advmod	_	_
+17	such	_	PRON	SUCH	_	21	nsubj	_	_
+18	an	_	DET	D	Number=0	17	det	_	_
+19	extraordinary	_	ADJ	ADJ	Degree=0	17	amod	_	_
+20	cryme	_	NOUN	N	Definite=0|Number=0	17	conj	_	_
+21	deserveth	_	VERB	VBP	VerbForm=0	10	ccomp	_	_
+22	a	_	DET	D	Number=0	21	obj	_	_
+23	furder	_	ADJ	ADJR	Degree=0	22	amod	_	_
+24	extraordinary	_	ADJ	ADJ	Degree=0	22	amod	_	_
+25	payne	_	NOUN	N	Definite=0|Number=0	22	conj	_	_
+26	,	_	ADP	PUNC	_	22	dep	_	_
+27	which	_	PRON	WPRO	_	31	obj	_	_
+28	is	_	AUX	BEP	VerbForm=0	31	cop	_	_
+29	to	_	PART	TO	_	31	mark	_	_
+30	be	_	AUX	BE	VerbForm=0	31	cop	_	_
+31	left	_	VERB	VAN	Tense=0|VerbForm=0	22	acl:relcl	_	_
+32	to	_	ADP	P	_	34	case	_	_
+33	hir	_	ADP	PRO$	_	34	dep	_	_
+34	Majesty	_	NOUN	N	Definite=0|Number=0	31	obl	_	_
+35	and	_	CCONJ	CONJ	_	37	cc	_	_
+36	hir	_	ADP	PRO$	_	37	dep	_	_
+37	Covnsell	_	NOUN	N	Definite=0|Number=0	34	conj	_	_
+38	to	_	PART	TO	_	39	mark	_	_
+39	consider	_	VERB	VB	VerbForm=0	31	xcomp	_	_
+40	of	_	ADP	P	_	39	obl	_	_
+41	.	_	ADP	PUNC	_	6	dep	_	_
+42	CECIL,47.84	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.85
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER Thus in hast I end, prayeng yow to commvnicat this, or as much as you shall thynk mete, to the rest of hir Majestis Counsell and jvdges . CECIL,47.85
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Thus	_	ADV	ADV	Degree=0	8	advmod	_	_
+5	in	_	ADP	P	_	6	case	_	_
+6	hast	_	NOUN	N	Definite=0|Number=0	8	obl	_	_
+7	I	_	PRON	PRO	_	8	nsubj	_	_
+8	end	_	VERB	VBP	VerbForm=0	1	conj	_	_
+9	,	_	ADP	PUNC	_	8	dep	_	_
+10	prayeng	_	VERB	VAG	Tense=0|VerbForm=0	8	advcl	_	_
+11	yow	_	PRON	PRO	_	10	iobj	_	_
+12	to	_	PART	TO	_	13	mark	_	_
+13	commvnicat	_	VERB	VB	VerbForm=0	10	xcomp	_	_
+14	this	_	DET	D	Number=0	17	obl	_	_
+15	,	_	ADP	PUNC	_	17	dep	_	_
+16	or	_	CCONJ	CONJ	_	17	cc	_	_
+17	as	_	ADV	ADVR	Degree=0	13	obj	_	_
+18	much	_	DET	Q	Degree=0	17	amod	_	_
+19	as	_	ADP	P	_	22	case	_	_
+20	you	_	PRON	PRO	_	22	nsubj	_	_
+21	shall	_	AUX	MD	VerbForm=0	22	aux	_	_
+22	thynk	_	VERB	VB	VerbForm=0	17	obl	_	_
+23	mete	_	ADJ	ADJ	Degree=0	22	ccomp	_	_
+24	,	_	ADP	PUNC	_	13	dep	_	_
+25	to	_	ADP	P	_	27	case	_	_
+26	the	_	DET	D	Number=0	27	det	_	_
+27	rest	_	NOUN	N	Definite=0|Number=0	13	obl	_	_
+28	of	_	ADP	P	_	29	case	_	_
+29	hir	_	ADP	PRO$	_	27	obl	_	_
+30	Majestis	_	NOUN	N$	Definite=0|Number=0	29	dep	_	_
+31	Counsell	_	NOUN	N	Definite=0|Number=0	29	conj	_	_
+32	and	_	CCONJ	CONJ	_	33	cc	_	_
+33	jvdges	_	NOUN	NS	Definite=0|Number=0	29	conj	_	_
+34	.	_	ADP	PUNC	_	8	dep	_	_
+35	CECIL,47.85	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.86
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER 12 Sept., at night, neare IX of the cloc . CECIL,47.86
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	12	_	NUM	NUM	_	1	xcomp	_	_
+5	Sept.	_	PROPN	NPR	_	4	dep	_	_
+6	,	_	ADP	PUNC	_	4	dep	_	_
+7	at	_	ADP	P	_	8	case	_	_
+8	night	_	NOUN	N	Definite=0|Number=0	4	obl	_	_
+9	,	_	ADP	PUNC	_	4	dep	_	_
+10	neare	_	ADJ	ADJ	Degree=0	4	amod	_	_
+11	IX	_	NUM	NUM	_	10	obl	_	_
+12	of	_	ADP	P	_	14	case	_	_
+13	the	_	DET	D	Number=0	14	det	_	_
+14	cloc	_	NOUN	N	Definite=0|Number=0	11	obl	_	_
+15	.	_	ADP	PUNC	_	4	dep	_	_
+16	CECIL,47.86	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.87
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_003:E2:1586:AUTOGRAPH:OTHER Yours assur : W. Burghley . CECIL,47.87
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_003:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Yours	_	ADP	PRO$	_	1	xcomp	_	_
+5	assur	_	ADV	ADV	Degree=0	4	advmod	_	_
+6	:	_	ADP	PUNC	_	4	dep	_	_
+7	W.	_	PROPN	NPR	_	4	obl	_	_
+8	Burghley	_	PROPN	NPR	_	7	flat:name	_	_
+9	.	_	ADP	PUNC	_	4	dep	_	_
+10	CECIL,47.87	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.88
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.89
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.90
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.91
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.92
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.93
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.94
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.95
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.96
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.97
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.98
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.99
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.100
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.101
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_004:E2:1586:AUTOGRAPH:OTHER Sir, I wrote late yesternight to yow as I took hir Majesties mynd to be, which I thynk was brought to yow in convenient tyme this morning . CECIL,48.101
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_004:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Sir	_	NOUN	N	Definite=0|Number=0	7	vocative	_	_
+5	,	_	ADP	PUNC	_	7	dep	_	_
+6	I	_	PRON	PRO	_	7	nsubj	_	_
+7	wrote	_	VERB	VBD	VerbForm=0	1	conj	_	_
+8	late	_	ADJ	ADJ	Degree=0	7	obl	_	_
+9	yesternight	_	NOUN	N	Definite=0|Number=0	8	conj	_	_
+10	to	_	ADP	P	_	11	case	_	_
+11	yow	_	PRON	PRO	_	7	obl	_	_
+12	as	_	SCONJ	C	_	14	mark	_	_
+13	I	_	PRON	PRO	_	14	nsubj	_	_
+14	took	_	VERB	VBD	VerbForm=0	7	obj	_	_
+15	hir	_	ADP	PRO$	_	19	nsubj	_	_
+16	Majesties	_	NOUN	N$	Definite=0|Number=0	15	dep	_	_
+17	mynd	_	NOUN	N	Definite=0|Number=0	15	conj	_	_
+18	to	_	PART	TO	_	19	mark	_	_
+19	be	_	AUX	BE	VerbForm=0	14	xcomp	_	_
+20	,	_	ADP	PUNC	_	7	dep	_	_
+21	which	_	PRON	WPRO	_	23	obj	_	_
+22	I	_	PRON	PRO	_	23	nsubj	_	_
+23	thynk	_	VERB	VBP	VerbForm=0	7	acl:relcl	_	_
+24	was	_	AUX	BED	VerbForm=0	25	cop	_	_
+25	brought	_	VERB	VAN	Tense=0|VerbForm=0	23	ccomp	_	_
+26	to	_	ADP	P	_	27	case	_	_
+27	yow	_	PRON	PRO	_	25	obl	_	_
+28	in	_	ADP	P	_	30	case	_	_
+29	convenient	_	ADJ	ADJ	Degree=0	30	amod	_	_
+30	tyme	_	NOUN	N	Definite=0|Number=0	25	obl	_	_
+31	this	_	DET	D	Number=0	25	obl	_	_
+32	morning	_	NOUN	N	Definite=0|Number=0	31	conj	_	_
+33	.	_	ADP	PUNC	_	7	dep	_	_
+34	CECIL,48.101	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.102
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_004:E2:1586:AUTOGRAPH:OTHER Nevertheless this after_noone she told me that she had sent both Mr. W. Killigrew, and Mr. Tho. Gorge vnto you, CECIL,48.102
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_004:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Nevertheless	_	ADV	ADV	Degree=0	8	advmod	_	_
+5	this	_	DET	D	Number=0	8	obl	_	_
+6	after_noone	_	NOUN	N	Definite=0|Number=0	5	conj	_	_
+7	she	_	PRON	PRO	_	8	nsubj	_	_
+8	told	_	VERB	VBD	VerbForm=0	1	conj	_	_
+9	me	_	PRON	PRO	_	8	iobj	_	_
+10	that	_	SCONJ	C	_	13	mark	_	_
+11	she	_	PRON	PRO	_	13	nsubj	_	_
+12	had	_	AUX	HVD	VerbForm=0	13	aux	_	_
+13	sent	_	VERB	VBN	Tense=0|VerbForm=0	8	ccomp	_	_
+14	both	_	CCONJ	CONJ	_	20	cc	_	_
+15	Mr.	_	PROPN	NPR	_	20	obl	_	_
+16	W.	_	PROPN	NPR	_	15	flat:name	_	_
+17	Killigrew	_	PROPN	NPR	_	15	dep	_	_
+18	,	_	ADP	PUNC	_	20	dep	_	_
+19	and	_	CCONJ	CONJ	_	20	cc	_	_
+20	Mr.	_	PROPN	NPR	_	13	obj	_	_
+21	Tho.	_	PROPN	NPR	_	20	flat:name	_	_
+22	Gorge	_	PROPN	NPR	_	20	dep	_	_
+23	vnto	_	ADP	P	_	24	case	_	_
+24	you	_	PRON	PRO	_	13	obl	_	_
+25	,	_	ADP	PUNC	_	8	dep	_	_
+26	CECIL,48.102	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.103
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_004:E2:1586:AUTOGRAPH:OTHER but what hir messadges wer I vnderstood not ; CECIL,48.103
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_004:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	but	_	CCONJ	CONJ	_	10	cc	_	_
+5	what	_	PRON	WPRO	_	10	dep	_	_
+6	hir	_	ADP	PRO$	_	5	conj	_	_
+7	messadges	_	NOUN	NS	Definite=0|Number=0	6	conj	_	_
+8	wer	_	AUX	BED	VerbForm=0	6	cop	_	_
+9	I	_	PRON	PRO	_	10	nsubj	_	_
+10	vnderstood	_	VERB	VBD	VerbForm=0	1	conj	_	_
+11	not	_	ADV	NEG	_	10	advmod	_	_
+12	;	_	ADP	PUNC	_	10	dep	_	_
+13	CECIL,48.103	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.104
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_004:E2:1586:AUTOGRAPH:OTHER and whylest she was spekyng hereof, Mr. Gorg cam with your lettre to me, subscribed by all ther in commission savyng ther wanted Mr. Tresorers name, CECIL,48.104
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_004:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	and	_	CCONJ	CONJ	_	13	cc	_	_
+5	whylest	_	ADP	P	_	8	case	_	_
+6	she	_	PRON	PRO	_	8	nsubj	_	_
+7	was	_	AUX	BED	VerbForm=0	8	cop	_	_
+8	spekyng	_	VERB	VAG	Tense=0|VerbForm=0	13	obl	_	_
+9	hereof	_	ADP	P	_	8	obl	_	_
+10	,	_	ADP	PUNC	_	13	dep	_	_
+11	Mr.	_	PROPN	NPR	_	13	nsubj	_	_
+12	Gorg	_	PROPN	NPR	_	11	flat:name	_	_
+13	cam	_	VERB	VBD	VerbForm=0	1	conj	_	_
+14	with	_	ADP	P	_	16	case	_	_
+15	your	_	ADP	PRO$	_	16	dep	_	_
+16	lettre	_	NOUN	N	Definite=0|Number=0	13	obl	_	_
+17	to	_	ADP	P	_	18	case	_	_
+18	me	_	PRON	PRO	_	16	obl	_	_
+19	,	_	ADP	PUNC	_	16	dep	_	_
+20	subscribed	_	VERB	VAN	Tense=0|VerbForm=0	16	acl:relcl	_	_
+21	by	_	ADP	P	_	22	case	_	_
+22	all	_	DET	Q	Degree=0	20	obl	_	_
+23	ther	_	ADV	ADV	Degree=0	22	advmod	_	_
+24	in	_	ADP	P	_	25	case	_	_
+25	commission	_	NOUN	N	Definite=0|Number=0	22	obl	_	_
+26	savyng	_	ADP	P	_	28	case	_	_
+27	ther	_	X	EX	_	28	dep	_	_
+28	wanted	_	VERB	VBD	VerbForm=0	20	obl	_	_
+29	Mr.	_	NOUN	N	Definite=0|Number=0	28	obl	_	_
+30	Tresorers	_	NOUN	N$	Definite=0|Number=0	29	dep	_	_
+31	name	_	NOUN	N	Definite=0|Number=0	29	conj	_	_
+32	,	_	ADP	PUNC	_	13	dep	_	_
+33	CECIL,48.104	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.105
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_004:E2:1586:AUTOGRAPH:OTHER and these lettres I red to hir Majesty, maynteaning the reason therof ageynst hir Majesties oppositions . CECIL,48.105
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_004:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	and	_	CCONJ	CONJ	_	8	cc	_	_
+5	these	_	DET	D	Number=0	8	obj	_	_
+6	lettres	_	NOUN	NS	Definite=0|Number=0	5	conj	_	_
+7	I	_	PRON	PRO	_	8	nsubj	_	_
+8	red	_	VERB	VBD	VerbForm=0	1	conj	_	_
+9	to	_	ADP	P	_	11	case	_	_
+10	hir	_	ADP	PRO$	_	11	dep	_	_
+11	Majesty	_	NOUN	N	Definite=0|Number=0	8	obl	_	_
+12	,	_	ADP	PUNC	_	8	dep	_	_
+13	maynteaning	_	VERB	VAG	Tense=0|VerbForm=0	8	advcl	_	_
+14	the	_	DET	D	Number=0	13	obj	_	_
+15	reason	_	NOUN	N	Definite=0|Number=0	14	conj	_	_
+16	therof	_	ADP	P	_	14	obl	_	_
+17	ageynst	_	ADP	P	_	18	case	_	_
+18	hir	_	ADP	PRO$	_	13	obl	_	_
+19	Majesties	_	NOUN	N$	Definite=0|Number=0	18	dep	_	_
+20	oppositions	_	NOUN	NS	Definite=0|Number=0	18	conj	_	_
+21	.	_	ADP	PUNC	_	8	dep	_	_
+22	CECIL,48.105	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.106
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_004:E2:1586:AUTOGRAPH:OTHER Mr. Gorg also at length declared your procedyng ageynst Savadg . CECIL,48.106
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_004:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Mr.	_	PROPN	NPR	_	9	nsubj	_	_
+5	Gorg	_	PROPN	NPR	_	4	flat:name	_	_
+6	also	_	ADV	ALSO	_	9	advmod	_	_
+7	at	_	ADP	P	_	8	case	_	_
+8	length	_	NOUN	N	Definite=0|Number=0	9	obl	_	_
+9	declared	_	VERB	VBD	VerbForm=0	1	conj	_	_
+10	your	_	ADP	PRO$	_	9	obj	_	_
+11	procedyng	_	NOUN	N	Definite=0|Number=0	10	conj	_	_
+12	ageynst	_	ADP	P	_	13	case	_	_
+13	Savadg	_	PROPN	NPR	_	10	obl	_	_
+14	.	_	ADP	PUNC	_	9	dep	_	_
+15	CECIL,48.106	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.107
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_004:E2:1586:AUTOGRAPH:OTHER And in the end, she is pleased that the lerned counsell shall procede in mayntenance and proves of the inditment as afor was ment, withovt any exacerbation or enlargment of the Queen of Scottes cryme more than shall be requisit for mayntenance of the endytment . CECIL,48.107
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_004:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	And	_	CCONJ	CONJ	_	11	cc	_	_
+5	in	_	ADP	P	_	7	case	_	_
+6	the	_	DET	D	Number=0	7	det	_	_
+7	end	_	NOUN	N	Definite=0|Number=0	11	obl	_	_
+8	,	_	ADP	PUNC	_	11	dep	_	_
+9	she	_	PRON	PRO	_	11	nsubj	_	_
+10	is	_	AUX	BEP	VerbForm=0	11	cop	_	_
+11	pleased	_	ADJ	ADJ	Degree=0	1	conj	_	_
+12	that	_	SCONJ	C	_	17	mark	_	_
+13	the	_	DET	D	Number=0	17	nsubj	_	_
+14	lerned	_	ADJ	ADJ	Degree=0	13	amod	_	_
+15	counsell	_	NOUN	N	Definite=0|Number=0	13	conj	_	_
+16	shall	_	AUX	MD	VerbForm=0	17	aux	_	_
+17	procede	_	VERB	VB	VerbForm=0	11	amod	_	_
+18	in	_	ADP	P	_	19	case	_	_
+19	mayntenance	_	NOUN	N	Definite=0|Number=0	17	obl	_	_
+20	and	_	CCONJ	CONJ	_	21	cc	_	_
+21	proves	_	NOUN	NS	Definite=0|Number=0	19	conj	_	_
+22	of	_	ADP	P	_	24	case	_	_
+23	the	_	DET	D	Number=0	24	det	_	_
+24	inditment	_	NOUN	N	Definite=0|Number=0	19	obl	_	_
+25	as	_	ADP	P	_	28	case	_	_
+26	afor	_	ADV	ADV	Degree=0	28	advmod	_	_
+27	was	_	AUX	BED	VerbForm=0	28	cop	_	_
+28	ment	_	VERB	VAN	Tense=0|VerbForm=0	17	obl	_	_
+29	,	_	ADP	PUNC	_	17	dep	_	_
+30	withovt	_	ADP	P	_	32	case	_	_
+31	any	_	DET	Q	Degree=0	32	amod	_	_
+32	exacerbation	_	NOUN	N	Definite=0|Number=0	17	obl	_	_
+33	or	_	CCONJ	CONJ	_	34	cc	_	_
+34	enlargment	_	NOUN	N	Definite=0|Number=0	32	conj	_	_
+35	of	_	ADP	P	_	36	case	_	_
+36	the	_	DET	D	Number=0	32	obl	_	_
+37	Queen	_	NOUN	N	Definite=0|Number=0	36	conj	_	_
+38	of	_	ADP	P	_	39	case	_	_
+39	Scottes	_	PROPN	NPRS	_	36	obl	_	_
+40	cryme	_	NOUN	N	Definite=0|Number=0	36	conj	_	_
+41	more	_	ADV	QR	Degree=0	32	advmod	_	_
+42	than	_	ADP	P	_	43	case	_	_
+43	shall	_	AUX	MD	VerbForm=0	32	obl	_	_
+44	be	_	AUX	BE	VerbForm=0	43	cop	_	_
+45	requisit	_	ADJ	ADJ	Degree=0	43	amod	_	_
+46	for	_	ADP	P	_	47	case	_	_
+47	mayntenance	_	NOUN	N	Definite=0|Number=0	45	amod	_	_
+48	of	_	ADP	P	_	50	case	_	_
+49	the	_	DET	D	Number=0	50	det	_	_
+50	endytment	_	NOUN	N	Definite=0|Number=0	47	obl	_	_
+51	.	_	ADP	PUNC	_	11	dep	_	_
+52	CECIL,48.107	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.108
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_004:E2:1586:AUTOGRAPH:OTHER And so, wishyng your redy procidyng withovt these kynd of stopps that can not but ingendre unconvenient opinions, althovgh hir Majesty semeth to have no other meaning but a forsight for suerty of hir own person, which God preserve above all ours, CECIL,48.108
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_004:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	And	_	CCONJ	CONJ	_	7	cc	_	_
+5	so	_	ADV	ADV	Degree=0	7	advmod	_	_
+6	,	_	ADP	PUNC	_	7	dep	_	_
+7	wishyng	_	VERB	VAG	Tense=0|VerbForm=0	1	acl	_	_
+8	your	_	ADP	PRO$	_	7	obj	_	_
+9	redy	_	ADJ	ADJ	Degree=0	8	amod	_	_
+10	procidyng	_	NOUN	N	Definite=0|Number=0	8	conj	_	_
+11	withovt	_	ADP	P	_	13	case	_	_
+12	these	_	DET	D	Number=0	13	det	_	_
+13	kynd	_	NOUN	N	Definite=0|Number=0	7	obl	_	_
+14	of	_	ADP	P	_	15	case	_	_
+15	stopps	_	NOUN	NS	Definite=0|Number=0	13	obl	_	_
+16	that	_	SCONJ	C	_	20	mark	_	_
+17	can	_	AUX	MD	VerbForm=0	20	aux	_	_
+18	not	_	ADV	NEG	_	20	advmod	_	_
+19	but	_	ADV	FP	Degree=0	20	advmod	_	_
+20	ingendre	_	VERB	VB	VerbForm=0	13	acl:relcl	_	_
+21	unconvenient	_	ADJ	ADJ	Degree=0	20	obj	_	_
+22	opinions	_	NOUN	NS	Definite=0|Number=0	21	conj	_	_
+23	,	_	ADP	PUNC	_	20	dep	_	_
+24	althovgh	_	ADP	P	_	27	case	_	_
+25	hir	_	ADP	PRO$	_	27	nsubj	_	_
+26	Majesty	_	NOUN	N	Definite=0|Number=0	25	conj	_	_
+27	semeth	_	VERB	VBP	VerbForm=0	20	obl	_	_
+28	to	_	PART	TO	_	30	mark	_	_
+29	have	_	AUX	HV	VerbForm=0	30	aux	_	_
+30	no	_	DET	Q	Degree=0	27	xcomp	_	_
+31	other	_	PRON	OTHER	_	30	det	_	_
+32	meaning	_	NOUN	N	Definite=0|Number=0	30	conj	_	_
+33	but	_	ADP	P	_	35	case	_	_
+34	a	_	DET	D	Number=0	35	det	_	_
+35	forsight	_	NOUN	N	Definite=0|Number=0	30	obl	_	_
+36	for	_	ADP	P	_	37	case	_	_
+37	suerty	_	NOUN	N	Definite=0|Number=0	35	obl	_	_
+38	of	_	ADP	P	_	41	case	_	_
+39	hir	_	ADP	PRO$	_	41	dep	_	_
+40	own	_	ADJ	ADJ	Degree=0	41	amod	_	_
+41	person	_	NOUN	N	Definite=0|Number=0	37	obl	_	_
+42	,	_	ADP	PUNC	_	41	dep	_	_
+43	which	_	PRON	WPRO	_	45	obj	_	_
+44	God	_	PROPN	NPR	_	45	nsubj	_	_
+45	preserve	_	VERB	VBP	VerbForm=0	41	acl:relcl	_	_
+46	above	_	ADP	P	_	47	case	_	_
+47	all	_	DET	Q	Degree=0	45	obl	_	_
+48	ours	_	ADP	PRO$	_	47	dep	_	_
+49	,	_	ADP	PUNC	_	7	dep	_	_
+50	CECIL,48.108	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.109
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_004:E2:1586:AUTOGRAPH:OTHER From Wyndsor, xiii Sept., past three . CECIL,48.109
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_004:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	From	_	ADP	P	_	5	case	_	_
+5	Wyndsor	_	PROPN	NPR	_	7	obl	_	_
+6	,	_	ADP	PUNC	_	7	dep	_	_
+7	xiii	_	NUM	NUM	_	1	xcomp	_	_
+8	Sept.	_	PROPN	NPR	_	7	dep	_	_
+9	,	_	ADP	PUNC	_	7	dep	_	_
+10	past	_	ADP	P	_	11	case	_	_
+11	three	_	NUM	NUM	_	7	obl	_	_
+12	.	_	ADP	PUNC	_	7	dep	_	_
+13	CECIL,48.109	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.110
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_004:E2:1586:AUTOGRAPH:OTHER Yours assuredly, W. Burghley . CECIL,48.110
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_004:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Yours	_	ADP	PRO$	_	1	xcomp	_	_
+5	assuredly	_	ADV	ADV	Degree=0	4	advmod	_	_
+6	,	_	ADP	PUNC	_	4	dep	_	_
+7	W.	_	PROPN	NPR	_	4	obl	_	_
+8	Burghley	_	PROPN	NPR	_	7	flat:name	_	_
+9	.	_	ADP	PUNC	_	4	dep	_	_
+10	CECIL,48.110	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.111
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_004:E2:1586:AUTOGRAPH:OTHER We here that the reports of X shipps of war at Conquest is not trew . CECIL,48.111
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_004:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	We	_	PRON	PRO	_	5	nsubj	_	_
+5	here	_	VERB	VBP	VerbForm=0	1	conj	_	_
+6	that	_	SCONJ	C	_	18	mark	_	_
+7	the	_	DET	D	Number=0	18	nsubj	_	_
+8	reports	_	NOUN	NS	Definite=0|Number=0	7	conj	_	_
+9	of	_	ADP	P	_	10	case	_	_
+10	X	_	NUM	NUM	_	7	obl	_	_
+11	shipps	_	NOUN	NS	Definite=0|Number=0	10	conj	_	_
+12	of	_	ADP	P	_	13	case	_	_
+13	war	_	NOUN	N	Definite=0|Number=0	10	obl	_	_
+14	at	_	ADP	P	_	15	case	_	_
+15	Conquest	_	PROPN	NPR	_	10	obl	_	_
+16	is	_	AUX	BEP	VerbForm=0	18	cop	_	_
+17	not	_	ADV	NEG	_	18	advmod	_	_
+18	trew	_	ADJ	ADJ	Degree=0	5	ccomp	_	_
+19	.	_	ADP	PUNC	_	5	dep	_	_
+20	CECIL,48.111	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.112
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.113
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.114
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.115
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.116
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.117
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.118
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.119
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.120
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.121
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.122
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.123
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.124
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.125
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_005:E2:1586:AUTOGRAPH:OTHER Sir, I wrote 2 howres past, that hir Majesty ment for the tyme of execvtion to be not afor Monday, afor which tyme I thynk yow will be here . CECIL,49.125
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_005:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Sir	_	NOUN	N	Definite=0|Number=0	7	vocative	_	_
+5	,	_	ADP	PUNC	_	7	dep	_	_
+6	I	_	PRON	PRO	_	7	nsubj	_	_
+7	wrote	_	VERB	VBD	VerbForm=0	1	conj	_	_
+8	2	_	NUM	NUM	_	7	obl	_	_
+9	howres	_	NOUN	NS	Definite=0|Number=0	8	conj	_	_
+10	past	_	VERB	VBN	Tense=0|VerbForm=0	8	acl:relcl	_	_
+11	,	_	ADP	PUNC	_	7	dep	_	_
+12	that	_	SCONJ	C	_	15	mark	_	_
+13	hir	_	ADP	PRO$	_	15	nsubj	_	_
+14	Majesty	_	NOUN	N	Definite=0|Number=0	13	conj	_	_
+15	ment	_	VERB	VBD	VerbForm=0	7	ccomp	_	_
+16	for	_	ADP	P	_	25	case	_	_
+17	the	_	DET	D	Number=0	25	nsubj	_	_
+18	tyme	_	NOUN	N	Definite=0|Number=0	17	conj	_	_
+19	of	_	ADP	P	_	20	case	_	_
+20	execvtion	_	NOUN	N	Definite=0|Number=0	17	obl	_	_
+21	to	_	PART	TO	_	25	mark	_	_
+22	be	_	AUX	BE	VerbForm=0	25	cop	_	_
+23	not	_	ADV	NEG	_	25	advmod	_	_
+24	afor	_	ADP	P	_	25	case	_	_
+25	Monday	_	PROPN	NPR	_	15	obl	_	_
+26	,	_	ADP	PUNC	_	25	dep	_	_
+27	afor	_	ADP	P	_	28	case	_	_
+28	which	_	DET	WD	Number=0	31	obl	_	_
+29	tyme	_	NOUN	N	Definite=0|Number=0	28	dep	_	_
+30	I	_	PRON	PRO	_	31	nsubj	_	_
+31	thynk	_	VERB	VBP	VerbForm=0	25	acl:relcl	_	_
+32	yow	_	PRON	PRO	_	33	nsubj	_	_
+33	will	_	AUX	MD	VerbForm=0	31	ccomp	_	_
+34	be	_	AUX	BE	VerbForm=0	33	cop	_	_
+35	here	_	ADV	ADV	Degree=0	33	advmod	_	_
+36	.	_	ADP	PUNC	_	7	dep	_	_
+37	CECIL,49.125	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.126
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_005:E2:1586:AUTOGRAPH:OTHER Now hir Majesty mislyketh of Woodstock and any other place but Fodrynghaye, CECIL,49.126
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_005:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Now	_	ADV	ADV	Degree=0	7	advmod	_	_
+5	hir	_	ADP	PRO$	_	7	nsubj	_	_
+6	Majesty	_	NOUN	N	Definite=0|Number=0	5	conj	_	_
+7	mislyketh	_	VERB	VBP	VerbForm=0	1	conj	_	_
+8	of	_	ADP	P	_	9	case	_	_
+9	Woodstock	_	PROPN	NPR	_	7	obl	_	_
+10	and	_	CCONJ	CONJ	_	12	cc	_	_
+11	any	_	DET	Q	Degree=0	12	amod	_	_
+12	other	_	PRON	OTHER	_	9	conj	_	_
+13	place	_	NOUN	N	Definite=0|Number=0	12	conj	_	_
+14	but	_	ADP	P	_	15	case	_	_
+15	Fodrynghaye	_	PROPN	NPR	_	12	obl	_	_
+16	,	_	ADP	PUNC	_	7	dep	_	_
+17	CECIL,49.126	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.127
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_005:E2:1586:AUTOGRAPH:OTHER so as by her commandment, I have sent both to Sir Amyas Pavlett and to Sir Walter Mildmay, the on to carry hir awey, the other to provyde for hir bestowyng . CECIL,49.127
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_005:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	so	_	ADV	ADV	Degree=0	12	advmod	_	_
+5	as	_	ADP	P	_	8	case	_	_
+6	by	_	ADP	P	_	8	case	_	_
+7	her	_	ADP	PRO$	_	8	dep	_	_
+8	commandment	_	NOUN	N	Definite=0|Number=0	12	obl	_	_
+9	,	_	ADP	PUNC	_	12	dep	_	_
+10	I	_	PRON	PRO	_	12	nsubj	_	_
+11	have	_	AUX	HVP	VerbForm=0	12	aux	_	_
+12	sent	_	VERB	VBN	Tense=0|VerbForm=0	1	conj	_	_
+13	both	_	CCONJ	CONJ	_	15	cc	_	_
+14	to	_	ADP	P	_	15	case	_	_
+15	Sir	_	PROPN	NPR	_	12	obl	_	_
+16	Amyas	_	PROPN	NPR	_	15	flat:name	_	_
+17	Pavlett	_	PROPN	NPR	_	15	dep	_	_
+18	and	_	CCONJ	CONJ	_	20	cc	_	_
+19	to	_	ADP	P	_	20	case	_	_
+20	Sir	_	PROPN	NPR	_	15	conj	_	_
+21	Walter	_	PROPN	NPR	_	20	flat:name	_	_
+22	Mildmay	_	PROPN	NPR	_	20	dep	_	_
+23	,	_	ADP	PUNC	_	12	dep	_	_
+24	the	_	DET	D	Number=0	27	nsubj	_	_
+25	on	_	DET	ONE	Number=0	24	det	_	_
+26	to	_	PART	TO	_	27	mark	_	_
+27	carry	_	VERB	VB	VerbForm=0	12	xcomp	_	_
+28	hir	_	PRON	PRO	_	27	obj	_	_
+29	awey	_	ADV	ADV	Degree=0	27	advmod	_	_
+30	,	_	ADP	PUNC	_	12	dep	_	_
+31	the	_	DET	D	Number=0	34	nsubj	_	_
+32	other	_	PRON	OTHER	_	31	det	_	_
+33	to	_	PART	TO	_	34	mark	_	_
+34	provyde	_	VERB	VB	VerbForm=0	12	xcomp	_	_
+35	for	_	ADP	P	_	37	case	_	_
+36	hir	_	ADP	PRO$	_	37	dep	_	_
+37	bestowyng	_	NOUN	N	Definite=0|Number=0	34	obl	_	_
+38	.	_	ADP	PUNC	_	12	dep	_	_
+39	CECIL,49.127	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.128
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_005:E2:1586:AUTOGRAPH:OTHER How long this determination will last I know not, CECIL,49.128
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_005:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	How	_	ADV	WADV	Degree=0	11	dep	_	_
+5	long	_	ADJ	ADJ	Degree=0	4	obj	_	_
+6	this	_	DET	D	Number=0	9	nsubj	_	_
+7	determination	_	NOUN	N	Definite=0|Number=0	6	conj	_	_
+8	will	_	AUX	MD	VerbForm=0	9	aux	_	_
+9	last	_	VERB	VB	VerbForm=0	4	conj	_	_
+10	I	_	PRON	PRO	_	11	nsubj	_	_
+11	know	_	VERB	VBP	VerbForm=0	1	conj	_	_
+12	not	_	ADV	NEG	_	11	advmod	_	_
+13	,	_	ADP	PUNC	_	11	dep	_	_
+14	CECIL,49.128	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.129
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_005:E2:1586:AUTOGRAPH:OTHER but I have sett it onward, CECIL,49.129
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_005:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	but	_	CCONJ	CONJ	_	7	cc	_	_
+5	I	_	PRON	PRO	_	7	nsubj	_	_
+6	have	_	AUX	HVP	VerbForm=0	7	aux	_	_
+7	sett	_	VERB	VBN	Tense=0|VerbForm=0	1	conj	_	_
+8	it	_	PRON	PRO	_	7	obj	_	_
+9	onward	_	ADV	ADV	Degree=0	7	advmod	_	_
+10	,	_	ADP	PUNC	_	7	dep	_	_
+11	CECIL,49.129	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.130
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_005:E2:1586:AUTOGRAPH:OTHER and if farder tyme be delayed the Parlement will com befor the Lords can well retorn . CECIL,49.130
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_005:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	and	_	CCONJ	CONJ	_	13	cc	_	_
+5	if	_	ADP	P	_	9	case	_	_
+6	farder	_	ADJ	ADJR	Degree=0	9	nsubj	_	_
+7	tyme	_	NOUN	N	Definite=0|Number=0	6	conj	_	_
+8	be	_	AUX	BEP	VerbForm=0	9	cop	_	_
+9	delayed	_	VERB	VAN	Tense=0|VerbForm=0	13	obl	_	_
+10	the	_	DET	D	Number=0	13	nsubj	_	_
+11	Parlement	_	NOUN	N	Definite=0|Number=0	10	conj	_	_
+12	will	_	AUX	MD	VerbForm=0	13	aux	_	_
+13	com	_	VERB	VB	VerbForm=0	1	conj	_	_
+14	befor	_	ADP	P	_	19	case	_	_
+15	the	_	DET	D	Number=0	19	nsubj	_	_
+16	Lords	_	NOUN	NS	Definite=0|Number=0	15	conj	_	_
+17	can	_	AUX	MD	VerbForm=0	19	aux	_	_
+18	well	_	ADV	ADV	Degree=0	19	advmod	_	_
+19	retorn	_	VERB	VB	VerbForm=0	13	obl	_	_
+20	.	_	ADP	PUNC	_	13	dep	_	_
+21	CECIL,49.130	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.131
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.132
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_005:E2:1586:AUTOGRAPH:OTHER The Queen of Scottes swereth by hir fayth, and with no gretar othe, that it is not trew that she sent any lettres to Babyngton, CECIL,50.132
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_005:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	The	_	DET	D	Number=0	8	nsubj	_	_
+5	Queen	_	NOUN	N	Definite=0|Number=0	4	conj	_	_
+6	of	_	ADP	P	_	7	case	_	_
+7	Scottes	_	PROPN	NPRS	_	4	obl	_	_
+8	swereth	_	VERB	VBP	VerbForm=0	1	conj	_	_
+9	by	_	ADP	P	_	11	case	_	_
+10	hir	_	ADP	PRO$	_	11	dep	_	_
+11	fayth	_	NOUN	N	Definite=0|Number=0	8	obl	_	_
+12	,	_	ADP	PUNC	_	11	dep	_	_
+13	and	_	CCONJ	CONJ	_	17	cc	_	_
+14	with	_	ADP	P	_	17	case	_	_
+15	no	_	DET	Q	Degree=0	17	amod	_	_
+16	gretar	_	ADJ	ADJR	Degree=0	17	amod	_	_
+17	othe	_	NOUN	N	Definite=0|Number=0	11	conj	_	_
+18	,	_	ADP	PUNC	_	8	dep	_	_
+19	that	_	SCONJ	C	_	23	mark	_	_
+20	it	_	PRON	PRO	_	23	nsubj	_	_
+21	is	_	AUX	BEP	VerbForm=0	23	cop	_	_
+22	not	_	ADV	NEG	_	23	advmod	_	_
+23	trew	_	ADJ	ADJ	Degree=0	8	ccomp	_	_
+24	that	_	SCONJ	C	_	26	mark	_	_
+25	she	_	PRON	PRO	_	26	nsubj	_	_
+26	sent	_	VERB	VBD	VerbForm=0	23	ccomp	_	_
+27	any	_	DET	Q	Degree=0	26	obj	_	_
+28	lettres	_	NOUN	NS	Definite=0|Number=0	27	conj	_	_
+29	to	_	ADP	P	_	30	case	_	_
+30	Babyngton	_	PROPN	NPR	_	26	obl	_	_
+31	,	_	ADP	PUNC	_	8	dep	_	_
+32	CECIL,50.132	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.133
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_005:E2:1586:AUTOGRAPH:OTHER and if Naw or Curle saye so, it is by constraynt of the rack . CECIL,50.133
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_005:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	and	_	CCONJ	CONJ	_	9	cc	_	_
+5	if	_	ADP	P	_	9	case	_	_
+6	Naw	_	PROPN	NPR	_	9	nsubj	_	_
+7	or	_	CCONJ	CONJ	_	8	cc	_	_
+8	Curle	_	PROPN	NPR	_	6	conj	_	_
+9	saye	_	VERB	VBP	VerbForm=0	1	conj	_	_
+10	so	_	ADV	ADV	Degree=0	9	advmod	_	_
+11	,	_	ADP	PUNC	_	9	dep	_	_
+12	it	_	PRON	PRO	_	9	obl	_	_
+13	is	_	AUX	BEP	VerbForm=0	9	cop	_	_
+14	by	_	ADP	P	_	15	case	_	_
+15	constraynt	_	NOUN	N	Definite=0|Number=0	9	obl	_	_
+16	of	_	ADP	P	_	18	case	_	_
+17	the	_	DET	D	Number=0	18	det	_	_
+18	rack	_	NOUN	N	Definite=0|Number=0	15	obl	_	_
+19	.	_	ADP	PUNC	_	9	dep	_	_
+20	CECIL,50.133	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.134
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_005:E2:1586:AUTOGRAPH:OTHER She justifyeth that she, being a prisonar, might practise hir scape and for the invasion by Catholicques, that she might leage with the Catholick princes as well as the Queenes Majesty hath doone with hir son, the King of Scottes . CECIL,50.134
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_005:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	She	_	PRON	PRO	_	5	nsubj	_	_
+5	justifyeth	_	VERB	VBP	VerbForm=0	1	conj	_	_
+6	that	_	SCONJ	C	_	14	mark	_	_
+7	she	_	PRON	PRO	_	14	nsubj	_	_
+8	,	_	ADP	PUNC	_	14	dep	_	_
+9	being	_	AUX	BAG	Tense=0|VerbForm=0	14	advcl	_	_
+10	a	_	DET	D	Number=0	9	xcomp	_	_
+11	prisonar	_	NOUN	N	Definite=0|Number=0	10	conj	_	_
+12	,	_	ADP	PUNC	_	14	dep	_	_
+13	might	_	AUX	MD	VerbForm=0	14	aux	_	_
+14	practise	_	VERB	VB	VerbForm=0	5	ccomp	_	_
+15	hir	_	ADP	PRO$	_	14	obj	_	_
+16	scape	_	NOUN	N	Definite=0|Number=0	15	conj	_	_
+17	and	_	CCONJ	CONJ	_	20	cc	_	_
+18	for	_	ADP	P	_	20	case	_	_
+19	the	_	DET	D	Number=0	20	det	_	_
+20	invasion	_	NOUN	N	Definite=0|Number=0	5	conj	_	_
+21	by	_	ADP	P	_	22	case	_	_
+22	Catholicques	_	PROPN	NPRS	_	20	obl	_	_
+23	,	_	ADP	PUNC	_	20	dep	_	_
+24	that	_	SCONJ	C	_	27	mark	_	_
+25	she	_	PRON	PRO	_	27	nsubj	_	_
+26	might	_	AUX	MD	VerbForm=0	27	aux	_	_
+27	leage	_	VERB	VB	VerbForm=0	20	ccomp	_	_
+28	with	_	ADP	P	_	31	case	_	_
+29	the	_	DET	D	Number=0	31	det	_	_
+30	Catholick	_	ADJ	ADJ	Degree=0	31	amod	_	_
+31	princes	_	NOUN	NS	Definite=0|Number=0	27	obl	_	_
+32	as	_	ADV	ADVR	Degree=0	27	advmod	_	_
+33	well	_	ADV	ADV	Degree=0	32	advmod	_	_
+34	as	_	ADP	P	_	39	case	_	_
+35	the	_	DET	D	Number=0	39	nsubj	_	_
+36	Queenes	_	NOUN	N$	Definite=0|Number=0	35	dep	_	_
+37	Majesty	_	NOUN	N	Definite=0|Number=0	35	conj	_	_
+38	hath	_	AUX	HVP	VerbForm=0	39	aux	_	_
+39	doone	_	VERB	DON	Tense=0|VerbForm=0	32	obl	_	_
+40	with	_	ADP	P	_	42	case	_	_
+41	hir	_	ADP	PRO$	_	42	dep	_	_
+42	son	_	NOUN	N	Definite=0|Number=0	39	obl	_	_
+43	,	_	ADP	PUNC	_	42	dep	_	_
+44	the	_	DET	D	Number=0	42	appos	_	_
+45	King	_	NOUN	N	Definite=0|Number=0	44	conj	_	_
+46	of	_	ADP	P	_	47	case	_	_
+47	Scottes	_	PROPN	NPRS	_	44	obl	_	_
+48	.	_	ADP	PUNC	_	5	dep	_	_
+49	CECIL,50.134	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.135
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_005:E2:1586:AUTOGRAPH:OTHER And so, havyng my handes fullar than I can delyver by M=r= Secretoryes infyrmite, I am constreyned to scrible in hast . CECIL,50.135
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_005:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	And	_	CCONJ	CONJ	_	22	cc	_	_
+5	so	_	ADV	ADV	Degree=0	22	advmod	_	_
+6	,	_	ADP	PUNC	_	22	dep	_	_
+7	havyng	_	AUX	HAG	Tense=0|VerbForm=0	22	advcl	_	_
+8	my	_	ADP	PRO$	_	10	nsubj	_	_
+9	handes	_	NOUN	NS	Definite=0|Number=0	8	conj	_	_
+10	fullar	_	ADJ	ADJR	Degree=0	7	ccomp	_	_
+11	than	_	ADP	P	_	14	case	_	_
+12	I	_	PRON	PRO	_	14	nsubj	_	_
+13	can	_	AUX	MD	VerbForm=0	14	aux	_	_
+14	delyver	_	VERB	VB	VerbForm=0	10	amod	_	_
+15	by	_	ADP	P	_	16	case	_	_
+16	M=r=	_	NOUN	N	Definite=0|Number=0	14	obl	_	_
+17	Secretoryes	_	NOUN	N$	Definite=0|Number=0	16	dep	_	_
+18	infyrmite	_	NOUN	N	Definite=0|Number=0	16	conj	_	_
+19	,	_	ADP	PUNC	_	22	dep	_	_
+20	I	_	PRON	PRO	_	22	nsubj	_	_
+21	am	_	AUX	BEP	VerbForm=0	22	cop	_	_
+22	constreyned	_	VERB	VAN	Tense=0|VerbForm=0	1	conj	_	_
+23	to	_	PART	TO	_	24	mark	_	_
+24	scrible	_	VERB	VB	VerbForm=0	22	xcomp	_	_
+25	in	_	ADP	P	_	26	case	_	_
+26	hast	_	NOUN	N	Definite=0|Number=0	24	obl	_	_
+27	.	_	ADP	PUNC	_	22	dep	_	_
+28	CECIL,50.135	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.136
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_005:E2:1586:AUTOGRAPH:OTHER xv Sept., hora 2=d= post meridiem . CECIL,50.136
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_005:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	xv	_	NUM	NUM	_	1	xcomp	_	_
+5	Sept.	_	PROPN	NPR	_	4	dep	_	_
+6	,	_	ADP	PUNC	_	4	dep	_	_
+7	hora	_	X	FW	Foreign=Yes	4	flat:foreign	_	_
+8	2=d=	_	X	FW	Foreign=Yes	7	flat:foreign	_	_
+9	post	_	X	FW	Foreign=Yes	7	flat:foreign	_	_
+10	meridiem	_	X	FW	Foreign=Yes	7	flat:foreign	_	_
+11	.	_	ADP	PUNC	_	4	dep	_	_
+12	CECIL,50.136	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.137
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_005:E2:1586:AUTOGRAPH:OTHER Yours assuredly, W. Burghley . CECIL,50.137
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_005:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Yours	_	ADP	PRO$	_	1	xcomp	_	_
+5	assuredly	_	ADV	ADV	Degree=0	4	advmod	_	_
+6	,	_	ADP	PUNC	_	4	dep	_	_
+7	W.	_	PROPN	NPR	_	4	obl	_	_
+8	Burghley	_	PROPN	NPR	_	7	flat:name	_	_
+9	.	_	ADP	PUNC	_	4	dep	_	_
+10	CECIL,50.137	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.138
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.139
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.140
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.141
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.142
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.143
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.144
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.145
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.146
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.147
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.148
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.149
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.150
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.151
+# X_ID = ID_MISSING
+# text = 
+
+# sent_id = CECIL,.152
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_006:E2:1586:AUTOGRAPH:OTHER Sir, because I hope yow will be here to_morrow, I wryte the less . CECIL,51.152
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_006:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Sir	_	NOUN	N	Definite=0|Number=0	16	vocative	_	_
+5	,	_	ADP	PUNC	_	16	dep	_	_
+6	because	_	ADP	P	_	8	case	_	_
+7	I	_	PRON	PRO	_	8	nsubj	_	_
+8	hope	_	VERB	VBP	VerbForm=0	16	obl	_	_
+9	yow	_	PRON	PRO	_	10	nsubj	_	_
+10	will	_	AUX	MD	VerbForm=0	8	ccomp	_	_
+11	be	_	AUX	BE	VerbForm=0	10	cop	_	_
+12	here	_	ADV	ADV	Degree=0	10	advmod	_	_
+13	to_morrow	_	NOUN	N	Definite=0|Number=0	10	obl	_	_
+14	,	_	ADP	PUNC	_	16	dep	_	_
+15	I	_	PRON	PRO	_	16	nsubj	_	_
+16	wryte	_	VERB	VBP	VerbForm=0	1	conj	_	_
+17	the	_	DET	D	Number=0	16	obj	_	_
+18	less	_	DET	QR	Degree=0	17	amod	_	_
+19	.	_	ADP	PUNC	_	16	dep	_	_
+20	CECIL,51.152	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.153
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_006:E2:1586:AUTOGRAPH:OTHER Thovgh manny thynges fall vppon me here, by M=r= Secretoryes infirmytes, yet I fynd no cause so intrycat, and vnresolvble as to determyn what shall be to be doone vppon M=r= Wylkes report of the state of the Low Countreys, as at your comyng is to be seene . CECIL,51.153
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_006:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Thovgh	_	ADP	P	_	7	case	_	_
+5	manny	_	DET	Q	Degree=0	7	nsubj	_	_
+6	thynges	_	NOUN	NS	Definite=0|Number=0	5	conj	_	_
+7	fall	_	VERB	VBP	VerbForm=0	19	obl	_	_
+8	vppon	_	ADP	P	_	9	case	_	_
+9	me	_	PRON	PRO	_	7	obl	_	_
+10	here	_	ADV	ADV	Degree=0	7	advmod	_	_
+11	,	_	ADP	PUNC	_	7	dep	_	_
+12	by	_	ADP	P	_	13	case	_	_
+13	M=r=	_	NOUN	N	Definite=0|Number=0	7	obl	_	_
+14	Secretoryes	_	NOUN	N$	Definite=0|Number=0	13	dep	_	_
+15	infirmytes	_	NOUN	NS	Definite=0|Number=0	13	conj	_	_
+16	,	_	ADP	PUNC	_	19	dep	_	_
+17	yet	_	ADV	ADV	Degree=0	19	advmod	_	_
+18	I	_	PRON	PRO	_	19	nsubj	_	_
+19	fynd	_	VERB	VBP	VerbForm=0	1	conj	_	_
+20	no	_	DET	Q	Degree=0	19	obj	_	_
+21	cause	_	NOUN	N	Definite=0|Number=0	20	conj	_	_
+22	so	_	ADV	ADVR	Degree=0	20	amod	_	_
+23	intrycat	_	ADJ	ADJ	Degree=0	22	amod	_	_
+24	,	_	ADP	PUNC	_	22	amod	_	_
+25	and	_	CCONJ	CONJ	_	26	cc	_	_
+26	vnresolvble	_	ADJ	ADJ	Degree=0	22	amod	_	_
+27	as	_	ADP	P	_	29	case	_	_
+28	to	_	PART	TO	_	29	mark	_	_
+29	determyn	_	VERB	VB	VerbForm=0	22	amod	_	_
+30	what	_	PRON	WPRO	_	29	dep	_	_
+31	shall	_	AUX	MD	VerbForm=0	30	conj	_	_
+32	be	_	AUX	BE	VerbForm=0	31	cop	_	_
+33	to	_	PART	TO	_	37	mark	_	_
+34	be	_	AUX	BE	VerbForm=0	37	cop	_	_
+35	doone	_	VERB	DAN	Tense=0|VerbForm=0	37	xcomp	_	_
+36	vppon	_	ADP	P	_	37	case	_	_
+37	M=r=	_	PROPN	NPR	_	31	xcomp	_	_
+38	Wylkes	_	NOUN	NPR$	_	37	dep	_	_
+39	report	_	NOUN	N	Definite=0|Number=0	37	conj	_	_
+40	of	_	ADP	P	_	42	case	_	_
+41	the	_	DET	D	Number=0	42	det	_	_
+42	state	_	NOUN	N	Definite=0|Number=0	37	obl	_	_
+43	of	_	ADP	P	_	45	case	_	_
+44	the	_	DET	D	Number=0	45	det	_	_
+45	Low	_	PROPN	NPR	_	42	obl	_	_
+46	Countreys	_	PROPN	NPRS	_	45	flat:name	_	_
+47	,	_	ADP	PUNC	_	19	dep	_	_
+48	as	_	ADP	P	_	55	case	_	_
+49	at	_	ADP	P	_	51	case	_	_
+50	your	_	ADP	PRO$	_	51	dep	_	_
+51	comyng	_	NOUN	N	Definite=0|Number=0	55	obl	_	_
+52	is	_	AUX	BEP	VerbForm=0	55	cop	_	_
+53	to	_	PART	TO	_	55	mark	_	_
+54	be	_	AUX	BE	VerbForm=0	55	cop	_	_
+55	seene	_	VERB	VAN	Tense=0|VerbForm=0	19	obl	_	_
+56	.	_	ADP	PUNC	_	19	dep	_	_
+57	CECIL,51.153	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.154
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_006:E2:1586:AUTOGRAPH:OTHER Hir Majesty hath determyned Forthryngay to be the place for the Scott Queen and hir case to be herd . CECIL,51.154
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_006:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Hir	_	ADP	PRO$	_	7	nsubj	_	_
+5	Majesty	_	NOUN	N	Definite=0|Number=0	4	conj	_	_
+6	hath	_	AUX	HVP	VerbForm=0	7	aux	_	_
+7	determyned	_	VERB	VBN	Tense=0|VerbForm=0	1	conj	_	_
+8	Forthryngay	_	PROPN	NPR	_	11	nsubj	_	_
+9	to	_	PART	TO	_	11	mark	_	_
+10	be	_	AUX	BE	VerbForm=0	11	cop	_	_
+11	the	_	DET	D	Number=0	7	xcomp	_	_
+12	place	_	NOUN	N	Definite=0|Number=0	11	conj	_	_
+13	for	_	ADP	FOR	_	22	dep	_	_
+14	the	_	DET	D	Number=0	15	det	_	_
+15	Scott	_	PROPN	NPR	_	22	nsubj	_	_
+16	Queen	_	NOUN	N	Definite=0|Number=0	15	conj	_	_
+17	and	_	CCONJ	CONJ	_	19	cc	_	_
+18	hir	_	ADP	PRO$	_	19	dep	_	_
+19	case	_	NOUN	N	Definite=0|Number=0	15	conj	_	_
+20	to	_	PART	TO	_	22	mark	_	_
+21	be	_	AUX	BE	VerbForm=0	22	cop	_	_
+22	herd	_	VERB	VAN	Tense=0|VerbForm=0	11	xcomp	_	_
+23	.	_	ADP	PUNC	_	7	dep	_	_
+24	CECIL,51.154	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.155
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_006:E2:1586:AUTOGRAPH:OTHER Order is gyven for hir remove, so as she is to be at Fothryngay on Michaelmas even at the fardest, CECIL,51.155
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_006:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Order	_	NOUN	N	Definite=0|Number=0	6	nsubj	_	_
+5	is	_	AUX	BEP	VerbForm=0	6	cop	_	_
+6	gyven	_	VERB	VAN	Tense=0|VerbForm=0	1	conj	_	_
+7	for	_	ADP	P	_	9	case	_	_
+8	hir	_	ADP	PRO$	_	9	dep	_	_
+9	remove	_	NOUN	N	Definite=0|Number=0	6	obl	_	_
+10	,	_	ADP	PUNC	_	6	dep	_	_
+11	so	_	ADP	P	_	18	case	_	_
+12	as	_	ADP	P	_	18	case	_	_
+13	she	_	PRON	PRO	_	18	nsubj	_	_
+14	is	_	AUX	BEP	VerbForm=0	18	cop	_	_
+15	to	_	PART	TO	_	18	mark	_	_
+16	be	_	AUX	BE	VerbForm=0	18	cop	_	_
+17	at	_	ADP	P	_	18	case	_	_
+18	Fothryngay	_	PROPN	NPR	_	6	obl	_	_
+19	on	_	ADP	P	_	20	case	_	_
+20	Michaelmas	_	PROPN	NPR	_	18	obl	_	_
+21	even	_	PROPN	NPR	_	20	flat:name	_	_
+22	at	_	ADP	P	_	24	case	_	_
+23	the	_	DET	D	Number=0	24	det	_	_
+24	fardest	_	ADJ	ADJS	Degree=0	20	obl	_	_
+25	,	_	ADP	PUNC	_	6	dep	_	_
+26	CECIL,51.155	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.156
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_006:E2:1586:AUTOGRAPH:OTHER and our first assembling at Westminster must be the 27 . CECIL,51.156
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_006:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	and	_	CCONJ	CONJ	_	13	cc	_	_
+5	our	_	ADP	PRO$	_	13	nsubj	_	_
+6	first	_	ADJ	ADJ	Degree=0	5	amod	_	_
+7	assembling	_	NOUN	N	Definite=0|Number=0	5	conj	_	_
+8	at	_	ADP	P	_	9	case	_	_
+9	Westminster	_	PROPN	NPR	_	5	obl	_	_
+10	must	_	AUX	MD	VerbForm=0	13	aux	_	_
+11	be	_	AUX	BE	VerbForm=0	13	cop	_	_
+12	the	_	DET	D	Number=0	13	det	_	_
+13	27	_	NUM	NUM	_	1	conj	_	_
+14	.	_	ADP	PUNC	_	13	dep	_	_
+15	CECIL,51.156	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.157
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_006:E2:1586:AUTOGRAPH:OTHER And I thynk we ar to be at Fodrynghay the v=th= of October, CECIL,51.157
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_006:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	And	_	CCONJ	CONJ	_	6	cc	_	_
+5	I	_	PRON	PRO	_	6	nsubj	_	_
+6	thynk	_	VERB	VBP	VerbForm=0	1	conj	_	_
+7	we	_	PRON	PRO	_	12	nsubj	_	_
+8	ar	_	AUX	BEP	VerbForm=0	12	cop	_	_
+9	to	_	PART	TO	_	12	mark	_	_
+10	be	_	AUX	BE	VerbForm=0	12	cop	_	_
+11	at	_	ADP	P	_	12	case	_	_
+12	Fodrynghay	_	PROPN	NPR	_	6	ccomp	_	_
+13	the	_	DET	D	Number=0	12	obl	_	_
+14	v=th=	_	ADJ	ADJ	Degree=0	13	amod	_	_
+15	of	_	ADP	P	_	16	case	_	_
+16	October	_	PROPN	NPR	_	13	obl	_	_
+17	,	_	ADP	PUNC	_	6	dep	_	_
+18	CECIL,51.157	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.158
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_006:E2:1586:AUTOGRAPH:OTHER and I thynk yow ar lyk to be, if yow lack not of your will, at Holdenby about the 3 or 4=th= . CECIL,51.158
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_006:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	and	_	CCONJ	CONJ	_	6	cc	_	_
+5	I	_	PRON	PRO	_	6	nsubj	_	_
+6	thynk	_	VERB	VBP	VerbForm=0	1	conj	_	_
+7	yow	_	PRON	PRO	_	9	nsubj	_	_
+8	ar	_	AUX	BEP	VerbForm=0	9	cop	_	_
+9	lyk	_	ADJ	ADJ	Degree=0	6	ccomp	_	_
+10	to	_	PART	TO	_	11	mark	_	_
+11	be	_	AUX	BE	VerbForm=0	9	amod	_	_
+12	,	_	ADP	PUNC	_	9	amod	_	_
+13	if	_	ADP	P	_	15	case	_	_
+14	yow	_	PRON	PRO	_	15	nsubj	_	_
+15	lack	_	VERB	VBP	VerbForm=0	9	amod	_	_
+16	not	_	ADV	NEG	_	15	advmod	_	_
+17	of	_	ADP	P	_	19	case	_	_
+18	your	_	ADP	PRO$	_	19	dep	_	_
+19	will	_	NOUN	N	Definite=0|Number=0	15	obl	_	_
+20	,	_	ADP	PUNC	_	9	amod	_	_
+21	at	_	ADP	P	_	22	case	_	_
+22	Holdenby	_	PROPN	NPR	_	9	amod	_	_
+23	about	_	ADP	P	_	25	case	_	_
+24	the	_	DET	D	Number=0	25	det	_	_
+25	3	_	NUM	NUM	_	9	amod	_	_
+26	or	_	CCONJ	CONJ	_	27	cc	_	_
+27	4=th=	_	ADJ	ADJ	Degree=0	25	conj	_	_
+28	.	_	ADP	PUNC	_	6	dep	_	_
+29	CECIL,51.158	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.159
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_006:E2:1586:AUTOGRAPH:OTHER From Wyndsor Castle, xvi Sept ., 1586 . CECIL,51.159
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_006:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	From	_	ADP	P	_	5	case	_	_
+5	Wyndsor	_	PROPN	NPR	_	8	obl	_	_
+6	Castle	_	PROPN	NPR	_	5	flat:name	_	_
+7	,	_	ADP	PUNC	_	8	dep	_	_
+8	xvi	_	NUM	NUM	_	1	xcomp	_	_
+9	Sept	_	PROPN	NPR	_	8	dep	_	_
+10	.	_	ADP	PUNC	_	8	dep	_	_
+11	,	_	ADP	PUNC	_	8	dep	_	_
+12	1586	_	NUM	NUM	_	8	nummod	_	_
+13	.	_	ADP	PUNC	_	8	dep	_	_
+14	CECIL,51.159	_	X	ID	_	1	dep	_	_
+
+# sent_id = CECIL,.160
+# X_ID = ID_MISSING
+# text = WILLIAM_CECIL:MALE:_:1520:66 CHRISTOPHER_HATTON_I:MALE:_:1540:46 CECIL_006:E2:1586:AUTOGRAPH:OTHER Your assured loving friend, W. Burghley . CECIL,51.160
+1	WILLIAM_CECIL:MALE:_:1520:66	_	X	AUTHOR	_	0	root	_	_
+2	CHRISTOPHER_HATTON_I:MALE:_:1540:46	_	VERB	RECIPIENT	_	1	dep	_	_
+3	CECIL_006:E2:1586:AUTOGRAPH:OTHER	_	X	LETTER	_	1	dep	_	_
+4	Your	_	ADP	PRO$	_	7	dep	_	_
+5	assured	_	ADJ	ADJ	Degree=0	7	amod	_	_
+6	loving	_	ADJ	ADJ	Degree=0	7	amod	_	_
+7	friend	_	NOUN	N	Definite=0|Number=0	1	obl	_	_
+8	,	_	ADP	PUNC	_	7	dep	_	_
+9	W.	_	PROPN	NPR	_	7	appos	_	_
+10	Burghley	_	PROPN	NPR	_	9	flat:name	_	_
+11	.	_	ADP	PUNC	_	7	dep	_	_
+12	CECIL,51.160	_	X	ID	_	1	dep	_	_
+
