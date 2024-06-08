@@ -126,8 +126,10 @@ a text file with your results in tabular format.
 What phenomena do you need to search for? Can you develop a GREW query to
 extract the relevant data?
 
-Here are some possible ideas if you're stuck...
+Here are some ideas if you're stuck...
 + Can you formulate a query to identify null subject clauses (any language)?
++ In modern German (corpus `UD_German-GSD@2.13`) can you identify verb-first main clauses?
+Remember that sentences can begin with punctuation or conjunctions.
 + In the Old French (corpus `UD_Old_French-PROFITEROLE@2.13`), can you find
 cases in which a bare nominal depends on another noun without a preposition?
 (e.g. constructions like *li niés Marsilie* 'Marsilie's nephew')

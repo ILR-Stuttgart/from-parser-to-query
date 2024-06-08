@@ -70,6 +70,13 @@ grew version
 This currently returns an error message and then the version number;
 but this is fine!
 
+## Mac
+
+1. Install [XCode](https://developer.apple.com/xcode/)
+1. Install [brew](https://brew.sh/)
+
+TBC
+
 ## Windows
 
 The easiest way to run our tools on Windows is to install CygWin, a 
