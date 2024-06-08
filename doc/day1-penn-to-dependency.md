@@ -32,6 +32,8 @@ conversion tool is available under an Apache 2.0 license [on GitHub](https://git
 
 You'll need `git` installed on your machine, [see instructions here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 Python should be installed too, [see instructions here](install.md).
+The commands given run on Linux, Mac or in a CygWin terminal on Windows
+([see instructions here](day2-install.md)). 
 
 Clone both the convertor and the corpus with the following commands:
 ```console

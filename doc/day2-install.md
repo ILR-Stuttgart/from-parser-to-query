@@ -10,9 +10,11 @@ need for the workshop. Windows users will need to install CygWin.
 
 ## Linux \(Ubuntu/Debian\)
 
-### Python 3
-
-Python 3 is installed by default.
+The basic tools (Python, PIP, sed, wget) should be installed by default. If
+in doubt, run:
+```console
+sudo apt install python3 python3-pip python3-virtualenv sed wget
+```
 
 ### HOPS Parser and models
 
@@ -52,6 +54,7 @@ website. Here's a summary of the commands:
 sudo apt install opam
 sudo apt install wget m4 unzip librsvg2-bin curl bubblewrap
 opam init
+eval $(opam env)
 opam switch create 5.1.1
 eval $(opam env)
 opam remote add grew "http://opam.grew.fr"
@@ -67,3 +70,57 @@ grew version
 This currently returns an error message and then the version number;
 but this is fine!
 
+## Windows
+
+The easiest way to run our tools on Windows is to install CygWin, a 
+Unix-like environment.
+
+1. Go to [https://www.cygwin.com](https://www.cygwin.com), download and run the setup file.
+1. Accept default settings until you get to the "Select Packages" window.
+1. At the select packages windows, install:
+	+ Archive > unzip
+	+ Python > python3 python3-pip python3-virtualenc
+	+ Libs > opam opam-installer
+	+ Net > curl
+	+ OCaml > ocaml
+	+ Text > m4
+	+ Web > wget
+1. Once the install is complete, double-click the "CygWin64 Terminal" icon to open the terminal
+1. Test the installation by running the following commands:
+```console
+python3 --version
+pip3 --version
+opam --version
+```
+
+Don't delete the setup file (`setup-x86_64.exe`) since you need to run it
+to install and delete packages from the CygWin installation.
+
+### HOPS Parser and models
+
+Unfortunately, we were not able to install the HOPS Parser using CygWin
+due to an error when compiling C++ dependencies.
+
+### GREW
+
+Installing GREW on CygWin is almost the same as on Linux but version
+1.9.5 of the `ocamlfind` library has to be installed manually (default
+version 1.9.6 fails to install). Here's a summary of the commands:
+
+```console
+opam init
+eval $(opam env)
+opam switch create 5.1.1
+eval $(opam env)
+opam remote add grew "http://opam.grew.fr"
+opam install re ocamlfind.1.9.5
+opam install grew
+```
+
+To test the GREW installation:
+```console
+eval $(opam env)
+grew version
+```
+This currently returns an error message and then the version number;
+but this is fine!
