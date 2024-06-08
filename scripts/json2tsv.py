@@ -79,7 +79,6 @@ def main(conllu, json, pivot, output=''):
     if not output: output = json[:-4] + 'tsv' # Default outfile simply replaces the JSON extension with .tsv
     with open(output, 'w', encoding='utf-8') as f:
         for hit in hits:
-            print(write_hit(hit))
             f.write('\t'.join(write_hit(hit)) + '\n')
             
 if __name__ == '__main__':
