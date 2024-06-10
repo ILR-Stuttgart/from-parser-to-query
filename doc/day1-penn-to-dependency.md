@@ -4,7 +4,7 @@
 
 This is a very brief tutorial to help you install and run a state-of-the-art
 constituency to dependency convertor on an open-access corpus of
-historical English. *It does not create a usable corpus, it is simply a
+historical English, the PCEEC2 (2022). *It does not create a usable corpus, it is simply a
 proof of concept.* However, it illustrates that the approach we advocate,
 conversion to dependency and then training a dependency parser, is a
 feasible method for obtaining a parser for languages like English where
@@ -31,7 +31,7 @@ conversion tool is available under an Apache 2.0 license [on GitHub](https://git
 ## Installation
 
 You'll need `git` installed on your machine, [see instructions here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-Python should be installed too, [see instructions here](install.md).
+Python should be installed too, [see instructions here](day2-install.md).
 The commands given run on Linux, Mac or in a CygWin terminal on Windows
 ([see instructions here](day2-install.md)). 
 
@@ -58,7 +58,7 @@ python3 UDConverter/scripts/convert.py -h
 
 In order to get the converter to run on non-IcePaHC files,
 we need to quickly hack the code to disable the lookup of morphological
-features which aren't present in ICEPAHC (causes a Python `KeyError`).
+features which aren't present in IcePaHC (causes a Python `KeyError`).
 Use `sed` for this unsubtle manipulation, and thanks to Achim Stein
 for the tip.
 ```console
@@ -85,6 +85,7 @@ historical texts.
 
 + Arnardóttir, Þórunn, Hinrik Hafsteinsson, Einar Freyr Sigurðsson, Kristín Bjarnadóttir, Anton Karl Ingason, Hildur Jónsdóttir, and Steinþór Steingrímsson. 2020. ‘A Universal Dependencies Conversion Pipeline for a Penn-Format Constituency Treebank’. In *Proceedings of the Fourth Workshop on Universal Dependencies (UDW 2020)*, edited by Marie-Catherine de Marneffe, Miryam de Lhoneux, Joakim Nivre, and Sebastian Schuster, 16–25. Barcelona, Spain (Online): Association for Computational Linguistics. [https://aclanthology.org/2020.udw-1.3](https://aclanthology.org/2020.udw-1.3).
 + Arnardóttir, Þórunn, Hinrik Hafsteinsson, Atli Jasonarson, Anton Ingason, and Steinþór Steingrímsson. 2023. ‘Evaluating a Universal Dependencies Conversion Pipeline for Icelandic’. In *Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa)*, edited by Tanel Alumäe and Mark Fishel, 698–704. Tórshavn, Faroe Islands: University of Tartu Library. [https://aclanthology.org/2023.nodalida-1.69](https://aclanthology.org/2023.nodalida-1.69).
++ PCEEC2 = *Parsed Corpus of Early English Correspondence 2, parsed version*. 2022. Compiled by the CEEC Project Team. Annotated by Ann Taylor, Arja Nurmi, Anthony Warner, Susan Pintzuk, and Terttu Nevalainen. Revised and corrected by Beatrice Santorini. <[https://github.com/beatrice57/pceec2](https://github.com/beatrice57/pceec2)>
 + Wallenberg, Joel C., Anton Karl Ingason, Einar Freyr Sigurðsson, and Eiríkur Rögnvaldsson. 2011. *Icelandic Parsed Historical Corpus (IcePaHC)*. Version 0.9. [http://www.linguist.is/icelandic_treebank](http://www.linguist.is/icelandic_treebank).
 
 
