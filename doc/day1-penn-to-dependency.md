@@ -65,6 +65,11 @@ for the tip.
 sed -i 's/= Icepahc_feats/= 0 #Icepahc_feats/g' UDConverter/scripts/lib/features.py
 ```
 
+Or, if you are a Mac user:
+```console
+sed -i '' 's/= Icepahc_feats/= 0 #Icepahc_feats/g' UDConverter/scripts/lib/features.py
+```
+
 ## Converting a file
 
 To convert a single file from the PCEEC2, here `allen.psd`, type the
@@ -87,5 +92,3 @@ historical texts.
 + Arnardóttir, Þórunn, Hinrik Hafsteinsson, Atli Jasonarson, Anton Ingason, and Steinþór Steingrímsson. 2023. ‘Evaluating a Universal Dependencies Conversion Pipeline for Icelandic’. In *Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa)*, edited by Tanel Alumäe and Mark Fishel, 698–704. Tórshavn, Faroe Islands: University of Tartu Library. [https://aclanthology.org/2023.nodalida-1.69](https://aclanthology.org/2023.nodalida-1.69).
 + PCEEC2 = *Parsed Corpus of Early English Correspondence 2, parsed version*. 2022. Compiled by the CEEC Project Team. Annotated by Ann Taylor, Arja Nurmi, Anthony Warner, Susan Pintzuk, and Terttu Nevalainen. Revised and corrected by Beatrice Santorini. <[https://github.com/beatrice57/pceec2](https://github.com/beatrice57/pceec2)>
 + Wallenberg, Joel C., Anton Karl Ingason, Einar Freyr Sigurðsson, and Eiríkur Rögnvaldsson. 2011. *Icelandic Parsed Historical Corpus (IcePaHC)*. Version 0.9. [http://www.linguist.is/icelandic_treebank](http://www.linguist.is/icelandic_treebank).
-
-
