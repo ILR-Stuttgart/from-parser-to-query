@@ -8,6 +8,9 @@ need for the workshop. Windows users will need to install CygWin.
 + HOPS Parser \(Grobol et Crabbé 2021\)
 + GREW \(Guillaume 2021\)
 
+Instructions are provided for [Linux](#linux-ubuntudebian), [Mac OS](#mac)
+and [Windows (via CygWin)](#windows)
+
 ## Linux \(Ubuntu/Debian\)
 
 The basic tools (Python, PIP, sed, wget) should be installed by default. If
