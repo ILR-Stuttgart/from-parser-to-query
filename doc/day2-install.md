@@ -5,8 +5,8 @@
 This guide allows you to install all the command-line tools you
 need for the workshop. Windows users will need to install CygWin.
 + Python 3
-+ HOPS Parser \(REF\)
-+ GREW \(REF\)
++ HOPS Parser \(Grobol et Crabbé 2021\)
++ GREW \(Guillaume 2021\)
 
 ## Linux \(Ubuntu/Debian\)
 
@@ -75,7 +75,47 @@ but this is fine!
 1. Install [XCode](https://developer.apple.com/xcode/)
 1. Install [brew](https://brew.sh/)
 
-TBC
+Test brew by opening a terminal and typing:
+```console
+brew help
+```
+To install Python 3, pip and Python virtual environments, and `wget` using brew:
+```console
+brew install python virtualenv wget
+```
+
+Test your installation by running:
+```console
+python3 --version
+pip --version
+```
+
+### HOPS Parser and models
+
+Follow the Linux/Ubuntu instructions above (not tested).
+
+### GREW
+
+To install GREW, follow the instructions on the [grew.fr](https://grew.fr/usage/install)
+website. Here's a summary of the commands:
+```console
+brew install aspcud
+brew install opam
+opam init
+opam switch create 5.1.1
+eval $(opam env)
+opam remote add grew "http://opam.grew.fr"
+opam install re # not listed on website but necessary
+opam install grew
+```
+
+To test the GREW installation:
+```console
+eval $(opam env)
+grew version
+```
+This currently returns an error message and then the version number;
+but this is fine!
 
 ## Windows
 
@@ -131,3 +171,9 @@ grew version
 ```
 This currently returns an error message and then the version number;
 but this is fine!
+
+## References
+
++ Bonfante, Guillaume, Bruno Guillaume, and Guy Perrier. 2018. 'Application of Graph Rewriting to Natural Language Processing', volume 1 of *Logic, Linguistics and Computer Science Set*. ISTE Wiley. [https://www.wiley.com/en-fr/Application+of+Graph+Rewriting+to+Natural+Language+Processing-p-9781119522348](https://www.wiley.com/en-fr/Application+of+Graph+Rewriting+to+Natural+Language+Processing-p-9781119522348)
++ Grobol, Loïc, and Benoît Crabbé. 2021. ‘Analyse en dépendances du français avec des plongements contextualisés’. In *Actes de la 28ème conférence sur le traitement automatique des langues naturelles*. [https://hal.archives-ouvertes.fr/hal-03223424](https://hal.archives-ouvertes.fr/hal-03223424).
++ Guillaume, Bruno. 'Graph Matching and Graph Rewriting: GREW tools for corpus exploration, maintenance and conversion'. *Demonstrations – 16th Conference of the European Chapter of the Association for Computational Linguistics (EACL)* [https://hal.inria.fr/hal-03177701](https://hal.inria.fr/hal-03177701).
