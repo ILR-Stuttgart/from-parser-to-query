@@ -1,5 +1,9 @@
 # Parsing your own text
 
++ [1. Parsing with HOPS](#1-parsing-with-hops)
++ [2. Parsing with UDPipe](#2-parsing-with-udpipe)
++ [3. Querying the results with GREW][#3-querying-the-results-with-grew]
+
 In this tutorial, we're going to parse an historical text with the HOPS
 parser, an extract from the *Grandes Chroniques*, a medieval French text.
 The source data can be found in the [data](../data) folder.
@@ -21,7 +25,7 @@ locally, we can parse this short text on more or less any standard computer.
 We *could* use the modern French model that we downloaded before, but since
 this is a medieval text, it's better to use the Old French model. (A list 
 of French models for the HOPS parser can be found in the [parser's GitHub
-repository](https://github.com/hopsparser/hopsparser).
+repository](https://github.com/hopsparser/hopsparser)).
 
 To install the model, run the following commands:
 ```console
@@ -77,17 +81,55 @@ You'll see here that the result is a lot simpler because this parser and model
 combination only generates a universal part-of-speech tag (UPOS) and the
 dependency relations. It doesn't lemmatize, so there are no lemmas.
 
-## 2. Parsing with UD-Pipe
+### 1.4. A quick note on training the HOPS Parser
 
-TODO
+If you have pre-annotated gold data, it's relatively simple to train
+the HOPS parser and create your own language model. We're not going to cover
+this in depth in this tutorial, but please refer to the Day 2 slides
+from the workshop and feel free to contact us if you'd be interested
+in learning more about this.
 
-## 3. Querying the results with GREW (command line)
+## 2. Parsing with UDPipe
+
+The UDPipe parser has an online interface, so provided the language
+you want to parse is supported and your file is not too big, it's a
+great alternative to HOPS.
+Unlike HOPS, it's able to tokenize plain text files, so you can upload
+the [grchron.txt](../data/grchon.txt) file from our repository without
+using the `sed` commands to finalize the tokenization.
+
+1. Go to the UDPipe website [https://lindat.mff.cuni.cz/services/udpipe/](https://lindat.mff.cuni.cz/services/udpipe/).
+1. Select the UD 2.12 model trained on the Old French corpus `old french-srcmf-ud-2.12-230717`.
+1. Select the actions "Tag and Lemmatize", and "Parse".
+1. Under "Advanced options", select
+    + **UDPipe version**: UDPipe2
+    + **Input**: Tokenize plain text
+    + **Tokenizer**: Normalize spaces & Presegmented input
+1. Select "Input File" > "Load File" and select `grchon.txt` from the `data` folder of this repository
+1. Click process input.
+
+On the screen, you'll obtain the text parsed in CONLLU format. This parser
+adds a second set of part-of-speech tags, some morphological features, and 
+generates sentence IDs.
+
+If the parser doesn't work for some reason, the results are in the
+[grchron-udpipe.conllu](../data/grchron-udpipe.conllu) file.
+
+## 3. Querying the results with GREW
+
+We suggest two options for working with the parsed data:
+1. Use the online Arborator GREW interface [https://arboratorgrew.elizia.net/#/](https://arboratorgrew.elizia.net/#/)
+1. Use GREW Match from the command line.
+
+Arborator GREW has an intuitive graphical interface and we discuss how to
+use it live in the workshop, so in this tutorial we'll focus on the
+command-line interface.
+
+### 3.1. Write the GREW query
 
 Let's take a look at our results with a basic query to get an idea of
 how good the parse is. For example, let's see if every sentence is headed
 by a verb.
-
-### 3.1. Write the GREW query
 
 First of all, we need to write a GREW query to identify sentences which
 aren't headed by a verb. You can check using the corpora on the [GREW match online interface](https://universal.grew.fr/) 
@@ -130,11 +172,13 @@ python3 from-parser-to-query/scripts/json2tsv.py --conllu from-parser-to-query/d
 
 This generates a file `query.tsv` which can be opened in a text editor or a spreadsheet editor.
 We can quickly see from this file that:
-+ "sentences" 118, 140, 148 and 185 are actually verb-less, so the parse is correct;
-+ sentences 129 and 212 do have a main verb, but this hasn't been identified as the root, so the parse is wrong;
-+ sentences 123 and 203 have been annotated correctly with the main verb as the root so the parse is correct; however, the verb must have been given the wrong `upos` tag by the parser (probably `AUX`).
++ "sentences" 118, 140, 148 and 185 contain no main verb, so the parse is correct;
++ sentences 129 and 212 have a nominal head because in UD, the attribute rather than the copula is the head of the clause, so the parse is correct here too;
++ sentence 123 has been annotated correctly with *est* as the root; however, the verb must have been given the wrong `upos` tag by the parser (probably `AUX`).
++ sentence 203 is a copula construction but the **verb** *estoit* has been identified as the head and must have been give the wrong `upos` tag too. The parse here is incorrect.
 
-The last instance is a classic case of the kind of parser error that doesn't matter
-very much if you are aware of it. We could simply modify our query to exclude
-both `VERB` and `AUX` tags when looking for sentences without verbs, even though
-according to the UD guidelines, `AUX` should never be the root of a clause anyway.
+From the examples above, it's clear that copula constructions
+seem to cause problems for the parser, which is useful information. 
+When using this corpus, we might be particularly cautious in dealing with 
+sentences headed by the verb *être* "to be", which is usually either a
+copula or an auxiliary, neither of which should usually appear as a root.
