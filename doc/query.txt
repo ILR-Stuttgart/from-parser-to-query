@@ -1,0 +1,4 @@
+pattern {
+    * -[root]-> V; % node V is the root
+    V [upos<>VERB] % V is not a verb.
+}

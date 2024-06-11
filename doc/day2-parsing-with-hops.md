@@ -169,6 +169,9 @@ eval $(opam env)
 grew grep -request query.txt -i from-parser-to-query/data/grchron-hops.conllu > query.json
 python3 from-parser-to-query/scripts/json2tsv.py --conllu from-parser-to-query/data/grchron-hops.conllu --json query.json --pivot V
 ```
+(If GREW match doesn't run on your computer, the files [query.txt](query.txt),
+[query.json](query.json) and [query.tsv](query.tsv) are included in this
+Git repository.)
 
 This generates a file `query.tsv` which can be opened in a text editor or a spreadsheet editor.
 We can quickly see from this file that:
@@ -182,3 +185,4 @@ seem to cause problems for the parser, which is useful information.
 When using this corpus, we might be particularly cautious in dealing with 
 sentences headed by the verb *être* "to be", which is usually either a
 copula or an auxiliary, neither of which should usually appear as a root.
+
