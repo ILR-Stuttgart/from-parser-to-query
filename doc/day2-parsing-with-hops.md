@@ -2,7 +2,7 @@
 
 + [1. Parsing with HOPS](#1-parsing-with-hops)
 + [2. Parsing with UDPipe](#2-parsing-with-udpipe)
-+ [3. Querying the results with GREW][#3-querying-the-results-with-grew]
++ [3. Querying the results with GREW](#3-querying-the-results-with-grew)
 
 In this tutorial, we're going to parse an historical text with the HOPS
 parser, an extract from the *Grandes Chroniques*, a medieval French text.
